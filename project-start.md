@@ -26,9 +26,10 @@ An Amazon product data manager must decide which appliance attributes to standar
 
 | Assessment | Vision A | Vision B |
 |---|---|---|
-| Evidence found so far | [Summarize the strongest verified evidence and link its original source.] | [Summarize the strongest verified evidence and link its original source.] |
-| Core-data fit | [Strong, partial, or weak—and one sentence explaining why.] | [Strong, partial, or weak—and one sentence explaining why.] |
-| Biggest risk | [What could prevent this Vision from supporting a useful, defensible decision?] | [What could prevent this Vision from supporting a useful, defensible decision?] |
+| Evidence found so far | The dataset has about 2.1 million reviews in the Appliances category. It includes review text, ratings, helpful votes, and dates. We can match reviews to product information using `parent_asin` and check whether customers keep bringing up details that are missing or unclear in the listing. [Source: Amazon Reviews 2023](https://huggingface.co/datasets/McAuley-Lab/Amazon-Reviews-2023#data-fields). | [Summarize the strongest verified evidence and link its original source.] |
+| Core-data fit | We can compare customer complaints with product information to decide which listings need to be checked first, but we still need to look at a sample to see whether it has enough detail. | [Strong, partial, or weak—and one sentence explaining why.] |
+| Biggest risk | A complaint might be about the appliance itself, how someone used it, or a different model rather than the listing. The listing may also have changed since the review was written. We need to check these cases before saying the product information needs fixing. | [What could prevent this Vision from supporting a useful, defensible decision?] |
+
 
 ## Core data source we confirmed we can access
 
