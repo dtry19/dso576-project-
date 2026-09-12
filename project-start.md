@@ -16,11 +16,11 @@
 
 ## Candidate Vision A
 
-[Role] at [organization] must decide [decision].
+An Appliances category manager at Amazon must decide which appliance listings to prioritize for product-information review based on recurring customer complaints about missing, unclear, or inaccurate attributes.
 
 ## Candidate Vision B
 
-[Role] at [organization] must decide [decision].
+An Amazon product data manager must decide which appliance attributes to standardize across listings based on how frequently customers mention them in reviews but they are missing or inconsistent in product metadata.
 
 ## Side-by-side candidate assessment
 
