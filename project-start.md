@@ -2,9 +2,9 @@
 
 ## Team and GitHub
 
-| Team name | GitHub repository |
+| Amazon Wranglers | GitHub repository |
 |---|---|
-| [Team name] | [Link to the team's private GitHub repository] |
+| [Amazon Wranglers] | [https://github.com/dtry19/dso576-project-] |
 
 ## Selected project area
 
@@ -34,12 +34,15 @@ An Amazon product data manager must decide which appliance attributes to standar
 ## Core data source we confirmed we can access
 
 [Source, original link, and what successfully opened.]
+The source of the data was from the McAuley lab and contains amazon reviews across all products that are available in Amazon.
+Original Link: https://huggingface.co/datasets/McAuley-Lab/Amazon-Reviews-2023
+What was sucessfully opened in the website includes all the dataset according to each product category in the year 2023. 
 
 ## Three questions we still need to resolve
 
-1. [Question]
-2. [Question]
-3. [Question]
+1. Is there a specific year that we want to focus on or we can do a trend comparison across all years of the data that is available?
+2. How has the product reviews and rating change over time for each product category and year? 
+3. What characteristics of the reviews are considered helpful?
 
 ## Role-file progress
 
@@ -47,12 +50,12 @@ Use one of these status labels: **Not started**, **In progress**, **Ready for te
 
 | Role file | Owner | Status |
 |---|---|---|
-| [`objectives.md`](objectives.md) | [Name or GitHub username] | [Status] |
-| [`alternatives.md`](alternatives.md) | [Name or GitHub username] | [Status] |
-| [`data-fit.md`](data-fit.md) | [Name or GitHub username] | [Status] |
-| [`auxiliary.md`](auxiliary.md) | [Name or GitHub username] | [Status] |
-| [`technical.md`](technical.md) | [Name or GitHub username] | [Status] |
-| [`objections.md`](objections.md) | [Name or GitHub username] | [Status; use Not applicable for teams with fewer than six members] |
+| [`objectives.md`](objectives.md) | [Jaimie Sun] | [**Not started**] |
+| [`alternatives.md`](alternatives.md) | [Jenny Guo] | [**Not started**] |
+| [`data-fit.md`](data-fit.md) | [Kristine Shi] | [**Not started**] |
+| [`auxiliary.md`](auxiliary.md) | [Zhangli Tong] | [**Not started**] |
+| [`technical.md`](technical.md) | [Dalin Try] | [**Not started**] |
+| [`objections.md`](objections.md) | [**Not Applicable**] | [**Not applicable**] |
 
 ## Team check
 
