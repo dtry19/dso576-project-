@@ -8,11 +8,12 @@
 
 ## Selected project area
 
-[Area]
+E-commerce / AI — Improving Amazon Product Listings
 
 ## Why our team is interested in it
 
-[Write 2-3 sentences.]
+Our team is interested in understanding whether Amazon product listings accurately reflect what customers actually care about. By comparing product descriptions and attributes with customer reviews, ratings, prices, variants, and bought-together relationships, we can identify important customer requirements that are missing, unclear, or inconsistent in the listing. This analysis can help improve product discovery, reduce customer uncertainty, and make recommendations more accurate for both shoppers and AI shopping agents.
+
 
 ## Candidate Vision A
 
