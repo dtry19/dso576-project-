@@ -1,0 +1,7 @@
+[
+  {"source_row":1,"field":"timestamp_utc","original_field":"timestamp","expected":"2018-02-22T16:31:48.692Z","reason":"1519317108692 Unix milliseconds must retain the .692 seconds and use UTC."},
+  {"source_row":4,"field":"text_clean","original_field":"text","expected":"I wasn't sure whether these were worth it or not, given the cost compared to the original branded filters. I can happily report that these are a great value and work every bit as good as the original. If you are on the fence worrying whether these are worth it- I can assure you they are.","reason":"Replace two HTML breaks by whitespace; keep wording, negation and punctuation."},
+  {"source_row":2,"field":"parent_asin","original_field":"parent_asin","expected":"B07DD37QPZ","reason":"Keep the parent distinct from variant ASIN B07DD2DMXB; do not replace it with asin."},
+  {"source_row":60,"field":"verified_purchase_clean","original_field":"verified_purchase","expected":false,"reason":"False is a valid unverified purchase, not missing data and not grounds for removal."},
+  {"source_row":92,"field":"helpful_vote_clean","original_field":"helpful_vote","expected":26,"reason":"26 helpful votes is a valid nonnegative count; retain it despite being unusually high in this sample."}
+]

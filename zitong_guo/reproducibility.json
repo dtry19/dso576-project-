@@ -1,0 +1,12 @@
+{
+  "python": "3.12.14",
+  "method": "Fresh Python subprocess, separate output directory, SHA-256 equality for every output file",
+  "files_match": {
+    "excluded_rows.json": true,
+    "audit.json": true,
+    "cleaned_reviews.jsonl": true,
+    "record_checks.json": true,
+    "cleaned_sample_50.jsonl": true,
+    "product_metrics.json": true
+  }
+}

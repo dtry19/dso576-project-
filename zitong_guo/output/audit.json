@@ -1,0 +1,187 @@
+{
+  "source_file": "dataset/Appliances_sample.jsonl",
+  "sha256": "6e5ce91e627c1eb52471166a207b8b76b36e062835a544bcd793af4d743f1608",
+  "source_unchanged": true,
+  "source_types": {
+    "asin": {
+      "str": 1000
+    },
+    "helpful_vote": {
+      "int": 1000
+    },
+    "images": {
+      "list": 1000
+    },
+    "parent_asin": {
+      "str": 1000
+    },
+    "rating": {
+      "float": 1000
+    },
+    "text": {
+      "str": 1000
+    },
+    "timestamp": {
+      "int": 1000
+    },
+    "title": {
+      "str": 1000
+    },
+    "user_id": {
+      "str": 1000
+    },
+    "verified_purchase": {
+      "bool": 1000
+    }
+  },
+  "source_rows": 1000,
+  "cleaned_rows": 1000,
+  "exact_duplicates_removed": 0,
+  "repeated_ids": {
+    "asin": {
+      "distinct": 870,
+      "repeated_keys": 90,
+      "excess_rows": 130
+    },
+    "parent_asin": {
+      "distinct": 829,
+      "repeated_keys": 109,
+      "excess_rows": 171
+    },
+    "user_id": {
+      "distinct": 625,
+      "repeated_keys": 187,
+      "excess_rows": 375
+    }
+  },
+  "composite_key_excess_rows": 0,
+  "missing_before": {
+    "asin": 0,
+    "helpful_vote": 0,
+    "images": 0,
+    "parent_asin": 0,
+    "rating": 0,
+    "text": 0,
+    "timestamp": 0,
+    "title": 0,
+    "user_id": 0,
+    "verified_purchase": 0
+  },
+  "missing_after": {
+    "asin": 0,
+    "helpful_vote": 0,
+    "helpful_vote_clean": 0,
+    "images": 0,
+    "parent_asin": 0,
+    "rating": 0,
+    "rating_clean": 0,
+    "text": 0,
+    "text_clean": 0,
+    "timestamp": 0,
+    "timestamp_utc": 0,
+    "title": 0,
+    "title_clean": 0,
+    "user_id": 0,
+    "verified_purchase": 0,
+    "verified_purchase_clean": 0
+  },
+  "conversion_failures": {
+    "rating_clean": 0,
+    "timestamp_utc": 0,
+    "helpful_vote_clean": 0,
+    "verified_purchase_clean": 0
+  },
+  "changed_text": {
+    "title": 13,
+    "text": 314
+  },
+  "flags": {},
+  "rating_distribution": {
+    "1": 72,
+    "2": 33,
+    "3": 47,
+    "4": 113,
+    "5": 735
+  },
+  "before": {
+    "rows": 1000,
+    "rating_n": 1000,
+    "rating_sum": 4406,
+    "mean_rating": 4.406,
+    "low_rating_n": 105,
+    "low_rating_share": 0.105,
+    "helpful_vote_n": 1000,
+    "helpful_vote_sum": 1229
+  },
+  "after": {
+    "rows": 1000,
+    "rating_n": 1000,
+    "rating_sum": 4406,
+    "mean_rating": 4.406,
+    "low_rating_n": 105,
+    "low_rating_share": 0.105,
+    "helpful_vote_n": 1000,
+    "helpful_vote_sum": 1229
+  },
+  "first_utc": "2009-09-27T16:08:41.000Z",
+  "last_utc": "2023-03-14T02:44:35.407Z",
+  "variant_rows": 389,
+  "unverified_rows": 102,
+  "empty_images": 957,
+  "max_helpful_votes": 185,
+  "join_status": "Unresolved: no metadata supplied; no merge performed",
+  "sample_selection": "Five prespecified checked rows plus earliest remaining source rows until 50. Purposive audit sample, not random.",
+  "sample_source_rows": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    60,
+    92
+  ],
+  "assertions_passed": true
+}
