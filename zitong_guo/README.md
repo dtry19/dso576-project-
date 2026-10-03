@@ -13,8 +13,8 @@ This individual submission cleans every row of the team's 1,000-review Appliance
 
 ## Branch and submission identity
 
-- Personal branch: `codex/cleaning-zitong-guo`.
-- Branch URL: https://github.com/dtry19/dso576-project-/tree/codex/cleaning-zitong-guo
+- Personal branch: `Jenny-Guo`.
+- Branch URL: https://github.com/dtry19/dso576-project-/tree/Jenny-Guo
 - The submitted code/results commit is recorded below when the tested implementation is committed. A subsequent documentation commit may add its identifier and the PDF without changing the tested data/code.
 
 ## Run
