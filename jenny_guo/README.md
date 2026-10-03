@@ -22,16 +22,16 @@ This individual submission cleans every row of the team's 1,000-review Appliance
 From the repository root with Python 3.11 or later:
 
 ```sh
-python3 zitong_guo/clean.py
+python3 jenny_guo/clean.py
 ```
 
 Cleaning has no third-party dependencies. Verified using Python 3.12.14. For an independent output directory:
 
 ```sh
-python3 zitong_guo/clean.py --output /tmp/zitong-independent-run
+python3 jenny_guo/clean.py --output /tmp/jenny-independent-run
 ```
 
-Alternatively open `dataset/proj_data_clean_zitong_guo.ipynb`, select Python 3, restart the kernel and run all cells. The saved cell outputs were produced by sequential Python execution, not by an interactive Jupyter kernel in the preparation environment.
+Alternatively open `dataset/proj_data_clean_jenny_guo.ipynb`, select Python 3, restart the kernel and run all cells. The saved cell outputs were produced by sequential Python execution, not by an interactive Jupyter kernel in the preparation environment.
 
 ## Files and evidence
 
@@ -56,4 +56,4 @@ Codex assisted with code and documentation. Its timestamp conversion suggestion 
 
 Submitted code/results commit: `d816d115a2805ef63d5d023ef74e4a77dc7c2949`.
 
-PDF: `output/pdf/Module_6_Zitong_Guo.pdf`. Rebuild with `python3 zitong_guo/build_report.py` after installing `requirements.txt`.
+PDF: `output/pdf/Module_6_jenny_guo.pdf`. Rebuild with `python3 jenny_guo/build_report.py` after installing `requirements.txt`.
