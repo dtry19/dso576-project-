@@ -1,21 +1,20 @@
-# Zitong Guo Module 6 homework
+# Data Cleaning
 
-This individual submission cleans every row of the team's 1,000-review Appliances sample. It does not validate the entire upstream category. Review the rules and five record checks before submitting the PDF on Gradescope.
+This submission cleans every row of the team's 1,000-review Appliances sample. It does not validate the entire upstream category.
 
 ## Source and scope
 
-- Team source: `dataset/Appliances_sample.jsonl`, preserved unchanged.
+- Team source: `dataset/Appliances_sample.jsonl`
 - Repository source version: `2a623b24ff6e1a427426707117e4e45ed4d948c2`.
 - Upstream: https://huggingface.co/datasets/McAuley-Lab/Amazon-Reviews-2023 (McAuley Lab, Amazon Reviews 2023).
 - SHA-256: `6e5ce91e627c1eb52471166a207b8b76b36e062835a544bcd793af4d743f1608`.
 - Original sampling procedure and upstream download date are unknown; the Git version identifies the exact input used here.
-- No metadata table was supplied. Checklist item 9 is Unresolved. No unsupported listing mismatch or subcategory conclusions are made.
 
 ## Branch and submission identity
 
 - Personal branch: `Jenny-Guo`.
 - Branch URL: https://github.com/dtry19/dso576-project-/tree/Jenny-Guo
-- The submitted code/results commit is recorded below when the tested implementation is committed. A subsequent documentation commit may add its identifier and the PDF without changing the tested data/code.
+- The submitted code/results commit is recorded below when the tested implementation is committed. 
 
 ## Run
 

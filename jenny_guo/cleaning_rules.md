@@ -1,8 +1,12 @@
 # Cleaning rules recorded before execution
 
-Student: Zitong Guo. Scope: every row of the team's committed dataset/Appliances_sample.jsonl (1,000 reviews), not the entire Appliances category. Original upstream sampling method and download date are unknown. No product metadata is supplied in the repository.
+Student: Jenny (Zitong) Guo 
 
-Vision: An Amazon Appliances category manager prioritizes listings for product-information review and attributes for standardization within comparable appliance types. Business question: Which listings warrant manual review for recurring customer requirements that may be missing or unclear? The present cleaning stage supplies review counts, average ratings, low-rating proportions, helpful-vote totals and traceable text; it does not claim to measure listing mismatch without metadata and human validation.
+Scope: Every row of the team's committed dataset/Appliances_sample.jsonl (1,000 reviews), not the entire Appliances category. Original upstream sampling method and download date are unknown. No product metadata is supplied in the repository.
+
+Vision: An Amazon Appliances category manager prioritizes listings for product-information review and attributes for standardization within comparable appliance types. 
+
+Business question: Which listings warrant manual review for recurring customer requirements that may be missing or unclear? The present cleaning stage supplies review counts, average ratings, low-rating proportions, helpful-vote totals and traceable text; it does not claim to measure listing mismatch without metadata and human validation.
 
 | Rule | Reason | Verification |
 |---|---|---|
