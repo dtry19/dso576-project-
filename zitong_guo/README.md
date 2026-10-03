@@ -53,3 +53,7 @@ Alternatively open `dataset/proj_data_clean_zitong_guo.ipynb`, select Python 3, 
 Missing metadata prevents reviewing listing attributes, checking the many-to-one join, or grouping comparable appliance types. Unknown source sampling prevents category-level inference. Ratings alone do not demonstrate listing defects; review complaints require human interpretation and metadata evidence. Instructor repository access must be confirmed by the repository owner. Gradescope upload is the student's responsibility.
 
 Codex assisted with code and documentation. Its timestamp conversion suggestion was checked against a literal expected UTC timestamp, a full-file millisecond roundtrip, preservation of raw values, and unchanged metric totals. This records automated verification, not personal review by the student.
+
+Submitted code/results commit: `d816d115a2805ef63d5d023ef74e4a77dc7c2949`.
+
+PDF: `output/pdf/Module_6_Zitong_Guo.pdf`. Rebuild with `python3 zitong_guo/build_report.py` after installing `requirements.txt`.
