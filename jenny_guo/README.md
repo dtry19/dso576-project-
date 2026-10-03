@@ -55,4 +55,3 @@ Codex assisted with code and documentation. Its timestamp conversion suggestion 
 
 Submitted code/results commit: `d816d115a2805ef63d5d023ef74e4a77dc7c2949`.
 
-PDF: `output/pdf/Module_6_jenny_guo.pdf`. Rebuild with `python3 jenny_guo/build_report.py` after installing `requirements.txt`.
