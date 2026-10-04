@@ -7,7 +7,7 @@
 **Student:** Zhangli Tong  
 **Branch:** `Zhangli-Tong`  
 **Branch URL:** https://github.com/dtry19/dso576-project-/tree/Zhangli-Tong  
-**Commit ID:** `[ADD AFTER FINAL COMMIT]`
+**Cleaning submission commit:** `073b83a368b9861994507b6b5ce33c8c821a1c8a`
 
 ## Project dataset
 
