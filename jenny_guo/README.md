@@ -49,9 +49,9 @@ Alternatively open `dataset/proj_data_clean_jenny_guo.ipynb`, select Python 3, r
 
 1,000 input and output rows; zero exact duplicates and no missing source fields. Normalize 314 review bodies and 13 titles. Retain 389 variant/parent differences and 102 unverified purchases. Rating sum stays 4,406, average stays 4.406, low-rating share stays 105/1,000 (10.5%), and helpful votes total 1,229. Repeated parent IDs are valid reviews, not duplicates.
 
-Missing metadata prevents reviewing listing attributes, checking the many-to-one join, or grouping comparable appliance types. Unknown source sampling prevents category-level inference. Ratings alone do not demonstrate listing defects; review complaints require human interpretation and metadata evidence. Instructor repository access must be confirmed by the repository owner. Gradescope upload is the student's responsibility.
+Missing metadata prevents reviewing listing attributes, checking the many-to-one join, or grouping comparable appliance types. Unknown source sampling prevents category-level inference. Ratings alone do not demonstrate listing defects; review complaints require human interpretation and metadata evidence.
 
-Codex assisted with code and documentation. Its timestamp conversion suggestion was checked against a literal expected UTC timestamp, a full-file millisecond roundtrip, preservation of raw values, and unchanged metric totals. This records automated verification, not personal review by the student.
+Codex assisted with code and documentation. Its timestamp conversion suggestion was checked against a literal expected UTC timestamp, a full-file millisecond roundtrip, preservation of raw values, and unchanged metric totals. 
 
 Submitted code/results commit: `79259a8fd8d55f677674a4230a2e5ca694bdf177`.
 
