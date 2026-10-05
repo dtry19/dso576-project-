@@ -32,4 +32,4 @@ Source: McAuley Lab Amazon Reviews 2023 dataset
 ### GitHub Submission Information
 - Branch name: `kristine_shi`
 - Branch URL: https://github.com/dtry19/dso576-project-/tree/kristine_shi
-- Commit ID: `801bd07`
+- Commit ID: `db26f53`
