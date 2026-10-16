@@ -17,22 +17,51 @@ Every major display element must serve one of these use cases.
 
 ## 2. Input and definitions
 
-The sole input is **`data/monthly_wildfire.csv`** in this repository. It is bundled; do not fetch data, require credentials, or depend on a file in the student's Module 7 folder. It was created from Module 7's cleaned USDA FPA FOD wildfire file ([seventh edition](https://doi.org/10.2737/RDS-2013-0009.7)). Each row is one **calendar month**, not one fire. Parse `month` as a date. Required columns:
+The project uses the bundled **Amazon Reviews 2023 Appliances sample** described in the repository README. The data is line-delimited JSON (JSONL), with one JSON object per line. Each row represents **one customer review**, not one product or product listing. Do not fetch another dataset or use the illustrative values in the dashboard mockup as data.
+
+### Files and roles
+
+| File | Role | Rows inspected |
+| --- | --- | ---: |
+| `dataset/Appliances_sample.jsonl` | Original project input. Preserve it unchanged so the cleaning process remains reproducible. | 1,000 |
+| `dataset/output/Appliances_cleaned.jsonl` | Cleaned, full-size analysis input for dashboard calculations. It preserves the 1,000 source reviews and adds source-row provenance. | 1,000 |
+| `dataset/output/Appliances_cleaned_50_examples.jsonl` | QA/example subset drawn from the cleaned file. Use it for inspection and demonstrations, not for full-dataset totals. | 50 |
+
+`dataset/proj_data.ipynb` reads the original sample but is code, not an additional data source. The inspected cleaned file converts the source millisecond timestamps to ISO-style date-time strings, normalizes review text (including HTML and repeated whitespace), represents ratings as integers, and adds `original_row_number`. Dashboard analysis should read the cleaned full-size file and retain the raw file for validation and traceability.
+
+### Row fields
 
 | Column | Definition |
 | --- | --- |
-| `month` | First day of the calendar month; one row per month in ascending order. |
-| `fires` | Number of reported wildfire records discovered in that month. |
-| `known_acres` | Sum of final reported fire sizes for records discovered that month; not distinct land burned in that month. |
-| `sizes_known` | Number of records with a known fire size. |
-| `previous` | Previous calendar month's `fires`; blank for the first month. |
-| `change` | `fires - previous`; blank for the first month. |
-| `running` | Cumulative `fires` from the first available month; never resets at a year boundary. |
-| `average_3m` | Mean `fires` for the current and up to two preceding calendar months, calculated across the full series before filtering to a year. |
+| `rating` | Customer star rating. Values in the inspected files are whole numbers from 1 through 5. A low-rated review means a rating of 1 or 2 stars. |
+| `title` | Customer-written **review title**; it is not a product or listing title. |
+| `text` | Customer-written review body and the main source for identifying recurring concerns. |
+| `images` | List of images attached to the review. An empty list means that the review has no attached image. |
+| `asin` | Amazon identifier for the reviewed item or variant; suitable for item-level grouping. |
+| `parent_asin` | Parent product identifier used to group related item variants. |
+| `user_id` | Identifier for the reviewer. Treat it as an opaque identifier, not customer profile information. |
+| `timestamp` | Review time: epoch milliseconds in the original sample and an ISO-style date-time string in the cleaned files. Parse it as a date-time before filtering by review date. |
+| `helpful_vote` | Nonnegative count of helpful votes recorded for the review. |
+| `verified_purchase` | Boolean indicating whether the review is marked as a verified purchase. |
+| `original_row_number` | One-based source row number added to cleaned files for traceability. It is not present in the original sample and is not a permanent review ID. |
 
-Validate required columns, parseable and unique month starts, increasing monthly order, numeric fields, nonnegative `fires` and `known_acres`, and `0 <= sizes_known <= fires`. Check that `previous`, `change`, `running`, and `average_3m` agree with the preceding rows within normal floating-point tolerance; do not silently repair inconsistent input. Show an actionable error naming the file, row/month, and field when validation fails. Blanks are allowed only for the first row's `previous` and `change`.
+The current files contain review data and product identifiers, but **do not contain product name, product type, features, description, dimensions, details, or other listing-metadata fields** shown in the mockup. Therefore, metadata coverage, metadata gaps, and product-type filters cannot be calculated from the current project files alone. Do not infer those fields from review text or mistake `title` for a product name. ASIN-level review metrics can still be calculated, but any listing-metadata feature requires a separately supplied and documented product metadata file.
 
-The bundled data has **396 rows**, January 1992–December 2024. It sums to **283,285** reported records. January 1992 has **92** records; 2023 has **8,191**, and 2024 has **8,182**. Use these as verification facts, **not hard-coded display values**. Other values, including known acres and peak month, must come from the CSV.
+### Validation and verification
+
+When loading a JSONL file, report an actionable error that names the file, line number, and field. Do not silently repair or discard invalid records. Check that:
+
+- every nonblank line is valid JSON and contains the expected columns;
+- `rating` is numeric, whole, and between 1 and 5;
+- `title` and `text` are strings, `images` is a list, and `verified_purchase` is boolean;
+- `asin`, `parent_asin`, and `user_id` are non-empty strings;
+- `timestamp` is numeric epoch milliseconds in the raw file or a parseable date-time in a cleaned file;
+- `helpful_vote` is a nonnegative whole number;
+- cleaned `original_row_number` values are whole, unique, in source range, and map back to the corresponding raw records;
+- the full cleaned file has the same row count as the source, while every 50-example row matches its full-cleaned record by `original_row_number`; and
+- exact duplicate records are flagged for review rather than automatically removed solely because an ASIN or user appears more than once.
+
+As inspection-time reconciliation facts, all three files parsed without malformed JSON or missing/null fields. The full sample contains **1,000 reviews**, **870 distinct `asin` values**, **829 distinct `parent_asin` values**, and **625 distinct users**. It includes **105 low-rated reviews (10.5%)**, **898 verified-purchase reviews**, and review timestamps from September 2009 through March 2023. These are checks against the current files, not values to hard-code in dashboard HTML; displayed metrics must be calculated from the selected input and active filters. Empty image lists are valid and common (957 of 1,000 source rows).
 
 ## 3. Page and interaction specification
 
