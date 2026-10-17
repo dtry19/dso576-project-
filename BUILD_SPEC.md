@@ -65,25 +65,61 @@ As inspection-time reconciliation facts, all three files parsed without malforme
 
 ## 3. Page and interaction specification
 
-The page opens with **2024** as focus year and **2023** as comparison year when both exist. Otherwise choose the latest available year and the nearest earlier year. Populate selectors only from years present in the data. Put a clear title, purpose sentence, labeled selectors, and brief interpretation note at the top.
+The page is an **Appliance Review Explorer** for examining customer feedback in the cleaned Appliances review sample. Follow the mockup's broad organization—a clear header, a compact filter row, summary cards, overview visuals, a ranked identifier table, and a selected-item evidence panel—but calculate every value from `dataset/output/Appliances_cleaned.jsonl`. The mockup's displayed figures are not inputs or expected results.
 
-Under the controls, show four focus-year cards:
+### Header, scope, and filters
 
-1. Total **reported records**: sum of focus-year `fires`.
-2. **Known reported acres**: sum of focus-year `known_acres`.
-3. **Peak reporting month**: month with the largest focus-year `fires`, with its count; earliest month wins a tie.
-4. **Difference from comparison year**: focus-year annual `fires` minus comparison-year annual `fires`, signed. Show a percentage using the comparison total as denominator only if that total is nonzero; otherwise show “N/A.”
+At the top, show the dashboard title and a short purpose statement: identify rating patterns, review activity, and recurring language that may warrant closer investigation of an appliance item or parent product. Include a visible note that the dashboard describes the repository's review sample and does not represent all Amazon appliance reviews.
 
-Below the cards, show:
+Provide these labeled controls using only values present in the data:
 
-- A prominent **two-year monthly comparison** line chart using `fires`. Align January with January through December with December, using month number rather than full dates. Keep unavailable months as gaps, never invented zeros.
-- A **focus-year trend** chart with `fires` and the CSV's `average_3m` on the same record-count scale. Never recompute the average after year filtering; January can include the preceding November and December.
-- A **month-to-month change** chart from the CSV's `change`, with a visible zero line and negative values visually distinct. January uses the previous December if one exists; the first-ever month has no change.
-- A **known reported acres** chart, clearly separate from record counts and labeled in acres.
+- **Rating:** all ratings, 1–2 stars (low-rated), or an individual rating from 1 through 5.
+- **Review date:** an all-dates default plus available year choices derived from `timestamp`; do not offer years absent from the selected data.
+- **Verified purchase:** all, verified, or not verified, based on `verified_purchase`.
+- **Product identifier:** an optional searchable `parent_asin` selector, with a way to clear the selection. Show the identifier itself because no product name is available.
 
-Include a concise caption near each chart saying what question it answers. Add a footer that names the source and explains the limits of the measures. The language must consistently say **reported records** and **known reported acres**, never “all fires,” “fire risk,” or “acres burned that month.”
+Place a **Reset filters** control beside the filters. Do not include the mockup's Product Type filter because the project has no product-type field. All controls must have persistent text labels, support keyboard operation, and visibly indicate focus.
 
-Changing the focus year updates all four cards and all focus-year charts, plus the comparison chart. Changing only the comparison year updates the comparison chart and difference card, leaving the focus-year charts unchanged. If the same year is selected twice, show one line and a clear same-year note. If any year has fewer than 12 monthly rows, show its available months and an incomplete-year note; do not fabricate observations.
+### Summary cards
+
+Under the filters, show four cards calculated from the currently filtered reviews:
+
+1. **Reviews:** row count after filtering.
+2. **Low-rated reviews:** count and share of filtered reviews with `rating` equal to 1 or 2. If no rows remain, show 0 reviews and “N/A” for the share.
+3. **Distinct parent ASINs:** distinct non-empty `parent_asin` count. Label this as an identifier count, not a count of listings with known metadata.
+4. **Verified purchases:** count and share with `verified_purchase == true`; use “N/A” for the share when no rows remain.
+
+Do not hard-code the current sample totals in the page. Recompute all four cards whenever any filter changes.
+
+### Review overview
+
+Use the left and center portions of the mockup as a visual hierarchy reference, with these data-supported displays:
+
+- **Rating distribution:** a bar or donut chart showing review count and percentage for ratings 1 through 5. Keep all five rating categories visible and show zero where a valid category has no filtered reviews.
+- **Reviews over time:** a monthly time-series chart based on parsed `timestamp`, showing counts only for months represented by filtered records. Do not invent observations for months outside the filtered range.
+- **Recurring terms in low-rated reviews:** a ranked bar chart derived from `title` and `text` for 1–2-star reviews within the active filters. Label the results as frequent terms or phrases, not verified product defects or listing attributes. Exclude empty tokens and documented stop words, show the review count supporting each term, and show an explanatory empty state when no low-rated text remains.
+
+Give each chart a short caption explaining the question it answers. Tooltips must report the underlying count and, where applicable, percentage; counts and percentages must use the same filtered denominator shown in the cards.
+
+### Parent-ASIN prioritization and review evidence
+
+Show a sortable table that helps the user choose a `parent_asin` for review. Each row represents one parent ASIN in the current rating, date, and verified-purchase scope. Supported columns are:
+
+- `parent_asin`;
+- total review count;
+- low-rated review count and share;
+- average rating; and
+- total helpful votes.
+
+Default the table to low-rated review count descending, then total helpful votes descending, then `parent_asin` ascending for a deterministic tie-break. Always display the total review count so a high percentage based on very few reviews is not presented without context. Do not assign “high,” “medium,” or “low” priority labels unless a later specification defines a transparent rule.
+
+Selecting a table row or choosing a parent ASIN in the filter opens a detail panel modeled on the mockup's selected-product area. The panel must identify the selection as a **parent ASIN**, not a product name, and show its filtered review count, low-rated count/share, average rating, and verified-purchase count/share. Beneath the summary, show review evidence using actual `rating`, `title`, `text`, `timestamp`, `helpful_vote`, `verified_purchase`, and `asin` values. Truncate long text visually with an accessible expand/collapse control; do not alter the stored text. Do not display `user_id` because it is unnecessary for the stated analysis.
+
+### Interaction and unsupported states
+
+Every global filter updates the cards, charts, ranking table, and selected-parent panel from one consistent filtered set. Selecting a parent ASIN narrows the overview and highlights the same row in the table; clearing it returns to the broader filtered view. If a filter combination returns no reviews, retain the controls and headings, show zero/N/A cards as specified, and replace each visualization or table with a clear “No reviews match these filters” message.
+
+Do not show product names, product types, listing descriptions, features, dimensions, metadata coverage, metadata gaps, or comparisons between review concerns and listing content. Those fields are not present in the repository. Review text may indicate topics for investigation, but the dashboard must not claim that a recurring term proves a product defect or missing listing information. Add a footer naming the Amazon Reviews 2023 Appliances sample as the source and explaining these limitations.
 
 ## 4. Components and contracts
 
