@@ -1,17 +1,27 @@
-# BUILD_SPEC.md — California wildfire reports dashboard
+# BUILD_SPEC.md — Amazon Appliances Review Explorer
 
-Build the dashboard described here in **this repository**. The input data and locked Python environment are already included. The required result is a polished, responsive, **self-contained `dashboard.html`** that opens directly in a browser without a server or internet connection. Implement the reusable analysis behind it, run the build, check the output, and report the commands and checks you used.
+Build an interactive dashboard in this repository using the cleaned Amazon Reviews 2023 Appliances sample. The dashboard helps an Amazon Appliances category manager analyze customer ratings, review activity, and recurring concerns to identify parent products that may require further investigation.
 
-Create `wildfire_analysis.py` for data validation and reusable calculations and `build_dashboard.py` for HTML generation. You may add supporting source files, but the final HTML must embed its data, CSS, JavaScript, and Plotly library. Do not edit `data/monthly_wildfire.csv`, the four-problem homework notebook, or its policies. The earlier Module 7 Streamlit app is separate and does not need to be changed.
+The dashboard must use the cleaned dataset documented in Section 2 and follow the interactions specified in Section 3. All metrics and visualizations must be calculated from actual review data rather than illustrative mockup values.
+
+The implementation should include reusable analysis functions, data validation, and an interactive dashboard. Technical requirements and acceptance checks are defined in Sections 4–6.
+
+Do not modify the original dataset or infer unavailable product metadata. The dashboard must clearly communicate the limitations of the 1,000-review sample.
 
 ## 1. User, decision, and scope
 
-A California analyst reviews wildfire reports by **discovery month**. They need to identify months and year-to-year differences worth investigating in the source records. The dashboard makes the monthly pattern and comparison easy to inspect; it does **not** forecast, measure wildfire risk, establish causation, or claim that reported final fire sizes are acres newly burned during a month.
+An Amazon Appliances category manager needs to identify parent products that may require closer investigation based on customer feedback. The manager must determine which products receive recurring low-rated reviews, what concerns appear frequently in customer comments, and how review activity changes over time.
+
+The dashboard consolidates customer ratings, review text, timestamps, verified-purchase information, and parent ASIN identifiers into an interactive interface. Instead of manually reviewing individual comments, the manager can filter feedback, compare parent products, and examine supporting evidence to prioritize further investigation.
 
 | Use case | User selects | Dashboard shows | Decision supported |
 | --- | --- | --- | --- |
-| Compare years | A focus year and comparison year | Monthly reported-record counts aligned by calendar month; annual count difference | Which months account for a difference and deserve closer investigation |
-| Examine one year | A focus year | Monthly counts, three-month average, changes, and known reported acres | Which months have unusual reporting activity or reported size |
+| Identify recurring concerns | Rating, review year, and verified-purchase filters | Rating distribution and frequently mentioned terms in low-rated reviews | Which customer concerns deserve further investigation |
+| Prioritize parent products | A parent ASIN or ranked parent-ASIN table | Review counts, low-rated share, average rating, and helpful votes | Which parent products warrant closer examination |
+| Examine review activity | A review year or all available dates | Monthly review counts and rating patterns | Which periods may require further review |
+| Review supporting evidence | A selected parent ASIN | Review titles, text, ratings, dates, and verified-purchase status | Whether the available reviews justify additional manual investigation |
+
+The dashboard supports review exploration and investigation prioritization, not automatic conclusions about product defects or listing accuracy. The current dataset contains 1,000 customer reviews without product listing metadata. Therefore, the dashboard cannot verify missing product attributes, estimate sales or inventory, or represent the full Amazon Appliances category.
 
 Every major display element must serve one of these use cases.
 
@@ -97,7 +107,7 @@ Use the left and center portions of the mockup as a visual hierarchy reference, 
 
 - **Rating distribution:** a bar or donut chart showing review count and percentage for ratings 1 through 5. Keep all five rating categories visible and show zero where a valid category has no filtered reviews.
 - **Reviews over time:** a monthly time-series chart based on parsed `timestamp`, showing counts only for months represented by filtered records. Do not invent observations for months outside the filtered range.
-- **Recurring terms in low-rated reviews:** a ranked bar chart derived from `title` and `text` for 1–2-star reviews within the active filters. Label the results as frequent terms or phrases, not verified product defects or listing attributes. Exclude empty tokens and documented stop words, show the review count supporting each term, and show an explanatory empty state when no low-rated text remains.
+- **Recurring terms in low-rated reviews:** a ranked bar chart derived from `title` and `text` for 1–2-star reviews within the active filters. Label the results as frequent terms or phrases, not verified product defects or listing attributes. Exclude empty tokens and documented stop words, show the review count supporting each term, and show an explanatory empty state when no low-rated text remains. Recurring terms are exploratory signals that require examination of the underlying review text before being interpreted as customer concerns.
 
 Give each chart a short caption explaining the question it answers. Tooltips must report the underlying count and, where applicable, percentage; counts and percentages must use the same filtered denominator shown in the cards.
 
@@ -111,13 +121,13 @@ Show a sortable table that helps the user choose a `parent_asin` for review. Eac
 - average rating; and
 - total helpful votes.
 
-Default the table to low-rated review count descending, then total helpful votes descending, then `parent_asin` ascending for a deterministic tie-break. Always display the total review count so a high percentage based on very few reviews is not presented without context. Do not assign “high,” “medium,” or “low” priority labels unless a later specification defines a transparent rule.
+Default the table to low-rated review count descending, then total helpful votes descending, then `parent_asin` ascending for a deterministic tie-break. Always display the total review count so a high percentage based on very few reviews is not presented without context. Do not assign “high,” “medium,” or “low” priority labels unless a later specification defines a transparent rule. All ranking metrics must reflect the active filters. If the rating filter excludes 1–2-star reviews, the low-rated review count and share should display zero rather than values from the unfiltered dataset.
 
 Selecting a table row or choosing a parent ASIN in the filter opens a detail panel modeled on the mockup's selected-product area. The panel must identify the selection as a **parent ASIN**, not a product name, and show its filtered review count, low-rated count/share, average rating, and verified-purchase count/share. Beneath the summary, show review evidence using actual `rating`, `title`, `text`, `timestamp`, `helpful_vote`, `verified_purchase`, and `asin` values. Truncate long text visually with an accessible expand/collapse control; do not alter the stored text. Do not display `user_id` because it is unnecessary for the stated analysis.
 
 ### Interaction and unsupported states
 
-Every global filter updates the cards, charts, ranking table, and selected-parent panel from one consistent filtered set. Selecting a parent ASIN narrows the overview and highlights the same row in the table; clearing it returns to the broader filtered view. If a filter combination returns no reviews, retain the controls and headings, show zero/N/A cards as specified, and replace each visualization or table with a clear “No reviews match these filters” message.
+Every global filter updates the cards, charts, ranking table, and selected-parent panel from one consistent filtered set. Selecting a parent ASIN narrows the overview and highlights the same row in the table; clearing it returns to the broader filtered view. If a filter combination returns no reviews, retain the controls and headings, show zero/N/A cards as specified, and replace each visualization or table with a clear “No reviews match these filters” message. If a selected parent ASIN has no reviews under the current filters, retain the selection, display the empty-state message, and allow the user to clear the parent-ASIN filter.
 
 Do not show product names, product types, listing descriptions, features, dimensions, metadata coverage, metadata gaps, or comparisons between review concerns and listing content. Those fields are not present in the repository. Review text may indicate topics for investigation, but the dashboard must not claim that a recurring term proves a product defect or missing listing information. Add a footer naming the Amazon Reviews 2023 Appliances sample as the source and explaining these limitations.
 
