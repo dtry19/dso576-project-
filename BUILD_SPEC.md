@@ -187,11 +187,67 @@ Compute concern matches once in Python and metadata assessments when metadata is
 
 ### Layout and visual identity
 
+Use the mockup's title **“Appliance Listing Review”** and subtitle **“Turn customer feedback into clearer, more complete product listings.”** Identify the intended user as an **Amazon Appliances category manager**.
 
+Use a pale background `#F7F8FC`, white cards, dark text `#22324A`, burgundy headings `#940B32`, rose concern bars `#D4778A`, and blue metadata charts `#3879C4`. Use a system sans-serif font, restrained shadows, rounded cards, and consistent spacing.
+
+Arrange the page in this order:
+
+1. **Header and filters:** product type when metadata provides it, rating, review date, verified-purchase status, and Reset. Default to all available dates and derive date choices from the input. If offering “Last 12 months,” label it as relative to the latest review date in the dataset. Keep reviews with unmatched metadata selectable through an explicit unknown-type option. Omit product type when the field is unavailable.
+2. **Summary cards:** filtered review count, low-rated count/share, distinct reviewed parent ASINs, and metadata match coverage. Label reviewed products separately from all products in the metadata file. Use computed sample values rather than the mockup's illustrative totals.
+3. **Three numbered workflow columns:** concerns on the left, metadata comparison in the center, and listing prioritization on the right. On narrow screens, stack these in the same order.
 
 ### Workflow panels and interactions
 
+**1 — Find recurring customer concerns**
 
+- Show a horizontal concern bar chart with supporting counts and percentages.
+- Show a low-rated review-share chart.
+- Show expandable review evidence.
+- Selecting a concern highlights its evidence and corresponding metadata attributes in the other panels.
+- Concern selection does not silently change the global review denominator.
+
+**2 — Check listing information and metadata gaps**
+
+- Show non-empty field coverage for title, features, description, and details among matched reviewed products.
+- Add a concern-to-attribute comparison table that labels each denominator.
+- Follow it with review-versus-listing evidence with textual statuses.
+- Missing metadata receives an unavailable state, never a zero-coverage chart suggesting measured absence.
+
+**3 — Prioritize listings for investigation**
+
+- Show a sortable table containing product title when available, parent ASIN, product type when available, total and low-rated review counts, supporting gap-review count, potential-gap attributes, and priority.
+- Below it, show a selected-product panel with customer quotations, available listing excerpts, and a recommended manual check tied to the evidence.
+- Product images are optional and must come from documented metadata, with a fallback when absent.
+
+**Interaction rules**
+
+- Global filters update all three workflow panels consistently.
+- Selecting a listing highlights its ranking row and updates the detail and comparison evidence while retaining the broader ranking for comparison.
+- Display the selected parent ASIN prominently and provide a clear-selection control.
+- Product and concern selections leave global cards, charts, and ranking unchanged.
+- Concern selection narrows evidence and highlights relevant attributes.
+- Reset clears both global filters and selections.
+
+**Formatting, accessibility, and empty states**
+
+- Show counts with thousands separators.
+- Show percentages to one decimal place.
+- Show average ratings to one decimal place where used.
+- Tooltips and captions must explain denominators.
+- Follow Section 3's empty-state rules, including “Not supplied” for the metadata card when no file is supplied.
+- Explain whether reviews, concern evidence, or metadata are unavailable.
+- Use visible labels and text badges alongside color.
+- Support keyboard navigation, visible focus, accessible chart summaries, and expandable text.
+- Keep page content within laptop and phone widths.
+- Allow the ranking table its own labeled horizontal scroll area if necessary.
+
+**Footer and guardrails**
+
+- The footer must name the actual review source and, when supplied, metadata source.
+- State the available sample size and date range.
+- Explain that concern matching and potential-gap flags support manual investigation.
+- The dashboard must not present these signals as proof of defects, historical listing omissions, sales effects, or inventory needs.
 
 ## 6. Build order and acceptance checks
 
