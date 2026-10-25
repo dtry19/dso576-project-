@@ -33,5 +33,6 @@ Reproduction: `verification/check_jenny_audit.py`. It uses pandas and the reposi
 
 ## My contribution
 
-- What I personally checked and concluded: My audit covers the distinction between missing instructions and missing physical parts, along with the distinct-parent counting formula. The AI-assisted checks show one ambiguous concern classification and matching parent counts for the tested scopes. I keep these findings limited to the analysis code; they do not establish that the dashboard displays or filters the results correctly.
-- How AI helped, if used: I used Codex to inspect the code and build specification, write the reproducible verification script, and help organize my audit. The script compares production results with an independent calculation from the raw JSONL. 
+- What I personally checked and concluded:    I ran the verification script and reviewed the results for both the concern-tagging feature and the parent-ASIN count. I confirmed that “Missing instructions” was incorrectly tagged as both instructions and missing parts, while the other three test cases matched the expected results. I also verified that the independent calculations matched the production results, with 829 unique parent ASINs across 1,000 reviews. Based on these findings, I recommend improving the concern-tagging logic but keeping the current parent-ASIN counting formula.
+
+- How AI helped, if used: I used Codex to inspect the code, develop the verification script, and help organize my audit. Codex also ran the initial tests. I then ran the script myself, reviewed the outputs, and used the results to support my conclusions.
