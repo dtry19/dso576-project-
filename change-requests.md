@@ -4,7 +4,7 @@
 
 - Jenny Guo — I audit low-rated concern tagging, distinguishing missing instructions from missing physical parts. I also audit the distinct reviewed parent-ASIN count. Scope: analysis code at `a1b411b06ca50df55ec6f2f31055d736760aaa0f` (full commit recorded in `jenny-audit.md`); browser behavior is untested.
 
-- Jamie Sun — I audit whether the review-date filter limits the dashboard to reviews from the selected year and updates the review count consistently. I also audit the filtered review count by independently counting matching rows in the full cleaned review sample.
+- Jamie Sun — I audit whether a low-rated review mentioning Installation multiple times is counted once for that concern. I will check the tag_concerns output and the Installation concern count from summarize_scope using a synthetic review. Jenny’s audit checks how missing instructions and missing parts are classified; my check focuses on duplicate mentions within one review.
 
 ## CR-JG-01: Clarify and narrow the Missing parts rule
 
