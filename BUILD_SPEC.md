@@ -61,22 +61,41 @@ The current files contain review data and product identifiers, but **do not cont
 
 ### Listing metadata input contract
 
-No listing metadata file is currently documented in this checkout. Before enabling metadata analysis, record its exact local path, format, source, extraction date when known, and field mapping. The builder must accept this documented path explicitly; it must not guess a filename or fetch metadata at runtime.
+No listing metadata file is currently documented in this checkout. This is an unavailable input, not permission for the implementer to invent its schema or contents. The accepted format is UTF-8 JSONL plus an adjacent JSON mapping file named by appending `.mapping.json` to the complete input filename (for example, `listings.jsonl.mapping.json`). Record the exact local input path. The builder must accept that path explicitly; it must not guess a filename or fetch metadata at runtime.
+
+The mapping file has this exact required structure; the source keys below illustrate the mapping format, not supplied listing data:
+
+```json
+{
+  "source": "Replace with the actual source description or URL",
+  "extraction_date": null,
+  "fields": {
+    "parent_asin": "parent_asin",
+    "product_title": "title",
+    "product_type": null,
+    "features": "features",
+    "description": "description",
+    "details": "details"
+  }
+}
+```
+
+`source` is a nonblank string. `extraction_date` is a valid `YYYY-MM-DD` calendar date or null when unknown; it describes metadata capture, not the review date. `fields` must contain exactly the six normalized field names shown. Each mapping is an exact, case-sensitive top-level source key or null for a field absent from the source schema. Dot-path lookup and inferred mappings are out of scope. `parent_asin` cannot map to null. Every mapped source key must exist in every metadata record; a null source value represents an empty available field. Missing mapped keys are validation errors, not unavailable-schema markers. Extra source keys may be retained for provenance but are not searched or counted. An empty metadata file is invalid; zero matches from a valid nonempty file is a supported state.
 
 Normalize metadata to one record per `parent_asin`, with these mapped fields:
 
 | Normalized field | Contract |
 | --- | --- |
-| `parent_asin` | Required non-empty join key, unique after documented normalization. |
-| `product_title` | Listing title, distinct from the customer review's `title`. |
-| `product_type` | Optional source-provided product category/type; never inferred from reviews. |
-| `features` | Listing feature text or a list of feature strings. |
-| `description` | Listing description text or a list of description strings. |
-| `details` | Structured listing attributes, preserving keys, values, and units. |
+| `parent_asin` | Required nonblank string without surrounding whitespace; unique, with no case conversion or other key normalization. Join by exact string equality. |
+| `product_title` | String or null. Listing title, distinct from the customer review's `title`. |
+| `product_type` | String or null. Optional source-provided category/type; trim outer whitespace for filter labels and compare those labels case-sensitively. Blank/null values use “Unknown / unavailable.” Never infer types from reviews. |
+| `features` | String, list of strings, or null. Preserve list order. |
+| `description` | String, list of strings, or null. Preserve list order. |
+| `details` | JSON object or null, preserving attribute keys, values, and units. Nested objects/lists and finite JSON scalar values are allowed. |
 
 Document source-field mappings for title, features, description, and details even when a field is unavailable. Preserve the distinction between an unavailable source field, a null/empty field in an available source, and a failed attribute match in searchable content. Unavailable source fields cannot establish an information gap. If the fields needed for a concern comparison are unavailable, label that comparison “Manual review needed” rather than assume absence.
 
-Reject invalid keys, incompatible field types, and unresolved duplicate parent records. If metadata is organized by variant, document the variant mapping and resolve conflicts before joining; do not combine contradictory values arbitrarily. Left-join reviews to metadata with a many-to-one constraint so no reviews are lost or duplicated. Report match coverage by distinct reviewed parent ASINs. Retain metadata provenance and source excerpts for investigation.
+Reject invalid keys, incompatible field types, and every duplicate parent key, including identical duplicate records. Variant-level inputs are not accepted by this build: the data provider must supply a separately documented, resolved parent-level file before loading. Do not choose a first/latest variant, concatenate conflicting attributes, or create a parent mapping from reviews. Left-join reviews to metadata by exact `parent_asin` equality with a many-to-one constraint, preserving source review order and row identifiers. No reviews may be lost or duplicated. Metadata-only parents do not enter dashboard metrics or ranking. Report distinct reviewed-parent matches and unmatched identifiers. Retain source description, extraction date, mapped field names, metadata file/physical line, and source content for investigation.
 
 Metadata is optional for the review-only fallback and required for the metadata-enabled workflow. A supplied but invalid metadata file must produce an actionable validation error rather than silently trigger the fallback. The 50-example review subset is for QA, not a build prerequisite or a substitute for the full cleaned input.
 
@@ -163,19 +182,56 @@ The components must support the three-step workflow: identify customer concerns,
 
 ### Metadata prerequisite and comparison rules
 
-The metadata-enabled workflow requires an additional, documented metadata file; the review-only fallback does not. Use the input contract and source-field availability rules in Section 2 for `parent_asin`, product title, optional product type, features, description, and details. Record the source and extraction date where known. Retain structured attribute keys and units. Do not treat review data's `title` as a listing title or infer product type from customer comments. If metadata is supplied at variant level, define the variant mapping before joining; do not arbitrarily collapse conflicting variants into a parent record.
+The metadata-enabled workflow requires an additional, documented metadata file; the review-only fallback does not. Use the input contract and source-field availability rules in Section 2 for `parent_asin`, product title, optional product type, features, description, and details. Record the source and extraction date where known. Retain structured attribute keys and units. Do not treat review data's `title` as a listing title or infer product type from customer comments. Reject variant-level or duplicate-parent inputs under Section 2; resolving variants is a data-provider preparation step outside this build.
 
 Until this input is supplied, show review analysis and label the metadata panels **“Listing metadata not supplied.”** Do not classify unmatched products as having missing listing attributes. Unmatched records after a valid metadata load use **“No matching metadata record.”**
 
 Define an inspectable concern dictionary for installation, size/dimensions, compatibility, noise, missing parts, instructions, and durability. Document keywords, phrase matching, normalization, exclusions, and the relevant metadata attributes for each concern. Matches are screening signals, not verified complaints: a phrase may be negated, ambiguous, or unrelated to an information gap. Allow a review to match several concerns and explain that concern percentages therefore need not sum to 100%.
 
+### Listing content and assessment decisions
+
+Every concern requires exactly `features`, `description`, and `details`. Listing titles and product types are not searched. Use these fixed listing-evidence rules, with Python regex syntax; Markdown `\|` represents the plain alternation character `|` in the actual regex:
+
+| Concern | Listing attribute | Listing-evidence regex |
+| --- | --- | --- |
+| Installation | Installation guidance | `install\|hook.?up\|connect` |
+| Size / dimensions | Dimensions / fit | `dimension\|width\|height\|depth\|\binch\|\bcm\b\|\bmm\b\|\bsize\b` |
+| Compatibility | Compatibility / model | `compatib\|\bmodel\|replacement\|works? with` |
+| Noise | Noise level | `noise\|quiet\|decibel\|\bdb\b\|sound` |
+| Missing parts | Included parts | `included\|in the box\|package contents\|comes with` |
+| Instructions | Instructions / manual | `instruction\|manual\|directions\|user guide` |
+| Durability | Care / warranty | `warranty\|care\|maintenance\|durab\|service life` |
+
+Define one content conversion for both field coverage and listing-evidence searches:
+
+- Null becomes an empty string; strings have outer whitespace stripped.
+- Lists recursively convert their elements and join them in source order with one space. An empty list, or a list containing only empty strings, has no populated content.
+- Objects recursively convert their values, omit entries whose converted value is empty after trimming, and join retained entries as `key: value` in source order with one space. Empty objects and objects with only empty values have no populated content. Keys alone do not establish coverage or a match.
+- Finite numeric scalars use their ordinary decimal text, and booleans use `true`/`false`; both count as populated values, including numeric zero and boolean false. Trim the final converted content to determine whether it is non-empty. Preserve the original structured value for display and provenance.
+
+Search each available required field's converted content independently with its concern's listing-evidence regex above, case-insensitively. Use no review-negation exclusion on listing fields and no unit conversion or value extraction. A match indicates lexical evidence only; for example, a mention of a warranty does not verify warranty terms. Retain each matching field's source content, name, file, and line. Do not search unmapped source fields or concatenate fields to create a phrase spanning two fields.
+
+Apply the first applicable row of this decision table for each parent and concern:
+
+| Condition | Internal assessment status | Treatment |
+| --- | --- | --- |
+| No metadata file supplied | Listing metadata not supplied | Not assessable; gap metrics N/A. |
+| Valid metadata supplied, parent unmatched | No matching metadata record | Not assessable; gap metrics N/A. |
+| Matched parent, one or more of features/description/details unmapped | Manual review needed | Never assert a gap, even if another field is empty or has a lexical match. Preserve any matching excerpts. |
+| Matched parent, all three fields mapped, listing regex matches at least one | Available evidence | No potential gap for this concern; does not establish accuracy or clarity. |
+| Matched parent, all three fields mapped, listing regex matches none | Potential information gap | May contribute to priority only when a filtered low-rated review supports the same concern. |
+
+The table defines metadata assessments independently of the review filters. In the comparison UI, “No reviews under these filters” overrides concern statuses for a selected parent with no scoped reviews; otherwise a concern with zero supporting low-rated reviews displays “No supporting low-rated reviews.” Such statuses never create a priority signal. A matched listing with empty but mapped fields may have an internal potential gap, but no corresponding review evidence means it contributes no gap attribute to the ranking.
+
 For each concern, report its distinct supporting review count and share of all filtered low-rated reviews, including low-rated reviews with no matched concern in the denominator. For field coverage of a source-provided field, divide the number of distinct matched parent ASINs with a non-empty field by the number of distinct matched parent ASINs in the filtered scope. For a field absent from the source schema, show “Source field unavailable” instead of a numerical coverage value. With zero matched parents, coverage is N/A. Display that denominator and metadata match coverage separately. A non-empty description does not establish that dimensions or compatibility information is present.
 
-At the parent-and-concern level, flag a **potential information gap** only when a metadata record is available, all fields required by the documented concern rule are available in the source schema, and the rule finds no relevant evidence in those fields. An empty value in an available field can support a potential gap; an unavailable source field cannot. Preserve the fields searched and matching excerpts. An available attribute is not proof that the listing is correct or clear. Label unresolvable comparisons **“Manual review needed.”** Claim a potential inconsistency only when explicit, comparable values and units support it; otherwise show the review and listing text side by side. Metadata may reflect a different time from the review, so do not claim it represents what the customer originally saw.
+Use the metadata decision table above to distinguish potential gaps from unavailable inputs. Preserve the fields searched and matching source excerpts. Empty available fields may support a potential gap; unavailable fields cannot. Attribute mentions do not establish accuracy or clarity. Value comparisons, conflicting units, and potential inconsistencies require manual review in this version; do not introduce an automatic inconsistency score or unit-conversion rule. Metadata may reflect a different time from the review, so do not claim it represents what the customer originally saw.
 
 ### Investigation priority
 
 For an initial, transparent screening rule, count distinct filtered low-rated reviews mentioning at least one concern with a potential information gap for that parent ASIN. Count a review once even when it supports multiple gaps. Assign **High** for 3 or more such reviews, **Medium** for 2, and **Low** for 1. Products with no such evidence show **“No gap signal under these rules”**; unavailable or unmatched metadata shows **“Not assessable.”** A product with no supported gap signal but at least one concern that cannot be assessed because required source fields are unavailable also shows **“Not assessable”**, rather than “No gap signal.” If a supported gap gives a High, Medium, or Low priority despite other unassessable concerns, retain that priority and disclose the incomplete assessment. Gap metrics are N/A when no metadata-based assessment is possible. These labels indicate investigation priority, not defect severity or a validated assessment of listing quality.
+
+For exact zero/N/A behavior, define relevant concerns as those tagged by at least one scoped low-rated review for that parent. An assessment is possible if the parent matches metadata and either all three searchable fields are mapped, or at least one relevant concern has status “Available evidence” or “Potential information gap.” If assessment is impossible, gap-review count and gap-attribute count are N/A, and priority is “Not assessable.” If possible, return numerical counts, including zero. With zero gap reviews, any relevant “Manual review needed” concern yields “Not assessable”; otherwise show “No gap signal under these rules.” Set the incomplete-assessment flag when at least one relevant concern is “Manual review needed.” A matched parent with no relevant concerns and all three fields mapped has zero gap reviews, zero attributes, and “No gap signal under these rules.” With no relevant concerns and any required field unmapped, it is “Not assessable” with N/A gap metrics. These explicit cases also apply when filters select only ratings 3–5.
 
 Sort High, Medium, and Low first, followed by no-gap-signal and not-assessable records. Within each group, sort by supporting review count descending, distinct potential-gap attributes descending, and `parent_asin` ascending, placing N/A metrics last. Display total reviews and low-rated reviews alongside the supporting count. Document these initial thresholds and expose the evidence behind each label. In review-only mode, use the fallback ordering in Section 3; do not apply metadata-based ranking.
 
@@ -279,6 +335,19 @@ Acceptance checks:
 - **Preparation, build, and offline use:** Verify the Section 5 setup path when environment files or cleaned outputs are absent: create the missing environment files, lock and install dependencies, and execute Jamie's notebook with the repository root as its working directory. Confirm it generates both documented `output/` files and leaves the notebook and raw source unchanged. Then `uv sync --frozen` and `uv run python build_dashboard.py` must create a review-only `dashboard.html` without listing metadata. With valid metadata, the documented `--metadata` command creates the metadata-enabled version. Open the applicable artifact with a `file://` URL and disconnect networking. Filtering, sorting, selection, evidence expansion, and reset work without a server, CDN, API, or live fetch.
 - **Review reconciliation:** Recompute the prior Section 2 inspection facts using `dataset/Appliances_sample.jsonl` and Jamie's full output, `output/Appliances_cleaned.jsonl`: 1,000 raw and full cleaned reviews, 870 distinct item ASINs, 829 distinct parent ASINs, 625 distinct users, 105 low-rated reviews, and 898 verified purchases, with dates from September 2009 through March 2023. Reconcile full cleaned records to raw source rows through `original_row_number`, allowing only the notebook's documented text and timestamp transformations. If `output/Appliances_cleaned_50_examples.jsonl` is present, verify its 50 records against the full cleaned input; after notebook execution, also confirm it includes the five manual checks and the seeded sample. Investigate discrepancies; never hard-code totals or use QA rows for dashboard metrics.
 - **Metadata validation and join:** With supplied metadata, verify mapped fields and availability, valid unique parent keys, duplicate handling, and provenance. Confirm unchanged review counts and identifiers after joining. Recompute distinct-parent match coverage independently, including partial and zero matches. Do not mislabel an unmatched parent as a missing listing attribute.
+
+Metadata-specific examples (temporary fixtures only):
+
+| Input condition | Required result |
+| --- | --- |
+| Features `[]`, description `null`, details `{}`, all three mapped | Fields available but unpopulated; no listing attribute matches. A potential gap contributes to priority only with supporting scoped low-rated reviews. |
+| Details `{"Width": "12 inches"}`, other required fields mapped | Dimensions have “Available evidence”; preserve units and source content. |
+| Details `{"Width": null}`, other mapped fields empty | Details unpopulated; the key alone does not establish evidence. |
+| Details `{"Width": "12 inches"}`, description mapping null | “Manual review needed,” even with a dimensions match; no asserted gap. |
+| Two reviewed parents; one matches metadata and has populated features | Match coverage 1/2 (50.0%); features coverage 1/1 (100.0%). Review frequency does not weight either measure. |
+| Valid nonempty metadata with no parent matches | Match coverage 0% for a nonempty reviewed-parent scope; field coverage and gap metrics N/A; priorities “Not assessable.” |
+| Empty review scope with supplied metadata | Match coverage and field coverage N/A. Without supplied metadata, the match card remains “Not supplied.” |
+
 - **Default cards:** With filters cleared, calculate review count, low-rated count/share, reviewed parent count, and metadata match coverage under Section 3. For the documented unchanged sample, the first three cards show 1,000 reviews, 105 low-rated reviews (10.5%), and 829 parents. Without metadata, the fourth card shows “Not supplied.” With metadata, its numerator and denominator reconcile to matched distinct reviewed parents. Verified purchases are not the fourth card.
 - **Filter consistency:** Exercise rating, available review years, and verified-purchase controls individually and together. Include Product Type only when supplied metadata contains usable type values; test known and unknown types. Independently reconcile a combined selection across all cards, charts, ranking, and selected-product evidence. Ratings 3, 4, or 5 alone yield zero low-rated reviews and no concern-supported gap reviews. Empty percentages use N/A. Reset restores defaults and clears selections.
 - **Concern calculations:** Reconcile each concern to supporting 1–2-star review identifiers and quotations. Count a review once per concern, even if a keyword repeats in its title/body; allow overlap across concerns and retain unmatched low-rated reviews in the denominator. Check documented normalization, phrase rules, and exclusions with small fixtures. Confirm the low-rated share chart sums to the filtered review count and retains zero categories. If the optional monthly chart is implemented, reconcile its counts and date parsing too.
