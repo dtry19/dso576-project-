@@ -1,0 +1,12 @@
+{
+  "source": "https://huggingface.co/datasets/McAuley-Lab/Amazon-Reviews-2023/resolve/main/raw/meta_categories/meta_Appliances.jsonl",
+  "extraction_date": null,
+  "fields": {
+    "parent_asin": "parent_asin",
+    "product_title": "title",
+    "product_type": "main_category",
+    "features": "features",
+    "description": "description",
+    "details": "details"
+  }
+}

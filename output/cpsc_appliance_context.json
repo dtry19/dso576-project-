@@ -1,0 +1,4324 @@
+{
+  "source": "https://www.cpsc.gov/Recalls",
+  "api": "https://www.saferproducts.gov/RestWebServices/Recall",
+  "retrieved_on": "2026-11-05",
+  "recall_date_start": "2020-01-01",
+  "search_terms": [
+    "air fryer",
+    "blender",
+    "coffee maker",
+    "dishwasher",
+    "dryer",
+    "freezer",
+    "microwave",
+    "oven",
+    "refrigerator",
+    "toaster",
+    "washing machine"
+  ],
+  "records": [
+    {
+      "RecallID": 11046,
+      "RecallNumber": "27069",
+      "RecallDate": "2026-11-05T00:00:00",
+      "Description": "This recall involves Gourmia 9-SliceDigitalAir Fryer Ovens with model number GTF7530, and UPC Code 810002862779. The recalled ovens are stainless steel and have two spring-loaded glass front French doors with metal handles. The Ovens can be identified with model and UPC codes on packaging. The Model number GTF7530 and codes 3021 to 0126 can also be found on a label on back of the unit.",
+      "URL": "https://www.cpsc.gov/Recalls/2027/Gourmia-Recalls-9-Slice-Digital-Air-Fryer-Ovens-Due-to-Burn-Hazard",
+      "Title": "Gourmia Recalls 9-Slice Digital Air Fryer Ovens Due to Burn Hazard",
+      "ConsumerContact": "Gourmia toll free at 888-834-0092 Monday through Friday 9 a.m. to 5p.m. or online at www.gourmia.com/recall.asp or Gourmia.com and click on the “Recall Information” link at the top of the page for more information. ",
+      "LastPublishDate": "2026-11-05T00:00:00",
+      "Products": [
+        {
+          "Name": "Gourmia Stainless Steel Digital 9 Slice Digital Air Fryer Ovens",
+          "Description": "",
+          "Model": "",
+          "Type": "Electric Counter-top Ovens, Broilers or Toaster Ovens",
+          "CategoryID": "549",
+          "NumberOfUnits": "About 175,951"
+        }
+      ],
+      "Inconjunctions": [],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Gourmia1.png?VersionId=IguLKgTa11Mieq_uPAPk24jM46V2EAy_",
+          "Caption": "Recalled Gourmia Air Fryer Oven"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Gourmia2.png?VersionId=MV8Z3SdeegAnt4szk.tDs1lF1vXmEPMf",
+          "Caption": "Label on Back of Oven"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "Gourmia has received 57 reports of the oven doors closing unexpectedly when retrieving food, resulting in 40 incidents of burns to consumer hands or wrists."
+        }
+      ],
+      "Manufacturers": [],
+      "Retailers": [
+        {
+          "Name": "Sold At:\nTarget stores nationwide and online at Target.com from October 2021 through June 2026 for about $150.",
+          "CompanyID": ""
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "The Steelstone Group LLC, dba Gourmia, of Brooklyn, New York.",
+          "CompanyID": ""
+        }
+      ],
+      "Distributors": [],
+      "SoldAtLabel": null,
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "ProductUPCs": [],
+      "Hazards": [
+        {
+          "Name": "The oven’s doors can unexpectedly close when bumped, posing a burn hazard to consumers retrieving hot food.",
+          "HazardType": "",
+          "HazardTypeID": ""
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should stop using the recalled Ovens immediately and contact Gourmia for a free repair kit by mail. The repair kit will include an added doorstop and instructions on how to install."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "context_terms": [
+        "air fryer",
+        "oven"
+      ]
+    },
+    {
+      "RecallID": 11054,
+      "RecallNumber": "27072",
+      "RecallDate": "2026-11-05T00:00:00",
+      "Description": "This recall involves the SuperFast Sterilizer Dryer, a countertop appliance that uses a push-button control to sterilize and dry baby bottles, breast pump parts and accessories in ten minutes. The recalled units have model numbers BRZ0083, BRZ0154 and BRZ0156. The model number is printed on the product label located on the bottom of the unit. ",
+      "URL": "https://www.cpsc.gov/Recalls/2027/Baby-Brezza-Enterprises-Recalls-SuperFast-Sterilizer-Dryers-Due-to-Overheating-and-Burn-Hazards",
+      "Title": "Baby Brezza Enterprises Recalls SuperFast Sterilizer Dryers Due to Overheating and Burn Hazards",
+      "ConsumerContact": "Baby Brezza Enterprises toll-free at 888-527-9824 from 9 a.m. to 5 p.m. ET Monday through Friday, email at recall@babybrezza.com or online at https://babybrezza.com/pages/about?view=v3-recalls and www.babybrezza.com and click \"Product Safety Recall\" at the bottom of the page for more information.",
+      "LastPublishDate": "2026-11-05T00:00:00",
+      "Products": [
+        {
+          "Name": "SuperFast Sterilizer Dryers",
+          "Description": "",
+          "Model": "",
+          "Type": "Dryers",
+          "CategoryID": "1918",
+          "NumberOfUnits": "About 29,000 (In addition, about 4,500 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/baby-brezza-superfast-sterilizer-dryer-recalled-due-fire-and-burn-hazards"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/BabyBrezza1.png?VersionId=UIOZN2OT0VM54RvtyzVONZTL2ZjVC4vw",
+          "Caption": "Recalled Baby Brezza SuperFast Sterilizer Dryer model numbers BRZ0083 and BRZ0156"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/BabyBrezza2.png?VersionId=FPe71iYVUR9TjiJqqQnx1lWBU7FiBsP1",
+          "Caption": "Recalled Baby Brezza SuperFast Sterilizer Dryer model number BRZ0154"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/BabyBrezza3.png?VersionId=w44HzWtsIoItBeWB_acoWBAETWAavXNB",
+          "Caption": "Baby Brezza SuperFast Sterilizer Dryer Label with model number"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received 32 reports of the sterilizer dryers overheating or the plastic housing melting. No injuries have been reported."
+        }
+      ],
+      "Manufacturers": [],
+      "Retailers": [
+        {
+          "Name": "Sold At:\nTJ Maxx and Marshall’s storesnationwide and online at babybrezza.com, target.com and babylist.com from January 2024 through October 2026 for between $160 and $180.",
+          "CompanyID": ""
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Baby Brezza Enterprises LLC, of Newark, New Jersey",
+          "CompanyID": ""
+        }
+      ],
+      "Distributors": [],
+      "SoldAtLabel": null,
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "ProductUPCs": [],
+      "Hazards": [
+        {
+          "Name": "The recalled sterilizer dryers can overheat when plugged in and operating, posing a risk of injury from a burn hazard if the surface is handled.",
+          "HazardType": "",
+          "HazardTypeID": ""
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should stop using the recalled sterilizer dryers immediately and contact Baby Brezza Enterprises for a free replacement sterilizer dryer, including shipping at no cost to the consumer. Consumers will be asked to register at https://babybrezza.com/pages/about?view=v3-recalls, complete the recall form, unplug the product, cut the power cord to destroy the sterilizer dryer and upload photos. Send photos of the model number on the label of the dryer the destroyed appliance and the return authorization number to recall@babybrezza.com. After uploading the photos, consumers should dispose of the recalled sterilizer dryers in accordance with local and state ordinances."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Replace"
+        }
+      ],
+      "context_terms": [
+        "dryer"
+      ]
+    },
+    {
+      "RecallID": 11041,
+      "RecallNumber": "27055",
+      "RecallDate": "2026-10-29T00:00:00",
+      "Description": "This recall involves Bodum 8-cup and 12-cup Bistro, Brazil, Caffettiera, Chambord, Crema, Java, Jesper, and Kenya model French Press coffee makers with replaceable glass carafes. The Bodum name appears on the frame and inner lid of most models, and is engraved, along with product warnings, on the glass carafes. Additional photos and model-identifying information are available on the recall website.\n\n",
+      "URL": "https://cpsc.gov/Recalls/2027/Bodum-USA-Recalls-5-9-Million-French-Press-Coffee-Makers-with-Replaceable-Glass-Carafes-Due-to-Risk-of-Serious-Burn-Injury",
+      "Title": "Bodum USA Recalls 5.9 Million French Press Coffee Makers with Replaceable Glass Carafes Due to Risk of Serious Burn Injury",
+      "ConsumerContact": "Bodum USA toll-free at 888-879-8213 from 8 a.m. to 5 p.m. ET Monday through Friday, email at Bodum3302@sedgwick.com, or online at www.bodumfrenchpressrecall.expertinquiry.com or www.bodum.com  and click on “Recall Information” for more information.",
+      "LastPublishDate": "2026-10-29T00:00:00",
+      "Products": [
+        {
+          "Name": "Bodum French Press coffee makers with 8-cup and 12-cup replaceable glass carafes (Bistro, Brazil, Caffettiera, Chambord, Crema, Java, Jesper, and Kenya models)",
+          "Description": "",
+          "Model": "",
+          "Type": "Unpowered Coffee Makers or Teapots",
+          "CategoryID": "585",
+          "NumberOfUnits": "5.9 million"
+        }
+      ],
+      "Inconjunctions": [],
+      "Images": [
+        {
+          "URL": "https://cpsc.gov/s3fs-public/Bodum1.jpg?VersionId=AfcWy.i2qS2KT6Ka0o9Agw7pYARrPXMR",
+          "Caption": "Recalled Bodum Brazil French Press"
+        },
+        {
+          "URL": "https://cpsc.gov/s3fs-public/Bodum2.jpg?VersionId=naT8B3sd6Vh34MpmcVamYxpXV0slHhRw",
+          "Caption": "Recalled Bodum Chambord French Press"
+        },
+        {
+          "URL": "https://cpsc.gov/s3fs-public/Bodum3.jpg?VersionId=MJvHPqI4mtMjIC6HBvzBfFHcPYSVO0bF",
+          "Caption": "Recalled Bodum Kenya French Press"
+        },
+        {
+          "URL": "https://cpsc.gov/s3fs-public/Bodum4.png?VersionId=iIk2zalckUe2uHAtRPx4D0K.RKi9hfDK",
+          "Caption": "Identifying text on Bodum French Press Carafe\n"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "Bodum USA has identified 70 reports of carafes breaking during use, including 48 reports of burns to consumers"
+        }
+      ],
+      "Manufacturers": [],
+      "Retailers": [
+        {
+          "Name": "Sold At:\nTarget, Walmart, and coffee and home goods stores nationwide and online at Bodum.com, Amazon.com, Target.com, Walmart.com and other online retailers from 1974 through October 2026 for about $15 to $65.",
+          "CompanyID": ""
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Bodum USA, Inc., of New York, New York",
+          "CompanyID": ""
+        }
+      ],
+      "Distributors": [],
+      "SoldAtLabel": null,
+      "ManufacturerCountries": [
+        {
+          "Country": "Portugal"
+        },
+        {
+          "Country": "Thailand"
+        }
+      ],
+      "ProductUPCs": [],
+      "Hazards": [
+        {
+          "Name": "The carafe can unexpectedly break during use if the glass carafe is damaged or cracked, including by use of a metal spoon to stir the coffee, posing a risk of serious burn injuries.",
+          "HazardType": "",
+          "HazardTypeID": ""
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should stop using metal spoons or utensils to stir coffee in the glass carafe immediately and contact Bodum to receive a plastic Bodum stirring spoon and warning label. The label reminds consumers not to use cracked or damaged carafes and not to use metal spoons to stir contents in the glass carafe in order to avoid damaging the glass, which can lead to breakage during use."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "context_terms": [
+        "coffee maker"
+      ]
+    },
+    {
+      "RecallID": 11043,
+      "RecallNumber": "27050",
+      "RecallDate": "2026-10-29T00:00:00",
+      "Description": "This recall involves Whatever Works microwave grillers. The rectangular grills have a white plastic exterior with black locking clips on the side, hinge tabs at the rear, and two non-stick black metal plates. Model K4001 can be found on the product’s purchase receipt.",
+      "URL": "https://cpsc.gov/Recalls/2027/Whatever-Works-Recalls-Microwave-Grills-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-Hazard",
+      "Title": "Whatever Works Recalls Microwave Grills Due to Risk of Serious Injury or Death from Fire Hazard",
+      "ConsumerContact": "Whatever Works toll-free at 877-756-5053 from 8 a.m. to 5 p.m. ET Monday through Friday, email at help@whateverworks.com, or online at Whateverworks.com/recall or Whateverworks.com/ and click on “Customer Service/Product Recall” for more information.",
+      "LastPublishDate": "2026-10-29T00:00:00",
+      "Products": [
+        {
+          "Name": "Whatever Works Microwave Grillers",
+          "Description": "",
+          "Model": "",
+          "Type": "Grills, Not Specified",
+          "CategoryID": "902",
+          "NumberOfUnits": "About 8,709"
+        }
+      ],
+      "Inconjunctions": [],
+      "Images": [
+        {
+          "URL": "https://cpsc.gov/s3fs-public/WhateverWorks1.gif?VersionId=dSi8zt3UsAJQER8D48XRh58NIvKu4OH2",
+          "Caption": "Recalled Whatever Works Microwave Grill"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received three reports of grills igniting, all resulting in fires. No injuries have been reported."
+        }
+      ],
+      "Manufacturers": [],
+      "Retailers": [
+        {
+          "Name": "Sold Online At:\nWhateverworks.com from January 2025 through June 2026 for about $22.",
+          "CompanyID": ""
+        },
+        {
+          "Name": "Potpourri Group, Inc., dba Whatever Works, of Billerica, Massachusetts",
+          "CompanyID": ""
+        }
+      ],
+      "Importers": [],
+      "Distributors": [],
+      "SoldAtLabel": null,
+      "ManufacturerCountries": [
+        {
+          "Country": "Taiwan"
+        }
+      ],
+      "ProductUPCs": [],
+      "Hazards": [
+        {
+          "Name": "The recalled grills can overheat and ignite, posing a risk of serious injury or death from fire hazard.",
+          "HazardType": "",
+          "HazardTypeID": ""
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should stop using the recalled grills immediately and contact Whatever Works for a full refund. Consumers will be asked to write in permanent marker “Recalled” on the grill and send a photo of the marked grill to recall@whateverworks.com. Consumers will be provided with a prepaid label to return the recalled product."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "context_terms": [
+        "microwave"
+      ]
+    },
+    {
+      "RecallID": 10967,
+      "RecallNumber": "26754",
+      "RecallDate": "2026-09-10T00:00:00",
+      "Description": "This recall involves Wantefully 2 in 1 Hair Dryer & Styler, One Step Hair Dryer Brush Straightner, and the Negative Ion Electric Hot Air Blow Dryer Comb, model number XR-8801. The hair dryers are black hot air dryer paddle brushes with a striped pink design and brush bristles. There are three heat settings on the hair dryers. XRUI and the model name XR-8801 are printed on the top of the product packaging.",
+      "URL": "https://cpsc.gov/Recalls/2026/Guang-Zhou-Recalls-Wantefully-Hair-Dryer-Brushes-Due-to-Risk-of-Serious-Injury-or-Death-from-Electrocution-Shock-and-Burn-Hazards-Violate-Federal-Regulations",
+      "Title": "Guang Zhou Recalls Wantefully Hair Dryer Brushes Due to Risk of Serious Injury or Death from Electrocution, Shock and Burn Hazards; Violate Federal Regulations",
+      "ConsumerContact": "Guang Zhou at wantefully@163.com.",
+      "LastPublishDate": "2026-09-10T00:00:00",
+      "Products": [
+        {
+          "Name": "Wantefully Hair Dryer Brushes",
+          "Description": "",
+          "Model": "",
+          "Type": "Hair Dryers",
+          "CategoryID": "1982",
+          "NumberOfUnits": "About 2,295"
+        }
+      ],
+      "Inconjunctions": [],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/guang1.gif",
+          "Caption": "Recalled Wantefully Hair Dryer and Blow Dryer Brush"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/guang2.gif",
+          "Caption": "Recalled Wantefully Hair Dryer and Blow Dryer Brush"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/guang3.gif",
+          "Caption": "Recalled Wantefully Hair Dryer and Blow Dryer Brush"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/guang4.gif",
+          "Caption": "Recalled Wantefully Hair Dryer and Blow Dryer Brush – Product Packaging"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/guang5.gif",
+          "Caption": "Product Packaging Label with Model Number"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "There has been one report of the hair dryer overheating and melting. No injuries have been reported."
+        }
+      ],
+      "Manufacturers": [],
+      "Retailers": [
+        {
+          "Name": "Sold Online At:\nAmazon.com from February 2026 through March 2026 for about $30.",
+          "CompanyID": ""
+        }
+      ],
+      "Importers": [],
+      "Distributors": [
+        {
+          "Name": "Guang Zhou Shi Wan Te Fu Ke Ji You Xian Gong Si, dba Wantefully, of China",
+          "CompanyID": ""
+        }
+      ],
+      "SoldAtLabel": null,
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "ProductUPCs": [],
+      "Hazards": [
+        {
+          "Name": "The recalled hair dryer brushes are in violation of federal regulations for hair dryers as they lack an integrated immersion protection device, which presents a substantial product hazard to consumers and  the risk of death or serious injury from electrocution or shock if the hair dryers fall into water while plugged in. In addition, the recalled hair dryer brushes can overheat, posing a burn hazard.",
+          "HazardType": "",
+          "HazardTypeID": ""
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should unplug and stop using the recalled hair dryers immediately and contact Guang Zhou to receive a full refund. Consumers will be asked to cut the power cord and provide a photo of the destroyed product to wantefully@163.com."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "context_terms": [
+        "dryer"
+      ]
+    },
+    {
+      "RecallID": 10971,
+      "RecallNumber": "26750",
+      "RecallDate": "2026-09-10T00:00:00",
+      "Description": "This recall involves DHASUWT Hair Dryer and Blow Dryer Brush in 1, Negative Ion Hair Dryer Brush, 1Step Ionic Hair Straightener Brush Hair Dryer Hot Air Brush, Hair Styling Tool Straightening Dryer, with model number XR-8801. The hair dryers are black hot air dryer paddle brushes with a pink design and brush bristles. There are three heat settings on the hair dryers. The top of the product packaging is labeled XRUI with the model name XR-8801.",
+      "URL": "https://cpsc.gov/Recalls/2026/Junkins-Recalls-DHASUWT-Hair-Dryer-Brushes-Due-to-Risk-of-Serious-Injury-or-Death-from-Electrocution-and-Shock-Hazards-Violate-Federal-Regulations-Smoking-and-Fire-Hazards",
+      "Title": "Junkins Recalls DHASUWT Hair Dryer Brushes Due to Risk of Serious Injury or Death from Electrocution, and Shock Hazards; Violate Federal Regulations; Smoking and Fire Hazards",
+      "ConsumerContact": "Junkins at DHASUWT_recall@163.com.",
+      "LastPublishDate": "2026-09-10T00:00:00",
+      "Products": [
+        {
+          "Name": "DHASUWT Hair Dryer and Blow Dryer Brushes",
+          "Description": "",
+          "Model": "",
+          "Type": "Hair Dryers",
+          "CategoryID": "1982",
+          "NumberOfUnits": "About 1,738"
+        }
+      ],
+      "Inconjunctions": [],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/junkins1.gif",
+          "Caption": "Recalled DHASUWT Hair Dryer and Blow Dryer Brush – Front View"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/junkins2.gif",
+          "Caption": "Recalled DHASUWT Hair Dryer and Blow Dryer Brush – Back View"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/junkins3.gif",
+          "Caption": "Recalled DHASUWT Hair Dryer and Blow Dryer – Side View"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/junkins4.gif",
+          "Caption": "Recalled DHASUWT Hair Dryer and Blow Dryer Brush - Product Packaging"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/junkins5.gif",
+          "Caption": "Product Packaging Label with Model Number"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "There have been 10 reported incidents of the hair dryer smoking or catching fire. No injuries reported."
+        }
+      ],
+      "Manufacturers": [],
+      "Retailers": [
+        {
+          "Name": "Sold At:\nAmazon.com from October 2024 through June 2026 for about $27",
+          "CompanyID": ""
+        }
+      ],
+      "Importers": [],
+      "Distributors": [
+        {
+          "Name": "Shenzhen Weihua Chenyu Technology Co., Ltd, dba Junkins, of China",
+          "CompanyID": ""
+        }
+      ],
+      "SoldAtLabel": null,
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "ProductUPCs": [],
+      "Hazards": [
+        {
+          "Name": "The recalled hair dryer brushes lack an integrated immersion protection device, which presents a substantial product hazard to consumers, posing the risk of death or serious injury from electrocution or shock if the hair dryers fall into water while plugged in to an electrical source. The recalled hair dryer brushes also pose the risk of death or serious injury from smoking and fire hazards.",
+          "HazardType": "",
+          "HazardTypeID": ""
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should unplug and stop using the recalled hair dryers immediately and contact Junkins to receive a full refund. Consumers will be asked to cut the power cord and provide a photo of the destroyed product to DHASUWT_recall@163.com."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "context_terms": [
+        "dryer"
+      ]
+    },
+    {
+      "RecallID": 10885,
+      "RecallNumber": "26649",
+      "RecallDate": "2026-07-30T00:00:00",
+      "Description": "The Galanz retro-style refrigerators were sold in black, blue, red and white, and measure about 58 inches high, 24 inches deep and 21 inches wide. The 7.6 cu. ft. capacity refrigerators have either left-hand opening or right-hand opening doors with handles, three adjustable glass shelves and one drawer. The top freezer has a separate door, one drawer and \"Galanz\" printed on front. Only refrigerators with date codes ranging from December 2018 through December 2020 and with one of the following model numbers are included in this recall: BCD-215V-62H, GLR76TRDER, GLR76TBKER, GLR76TBEER or GLR76TWEER. \"Galanz,\" the model number and the date code, in YYYYMM format, are printed on a white label on the upper left-hand corner on the back of the unit.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/Galanz-Americas-Recalls-Retro-Refrigerators-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-and-Burn-Hazards-One-Death-Reported",
+      "Title": "Galanz Americas Recalls Retro Refrigerators Due to Risk of Serious Injury or Death from Fire and Burn Hazards; One Death Reported",
+      "ConsumerContact": "Galanz Americas at 888-462-0579 from 8 a.m. to 5 p.m. ET, Monday through Friday, email at customerservice@galanzamericas.com, or online at GalanzRetroFridgeRecall.expertinquiry.com or www.galanz.com/us/ and click on \"PRODUCT RECALLS\" at the top of the page for more information.",
+      "LastPublishDate": "2026-07-31T00:00:00",
+      "Products": [
+        {
+          "Name": "Galanz Retro Refrigerators",
+          "Description": "",
+          "Model": "",
+          "Type": "",
+          "CategoryID": "",
+          "NumberOfUnits": "About 121,680"
+        }
+      ],
+      "Inconjunctions": [],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Picture10_11.jpg",
+          "Caption": "Recalled Galanz Retro Refrigerator – Model BCD-215V-62H"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Picture11_12.jpg",
+          "Caption": "Recalled Galanz Retro Refrigerator – Model GLR76TBKER"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Picture12_10.jpg",
+          "Caption": "Recalled Galanz Retro Refrigerator – Model GLR76TBEER"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Picture13_8.jpg",
+          "Caption": "Recalled Galanz Retro Refrigerator – Model GLR76TWEER"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Picture14_5.jpg",
+          "Caption": "Model numbers BCD-215V-62H, GLR76TRDER, GLR76TBKER, GLR76TBEER or GLR76TWEER followed by the date code, in YYYYMM format, are printed on label on the back of the Galanz refrigerators. Only refrigerators with date codes ranging from December 2018 through December 2020 are included in this recal"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "CPSC is aware of 34 reports of fire involving the refrigerators, one of which resulted in a fatality according to the local fire department report."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Zhongshan Galanz, of China",
+          "CompanyID": ""
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Home Depot stores nationwide and online at Amazon.com from January 2019 to September 2022, for between $330 and $520.",
+          "CompanyID": ""
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Home Depot, of Georgia",
+          "CompanyID": ""
+        },
+        {
+          "Name": "Galanz Americas Limited Company, of New Jersey",
+          "CompanyID": ""
+        }
+      ],
+      "Distributors": [],
+      "SoldAtLabel": null,
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "ProductUPCs": [],
+      "Hazards": [
+        {
+          "Name": "The recalled refrigerators' internal electrical components can short circuit and ignite, posing a risk of serious injury or death from fire and burn hazards.",
+          "HazardType": "",
+          "HazardTypeID": ""
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should unplug and stop using the recalled refrigerators immediately until repaired and contact Galanz to schedule free in-home repair by a qualified technician."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "context_terms": [
+        "refrigerator"
+      ]
+    },
+    {
+      "RecallID": 10861,
+      "RecallNumber": "26618",
+      "RecallDate": "2026-07-16T00:00:00",
+      "Description": "This recall involves all Panasonic Electric Toaster Ovens, Model No. NB-G200. The Electric Toaster Ovens are stainless steel with the temperature knob located on the bottom. The brand name Panasonic is written on the front of the product. The Electric Toaster has six cooking menus with pre-set buttons, with a digital timer (up to 25 minutes) and temperature settings (250-Degree F to 500-Degree F). The model number is located on the name plate label on the back of the Electric Toaster Oven.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/Panasonic-Recalls-Electric-Toaster-Ovens-Due-to-Shock-and-Fire-Hazards",
+      "Title": "Panasonic Recalls Electric Toaster Ovens Due to Shock and Fire Hazards",
+      "ConsumerContact": "Panasonic toll-free at 888-943-2391 from 8 a.m. to 5 p.m. ET Monday through Friday, email at Panasonic6895@sedgwick.com and online at shop.panasonic.com/toaster-oven-recall for more information.",
+      "LastPublishDate": "2026-07-17T00:00:00",
+      "Products": [
+        {
+          "Name": "Electric Toaster Ovens",
+          "Description": "",
+          "Model": "",
+          "Type": "",
+          "CategoryID": "",
+          "NumberOfUnits": "About 11,480 (In addition, about 2,184 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/panasonic-flashxpress-toaster-oven-recalled-due-electric-shock-hazard"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/panasonic-nb-g200.png",
+          "Caption": "Recalled Panasonic Model No. NB-G200 Electric Toaster Oven"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "There have been four consumer reports of tripped circuit breakers or outlets, and one report that the product stopped working. No fires or injuries have been reported."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Panasonic Manufacturing (Xiamen) Co., Ltd, of Xiamen, Fujian, China",
+          "CompanyID": ""
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Online at Amazon.com, Costco.com, Panasonic.com and other online platforms nationwide from October 2024 through April 2026 for about $170.",
+          "CompanyID": ""
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Panasonic Corporation of North America, of Newark, New Jersey",
+          "CompanyID": ""
+        }
+      ],
+      "Distributors": [],
+      "SoldAtLabel": null,
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "ProductUPCs": [],
+      "Hazards": [
+        {
+          "Name": "The power cord insulation can be insufficient due to a protective fiberglass sleeve not covering it adequately, posing a risk of shock and/or fire hazard.",
+          "HazardType": "",
+          "HazardTypeID": ""
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should stop using the recalled Electric Toaster Oven immediately and contact Panasonic for a full refund."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "context_terms": [
+        "oven",
+        "toaster"
+      ]
+    },
+    {
+      "RecallID": 10853,
+      "RecallNumber": "26605",
+      "RecallDate": "2026-07-09T00:00:00",
+      "Description": "This recall includes the stainless-steel Cuisinart Propel+ Four Burner 3-in-1 Gas Grill, featuring a griddle, a stove top burner and a pizza oven with tempered glass located on top of the lid of the grill. The model number CGG-6331 can be found on the label on the inside of the right-hand metal door, along with the serial number.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/Conair-Recalls-Cuisinart-Propel-Four-Burner-3-In-1-Gas-Grills-Due-to-Risk-of-Serious-Injury-from-Laceration-Hazard",
+      "Title": "Conair Recalls Cuisinart Propel+ Four Burner 3-In-1 Gas Grills Due to Risk of Serious Injury from Laceration Hazard",
+      "ConsumerContact": "Conair toll-free at 833-408-0463 from 8:30 a.m. to 6 p.m. ET Monday through Friday or online at https://www.recallrtr.com/3in1grill or www.cuisinart.com and click on \"Product Recalls\" at the bottom of the page for more information.",
+      "LastPublishDate": "2026-07-10T00:00:00",
+      "Products": [
+        {
+          "Name": "Cuisinart Propel+ Four Burner 3-in-1 Gas Grill with pizza oven",
+          "Description": "",
+          "Model": "",
+          "Type": "",
+          "CategoryID": "",
+          "NumberOfUnits": "About 12,660 (In addition, about 83 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/cuisinart-propel-four-burner-3-1-gas-grill-s-recalled-due-laceration-hazard"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/cuisipropel-1.png",
+          "Caption": "Recalled Cuisinart Propel+ Four Burner 3-in-1 Gas Grill"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/cuisipropel-2.png",
+          "Caption": "A close up of the pizza oven featured in the recalled grill, with the glass window open"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/cuisipropel-3.png",
+          "Caption": "Label with model number and serial number, which is located on the inside of the right-hand metal door"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received 37 reports of shattered glass during use; one fire was reported. No injuries have been reported."
+        }
+      ],
+      "Manufacturers": [],
+      "Retailers": [
+        {
+          "Name": "Lowe's, Walmart and on-line at cuisinart.com from December 2024 through May 2026 for between $500 and $750.",
+          "CompanyID": ""
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Conair LLC, of Stamford, Connecticut, dba Cuisinart",
+          "CompanyID": ""
+        }
+      ],
+      "Distributors": [],
+      "SoldAtLabel": null,
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "ProductUPCs": [],
+      "Hazards": [
+        {
+          "Name": "The tempered glass window in the pizza oven can shatter during use, posing a risk of serious injury from laceration hazard.",
+          "HazardType": "",
+          "HazardTypeID": ""
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should stop using the recalled Cuisinart Propel+ Four Burner 3-in-1 Gas Grill immediately and visit Conair's website to check if their grill is included in the recall. If affected, follow the instructions to safely remove the tempered glass window on the pizza oven and upload two photographs to the firm's website; one of the removed glass, and one of the grill's serial number. Upon verification, consumers will receive a $500 refund by check or be reimbursed for the original purchase amount with proof of receipt. After receiving their refund, consumers should write the word \"Recall\" with a black sharpie marker on the tempered glass and dispose of it."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "context_terms": [
+        "oven"
+      ]
+    },
+    {
+      "RecallID": 10772,
+      "RecallNumber": "26485",
+      "RecallDate": "2026-05-14T00:00:00",
+      "Description": "This recall involves Agio Menlo Woven Patio Swings with model number 1934256. The recalled swings were sold exclusively at Costco retail stores and online at Costco.com. The swings have a black metal frame, black metal swing arms, a fabric canopy, and a padded seat in brown outdoor wicker. The swing frame is about 75 inches high, 71 inches wide, and 48 inches deep. The swing seat is about 58 inches wide and 19 inches deep. Consumers who are unable to determine whether they have the recalled model can contact World Bright International Limited for assistance.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/World-Bright-International-Limited-Recalls-Agio-Menlo-Woven-Patio-Swings-Due-to-Risk-of-Serious-Injury-or-Death-from-Fall-Hazard-Sold-at-Costco",
+      "Title": "World Bright International Limited Recalls Agio Menlo Woven Patio Swings Due to Risk of Serious Injury or Death from Fall Hazard; Sold at Costco",
+      "ConsumerContact": "World Bright International Limited toll-free at 888-383-1932 from 9 a.m. to 7 p.m. ET Monday through Friday, by email at recall@agioliving.com, or online at www.agioliving.com/pages/recall/patioswing or www.agioliving.com and click on \"Product Recalls\" at the top of the page for more information.",
+      "LastPublishDate": "2026-05-15T00:00:00",
+      "Products": [
+        {
+          "Name": "Agio Menlo Woven Patio Swings",
+          "Description": "",
+          "Model": "",
+          "Type": "",
+          "CategoryID": "",
+          "NumberOfUnits": "About 18,500"
+        }
+      ],
+      "Inconjunctions": [],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/agio-1.png",
+          "Caption": "Recalled Agio Menlo Woven Patio Swing (Model No. 1934256)"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/agio-2.png",
+          "Caption": "Recalled Agio Menlo Woven Patio Swing (Model No. 1934256) showing old S-hooks"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/agio-3.png",
+          "Caption": "Free replacement S-hook with clasp"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received eight reports of the swing seat detaching from the swing frame, resulting in eight reports of injury including impact injuries to the head and arms."
+        }
+      ],
+      "Manufacturers": [],
+      "Retailers": [
+        {
+          "Name": "Costco retail stores and online at Costco.com from February 2026 through March 2026 for between $549 and $649.",
+          "CompanyID": ""
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Costco Wholesale Corporation, of Issaquah, Washington",
+          "CompanyID": ""
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "World Bright International Limited, of Hong Kong",
+          "CompanyID": ""
+        }
+      ],
+      "SoldAtLabel": null,
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "ProductUPCs": [],
+      "Hazards": [
+        {
+          "Name": "The swing seat can detach from the frame while in use, posing a risk of serious injury or death from a fall hazard.",
+          "HazardType": "",
+          "HazardTypeID": ""
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately stop using the recalled patio swings and contact World Bright International Limited to receive a free repair in the form of replacement hooks and instructions for replacing the hooks."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "context_terms": [
+        "oven"
+      ]
+    },
+    {
+      "RecallID": 10506,
+      "RecallNumber": "26125",
+      "RecallDate": "2025-11-26T00:00:00",
+      "Description": "This recall involves MyOnlyStyler Root Booster Hair Dryers. The hair dryer was sold in white with black bristles and has \"MY ONLY STYLER\" printed on the handle. Model number \"MOS-22\" is printed on the back of the handle. The hair dryer measures 12 inches long by 1.75 inches wide.",
+      "URL": "https://www.cpsc.gov/Recalls/2026/McLee-Creations-Recalls-MyOnlyStyler-Root-Booster-Hair-Dryers-Due-to-Risk-of-Serious-Injury-or-Death-from-Electrocution-and-Shock-Hazards",
+      "Title": "McLee Creations Recalls MyOnlyStyler Root Booster Hair Dryers Due to Risk of Serious Injury or Death from Electrocution and Shock Hazards",
+      "ConsumerContact": "Visit the company website at www.myonlystyler.com and click on \"Product Recalls\" at the top of the page or https://www.myonlystyler.com/product-recalls for more information.",
+      "LastPublishDate": "2025-11-26T00:00:00",
+      "Products": [
+        {
+          "Name": "MyOnlyStyler Root Booster Hair Dryers",
+          "Description": "",
+          "Model": "",
+          "Type": "",
+          "CategoryID": "",
+          "NumberOfUnits": "About 740"
+        }
+      ],
+      "Inconjunctions": [],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/RecalledMyOnlyStylerRootBoosterHairDryer.png",
+          "Caption": "Recalled MyOnlyStyler Root Booster Hair Dryer with the power cord cut in half for disposal"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Manufacturers": [],
+      "Retailers": [
+        {
+          "Name": "Online at Amazon.com from November 2022 through October 2025 for between $50 and $60.",
+          "CompanyID": ""
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "McLee Creations LLC, of Valencia, California",
+          "CompanyID": ""
+        }
+      ],
+      "Distributors": [],
+      "SoldAtLabel": null,
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "ProductUPCs": [],
+      "Hazards": [
+        {
+          "Name": "The handheld hair dryers lack an immersion protection device, which presents a substantial product hazard to consumers, posing the risk of death or serious injury from electrocution or shock if the hair dryers fall into water while plugged in.",
+          "HazardType": "",
+          "HazardTypeID": ""
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately unplug and stop using the recalled hair dryers and contact McLee Creations to receive a full refund. Consumers must submit a photo of the hair dryer with its power cord cut in half to the recall registration portal at https://www.myonlystyler.com/product-recall-registration/ and follow the disposal instructions provided on the website https://www.myonlystyler.com/product-recalls."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "context_terms": [
+        "dryer"
+      ]
+    },
+    {
+      "RecallID": 10411,
+      "RecallNumber": "25475",
+      "RecallDate": "2025-09-25T00:00:00",
+      "Description": "This recall involves Oster French Door Countertop Ovens with model numbers TSSTTVFDXL, TSSTTVFDDG, TSSTTVFDMAF and TSSTTVFDDAF. The recalled ovens have a spring-loaded bilateral door made of glass with metal handles. A label on the backside of the oven identifies the model number. In addition, the original packaging has information identifying the model number. The four models differ in cooking options (e.g., air fryer) and control types (analog dials or digital push-button controls). \"Oster\" is engraved on the front bottom right of the oven.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Sunbeam-Products-Recalls-More-than-One-Million-Oster-French-Door-Countertop-Ovens-Due-to-Burn-Hazard",
+      "Title": "Sunbeam Products Recalls More than One Million Oster French Door Countertop Ovens Due to Burn Hazard",
+      "ConsumerContact": "Sunbeam Products Inc. toll free at 800-334-0759 from 8 a.m. to 5 p.m. ET Monday through Friday, or online at https://recall.oster.com or www.oster.com and click on \"Product Recalls\" at the top of the page for more information.",
+      "LastPublishDate": "2025-09-25T00:00:00",
+      "Products": [
+        {
+          "Name": "Oster French Door Countertop Ovens",
+          "Description": "",
+          "Model": "",
+          "Type": "",
+          "CategoryID": "",
+          "NumberOfUnits": "About 1,290,000 (In addition, about 104,195 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/oster-french-door-toaster-countertop-ovens-recalled-due-burn-hazard"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Picture1_142.png",
+          "Caption": "Recalled Model TSSTTVFDMAF Oster French Door Countertop Oven"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Picture2_47.png",
+          "Caption": "Recalled Model TSSTTVFDDAF Oster French Door Countertop Oven"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Picture3_34.png",
+          "Caption": "Recalled Model TSSTTVFDXL Oster French Door Countertop Oven"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Picture4_50.png",
+          "Caption": "Recalled Model TSSTTVFDDG Oster French Door Countertop Oven"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "Sunbeam Products Inc. has received 95 reports of the doors unexpectedly closing, resulting in burn injuries to consumers, including two reports of second-degree burns."
+        }
+      ],
+      "Manufacturers": [],
+      "Retailers": [
+        {
+          "Name": "Bed Bath and Beyond, Costco, Walmart and other stores nationwide and online at Amazon.com and Overstock.com from August 2015 through July 2025 for between $140 and $250.",
+          "CompanyID": ""
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Sunbeam Products Inc., of Atlanta, Georgia",
+          "CompanyID": ""
+        }
+      ],
+      "Distributors": [],
+      "SoldAtLabel": null,
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "ProductUPCs": [],
+      "Hazards": [
+        {
+          "Name": "The oven's doors can unexpectedly close, posing a burn hazard to consumers.",
+          "HazardType": "",
+          "HazardTypeID": ""
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately stop using the recalled countertop ovens and contact Sunbeam Products Inc. to receive a free repair kit. The repair kit will include a clip-on device that provides additional holding force to help keep the doors in the open position when reaching in the oven, along with repair instructions and a QR code link to an installation video. The repair kit does not require any tool to install."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "context_terms": [
+        "oven"
+      ]
+    },
+    {
+      "RecallID": 10380,
+      "RecallNumber": "25430",
+      "RecallDate": "2025-08-14T00:00:00",
+      "Description": "This recall involves Empower Brands' Hair Dryers sold under the \"Remington\" brand, model number D3190DCDN. The hairdryers were sold in purple with black accents. There are three black-colored operating buttons on the hair dryer handles. \"Remington\" is written in white text on the side of the hair dryer. The product is about 8.5 inches long by 11.6 inches high by 3.6 inches wide and weighs approximately 1.5 pounds.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Empower-Brands-Recalls-Remington-Hair-Dryers-Due-to-Risk-of-Serious-Injury-or-Death-from-Electrocution-and-Shock-Hazards",
+      "Title": "Empower Brands Recalls Remington Hair Dryers Due to Risk of Serious Injury or Death from Electrocution and Shock Hazards",
+      "ConsumerContact": "Empower Brands toll-free at 1-844-695-2134 from 9 a.m. to 5:30 p.m. ET Monday through Friday, email at HairdryerRecall@Spectrumbrands.com, or online at https://www.remingtonproducts.com/product-recalls or at www.remingtonproducts.com and click on \"Product Recalls\" at the bottom of the page for more information.",
+      "LastPublishDate": "2025-08-14T00:00:00",
+      "Products": [
+        {
+          "Name": "Hair Dryers sold under the \"Remington\" brand, model number D3190DCDN",
+          "Description": "",
+          "Model": "",
+          "Type": "",
+          "CategoryID": "",
+          "NumberOfUnits": "About 56,300"
+        }
+      ],
+      "Inconjunctions": [],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/remington.jpg",
+          "Caption": "Recalled Remington Hair Dryer"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Manufacturers": [],
+      "Retailers": [
+        {
+          "Name": "Walmart Marketplace, Target Marketplace, and Amazon from March 2024 through June 2025 for between $25 and $32.",
+          "CompanyID": ""
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Spectrum Brands Inc. for the benefit of Empower Brands, LLC, both of Middleton, Wisconsin",
+          "CompanyID": ""
+        }
+      ],
+      "Distributors": [],
+      "SoldAtLabel": null,
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "ProductUPCs": [],
+      "Hazards": [
+        {
+          "Name": "The handheld hair dryers lack an immersion protection device, which presents a substantial product hazard to consumers, posing the risk of death or serious injury from electrocution or shock if the hair dryers fall into water while plugged in.",
+          "HazardType": "",
+          "HazardTypeID": ""
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately unplug and stop using the recalled hair dryers and contact Empower Brands to receive a full refund. Consumers must submit a photo of the hair dryer with its power cord cut in half to the recall registration portal at https://www.remingtonproducts.com/product-recalls and follow the disposal instructions provided on the website."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "context_terms": [
+        "dryer"
+      ]
+    },
+    {
+      "RecallID": 10267,
+      "RecallNumber": "25257",
+      "RecallDate": "2025-05-08T00:00:00",
+      "Description": "This recall involves Legend Brands' Bliss hair dryers. The foldable travel hairdryers were sold in teal and pink with silver accents. The three-speed hairdryers have a temperature regulation switch. The Bliss logo appears in white lettering on the side of the blow dryer.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Legend-Brands-Recalls-Bliss-Hair-Dryers-Due-to-Risk-of-Serious-Injury-or-Death-from-Electrocution-and-Shock-Hazards-Sold-Exclusively-at-Burlington-Stores",
+      "Title": "Legend Brands Recalls Bliss Hair Dryers Due to Risk of Serious Injury or Death from Electrocution and Shock Hazards; Sold Exclusively at Burlington Stores",
+      "ConsumerContact": "Legend Brands toll-free at 888-325-9044 from 9 a.m. to 5:30 p.m. ET Monday through Friday or email at support@shoptrakk.com.",
+      "LastPublishDate": "2025-05-08T00:00:00",
+      "Products": [
+        {
+          "Name": "Bliss Hair Dryers",
+          "Description": "",
+          "Model": "",
+          "Type": "",
+          "CategoryID": "",
+          "NumberOfUnits": "About 500"
+        }
+      ],
+      "Inconjunctions": [],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/bliss.jpg",
+          "Caption": "Recalled Bliss hair dryer - pink"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Manufacturers": [],
+      "Retailers": [
+        {
+          "Name": "Burlington stores nationwide from January 2025 through March 2025 for about $20.",
+          "CompanyID": ""
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Legend Brands LLC, of New York",
+          "CompanyID": ""
+        }
+      ],
+      "Distributors": [],
+      "SoldAtLabel": null,
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "ProductUPCs": [],
+      "Hazards": [
+        {
+          "Name": "The handheld hair dryers lack an immersion protection device and can cause death or serious injury due to electrocution or shock if the hair dryers fall into water when plugged in. The hair dryers are in violation of federal regulations for hair dryers and present a substantial product hazard.",
+          "HazardType": "",
+          "HazardTypeID": ""
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately unplug and stop using the recalled hair dryers and contact Legend Brands to receive a full refund. Consumers will be asked to destroy the hair dryers by cutting the cord and disposing of the product. Consumers must send a photo of the destroyed hair dryers to support@shoptrakk.com. Legend Brands is contacting all known purchasers directly."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "context_terms": [
+        "dryer"
+      ]
+    },
+    {
+      "RecallID": 10230,
+      "RecallNumber": "25214",
+      "RecallDate": "2025-04-03T00:00:00",
+      "Description": "This recall involves Vivitar Blender Bottles. The bottles are made of clear plastic and have a white plastic base with a white top. \"VIVITAR,\" \"Description: Blender Bottle,\" \"ITEM: ES15-BB-TA\" and \"MID #5220824\" are printed on a sticker located under the white plastic base of the bottle. \"MID #5220824\"is also stamped on the underside of the white plastic base.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/Sakar-Recalls-Vivitar-Blender-Bottles-Due-to-Laceration-Hazard-Sold-Exclusively-at-Target",
+      "Title": "Sakar Recalls Vivitar Blender Bottles Due to Laceration Hazard; Sold Exclusively at Target",
+      "ConsumerContact": "Sakar at 800-592-9541 anytime, email at support@sakar.com, or online at https://www.vivitar.com/pages/recalls or https://www.vivitar.com and click on \"Recalls\" at the bottom of the page.",
+      "LastPublishDate": "2025-04-03T00:00:00",
+      "Products": [
+        {
+          "Name": "Vivitar Blender Bottles",
+          "Description": "",
+          "Model": "",
+          "Type": "",
+          "CategoryID": "",
+          "NumberOfUnits": "About 199,000"
+        }
+      ],
+      "Inconjunctions": [],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/vivitar-1.png",
+          "Caption": "Recalled Vivitar Blender Bottle"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/vivitar-2.png",
+          "Caption": "VIVITAR, \"Description: Blender Bottle,\" \"ITEM: ES15-BB-TA\" and \"MID #5220824\" located under the white plastic base of the bottle"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received one report where the consumer was able to remove the bottle from the base while the blades were engaged. No injuries have been reported."
+        }
+      ],
+      "Manufacturers": [],
+      "Retailers": [
+        {
+          "Name": "Target stores nationwide and online at Target.com from December 2024 through January 2025 for about $5.",
+          "CompanyID": ""
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Sakar International Inc., of Edison, New Jersey",
+          "CompanyID": ""
+        }
+      ],
+      "Distributors": [],
+      "SoldAtLabel": null,
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "ProductUPCs": [],
+      "Hazards": [
+        {
+          "Name": "The blender's blades can continue to operate when the bottle is not attached to the blender, posing a laceration hazard.",
+          "HazardType": "",
+          "HazardTypeID": ""
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately stop using the recalled blender bottles and contact Sakar for instructions on how to receive a full refund in the form of a $5 Target gift card or a check, and a pre-paid return shipping label. The recalled blender must be returned to Sakar to receive the refund. Proof of purchase (receipt) is not required. Consumers should not return the recalled units to Target stores. Sakar is contacting all known purchasers."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "context_terms": [
+        "blender"
+      ]
+    },
+    {
+      "RecallID": 10226,
+      "RecallNumber": "25209",
+      "RecallDate": "2025-04-03T00:00:00",
+      "Description": "This recall involves foldable travel hair dryers. The dryers were sold in blue, pink and purple, and have a red switch with three adjustable gears and an air-collecting nozzle. \"Guangmei 3858 hair dryer\" is printed on the side of the hair dryer.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/AliExpress-Recalls-Foldable-Travel-Hair-Dryers-Due-to-Electrocution-and-Shock-Hazards-Sold-on-AliExpress-com",
+      "Title": "AliExpress Recalls Foldable Travel Hair Dryers Due to Electrocution and Shock Hazards; Sold on AliExpress.com",
+      "ConsumerContact": "AliExpress online service at https://helpcenter.aliexpress.com/s/BuyerHelp/home?language=en_US&m_station=BuyerHelp, email at us_product_recall@aliexpress.com, or online at Ali Express Help Center or at www.aliexpress.com and click on \"Recalls\" at the bottom of the page for more information.",
+      "LastPublishDate": "2025-04-03T00:00:00",
+      "Products": [
+        {
+          "Name": "Foldable Travel Hair Dryers",
+          "Description": "",
+          "Model": "",
+          "Type": "",
+          "CategoryID": "",
+          "NumberOfUnits": "About 80"
+        }
+      ],
+      "Inconjunctions": [],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/dryer-1.jpg",
+          "Caption": "Recalled hair dryers - purple and blue"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/dryer-2.png",
+          "Caption": "Recalled hair dryer - pink"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Manufacturers": [],
+      "Retailers": [
+        {
+          "Name": "AliExpress.com from April 2022 through January 2025 for between $4 and $13.",
+          "CompanyID": ""
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "AliExpress, of San Mateo, California",
+          "CompanyID": ""
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Shenzhen Electronic Commerce Co. Ltd.",
+          "CompanyID": ""
+        },
+        {
+          "Name": "Yaoyi Electronic Commerce Co. Ltd., of China",
+          "CompanyID": ""
+        }
+      ],
+      "SoldAtLabel": null,
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "ProductUPCs": [],
+      "Hazards": [
+        {
+          "Name": "The handheld hair dryers lack an immersion protection device that can cause death or serious injury due to electrocution or shock hazards if it falls into water when plugged in. The hair dryers are in violation of the federal regulations and present a substantial product hazard.",
+          "HazardType": "",
+          "HazardTypeID": ""
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately unplug and stop using the recalled hair dryers and contact AliExpress to receive a full refund. Consumers will be asked to destroy the hair dryer by cutting the cord and disposing of it. Consumers must send a photo of the destroyed hair dryer to us_product_recall@aliexpress.com or by replying to the recall email sent by AliExpress. AliExpress is contacting all known purchasers directly."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "context_terms": [
+        "dryer"
+      ]
+    },
+    {
+      "RecallID": 10228,
+      "RecallNumber": "25211",
+      "RecallDate": "2025-04-03T00:00:00",
+      "Description": "This recall involves LVOE-branded negative ion hair dryers. The hair dryers were sold in purple, pink, light gray and gold and have multiple air settings, temperature control and a diffuser. They come with three or four nozzles. \"Product name,\" \"Hair Dryer\" and \"Product model: X13\" are printed on a label located on the hair dryer's packaging.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/AliExpress-Recalls-LVOE-Hair-Dryers-Due-to-Electrocution-and-Shock-Hazards-Sold-on-AliExpress-com",
+      "Title": "AliExpress Recalls LVOE Hair Dryers Due to Electrocution and Shock Hazards; Sold on AliExpress.com",
+      "ConsumerContact": "AliExpress online service at https://helpcenter.aliexpress.com/s/BuyerHelp/home?language=en_US&m_station=BuyerHelp, email at us_product_recall@aliexpress.com, or online at AliExpress Buyer Help Center or at www.aliexpress.com and click on \"Recalls\" at the bottom of the page for more information.",
+      "LastPublishDate": "2025-04-03T00:00:00",
+      "Products": [
+        {
+          "Name": "LVOE Hair Dryers",
+          "Description": "",
+          "Model": "",
+          "Type": "",
+          "CategoryID": "",
+          "NumberOfUnits": "About 30"
+        }
+      ],
+      "Inconjunctions": [],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/lvoe-1.jpg",
+          "Caption": "Recalled LVOE hair dryers"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/lvoe-2.png",
+          "Caption": "Recalled LVOE Hair Dryer Plugs"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Manufacturers": [],
+      "Retailers": [
+        {
+          "Name": "AliExpress.com from April 2023 through December 2024 for between $117 and $185.",
+          "CompanyID": ""
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "AliExpress, of San Mateo, California",
+          "CompanyID": ""
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Shenzhen Meili Technology Co., of China",
+          "CompanyID": ""
+        }
+      ],
+      "SoldAtLabel": null,
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "ProductUPCs": [],
+      "Hazards": [
+        {
+          "Name": "The handheld hair dryers lack an immersion protection device and can cause death or serious injury due to electrocution or shock if they fall into water when plugged in. The hair dryers are in violation of the federal regulations and present a substantial product hazard.",
+          "HazardType": "",
+          "HazardTypeID": ""
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately unplug and stop using the recalled hair dryer and contact AliExpress to receive a full refund. Consumers will be asked to destroy the hair dryer by cutting the cord and disposing of it. Consumers must send a photo of the destroyed hair dryers to us_product_recall@aliexpress.com or by replying to the recall email sent by AliExpress. AliExpress is contacting all known purchasers directly."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "context_terms": [
+        "dryer"
+      ]
+    },
+    {
+      "RecallID": 10227,
+      "RecallNumber": "25210",
+      "RecallDate": "2025-04-03T00:00:00",
+      "Description": "This recall involves XZT Huizhou's compact mini hair dryers. The foldable dryers were sold in blue, green, pink and white, and have a white switch with two gear settings and a thermostatic function. \"Fashion Hair Dryer\" and an image of two animal faces appear on the side of the hair dryer next to a white button with \"OK\" embossed on it.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/AliExpress-Recalls-Mini-Travel-Hair-Dryers-Due-to-Electrocution-and-Shock-Hazards-Sold-on-AliExpress-com",
+      "Title": "AliExpress Recalls Mini Travel Hair Dryers Due to Electrocution and Shock Hazards; Sold on AliExpress.com",
+      "ConsumerContact": "AliExpress online service at https://helpcenter.aliexpress.com/s/BuyerHelp/home?language=en_US&m_station=BuyerHelp, email at us_product_recall@aliexpress.com, or online at AliExpress Buyer's Help Center or at www.aliexpress.com and click on \"Recalls\" at the bottom of the page for more information.",
+      "LastPublishDate": "2025-04-03T00:00:00",
+      "Products": [
+        {
+          "Name": "Mini Travel Hair Dryers",
+          "Description": "",
+          "Model": "",
+          "Type": "",
+          "CategoryID": "",
+          "NumberOfUnits": "About 50"
+        }
+      ],
+      "Inconjunctions": [],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/xzt-1_0.jpg",
+          "Caption": "Recalled XZT hair dryers - green, blue and pink"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/xzt-2_0.jpg",
+          "Caption": "Recalled XZT hair dryer - white"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/xzt-3_0.png",
+          "Caption": "Recalled XZT Hair Dryer"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Manufacturers": [],
+      "Retailers": [
+        {
+          "Name": "AliExpress.com from May 2023 through November 2024 for between $1 and $7.",
+          "CompanyID": ""
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "AliExpress, of San Mateo, California",
+          "CompanyID": ""
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Huizhou Bailitong Electronics Co. Ltd., dba XZT Huizhou, of China",
+          "CompanyID": ""
+        }
+      ],
+      "SoldAtLabel": null,
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "ProductUPCs": [],
+      "Hazards": [
+        {
+          "Name": "The handheld hair dryers lack an immersion protection device and can cause death or serious injury due to electrocution or shock if the hair dryers fall into water when plugged in. The hair dryers are in violation of the federal regulations and present a substantial product hazard.",
+          "HazardType": "",
+          "HazardTypeID": ""
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately unplug and stop using the recalled hair dryer and contact AliExpress to receive a full refund. Consumers will be asked to destroy the recalled hair dryer by cutting the cord and disposing of it. Consumers must send a photo of the destroyed hair dryer to us_product_recall@aliexpress.com, or by replying to the recall email sent by AliExpress. AliExpress is contacting all known purchasers directly."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "context_terms": [
+        "dryer"
+      ]
+    },
+    {
+      "RecallID": 10177,
+      "RecallNumber": "25152",
+      "RecallDate": "2025-02-20T00:00:00",
+      "Description": "This recall involves OdorStop Boot and Shoe Dryers and Deodorizers with model numbers OSOBSDD2 and OSOBSDD. The model number and OdorStop name are on a label at the bottom of the product. The products are used to dry and deodorize two or four boots with high-output fans and a 3-hour timer.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/OdorStop-Recalls-Boot-and-Shoe-Dryers-and-Deodorizers-Due-to-Fire-Hazard",
+      "Title": "OdorStop Recalls Boot and Shoe Dryers and Deodorizers Due to Fire Hazard",
+      "ConsumerContact": "OdorStop LLC at 800-414-2191 from 9 a.m. to 5 p.m. ET Monday through Friday, email at support@odorstop.com, or online at www.OdorStop.com/recall or www.OdorStop.com and click on \"Recall\" for more information.",
+      "LastPublishDate": "2025-02-20T00:00:00",
+      "Products": [
+        {
+          "Name": "OdorStop Boot and Shoe Dryers and Deodorizers",
+          "Description": "",
+          "Model": "",
+          "Type": "",
+          "CategoryID": "",
+          "NumberOfUnits": "About 13,000"
+        }
+      ],
+      "Inconjunctions": [],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/odorstop.png",
+          "Caption": "Recalled OdorStop Boot and Shoe Dryers and Deodorizers, models OSBSDD2 & OSBSDD"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Manufacturers": [],
+      "Retailers": [
+        {
+          "Name": "Online at Amazon.com, Odorstop.com, Lowes.com, Globalindustrial.com and webrestaurantstore.com from December 2018 through October 2023 for between $100 and $130.",
+          "CompanyID": ""
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "OdorStop LLC, of Hamburg, New York",
+          "CompanyID": ""
+        }
+      ],
+      "Distributors": [],
+      "SoldAtLabel": null,
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "ProductUPCs": [],
+      "Hazards": [
+        {
+          "Name": "The heat or ozone on-off switch can short circuit, resulting in arcing, posing a fire hazard.",
+          "HazardType": "",
+          "HazardTypeID": ""
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately stop using the recalled OdorStop Boot and Shoe Dryers and Deodorizers and contact OdorStop to receive a free repair. OdorStop will install a new in-line fuse into the recalled products and return them to the consumer. Consumers should visit https:/OdorStop.com/recall to register for the recall and to receive instructions to obtain a free return label to return the product for a free repair."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "context_terms": [
+        "dryer"
+      ]
+    },
+    {
+      "RecallID": 10141,
+      "RecallNumber": "25112",
+      "RecallDate": "2025-01-30T00:00:00",
+      "Description": "This recall involves three multipack hair dryer bundles. The three bundles were sold in either light gray or light green colors. The 6-in-1 Multi Styler hair dryers have more than three heating modes, with model number HS01 on the underside of the product. They are powered by the V9 digital motor and measure approximately 16 inches (length) x 7 inches (width) x 5 inches (height) and weigh four pounds. The 5-in-1 Multi Styler hair dryers have more than three heating modes, with a model number HS01 on the underside of the product. They are powered by the V9 digital motor and measure approximately 14 inches (length) x 6 inches (width) x 4 inches (height) and weigh four pounds.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/AliExpress-Recalls-Multi-Styler-Hair-Dryers-Due-to-Electrocution-or-Shock-Hazards-Sold-on-AliExpress-com",
+      "Title": "AliExpress Recalls Multi Styler Hair Dryers Due to Electrocution or Shock Hazards; Sold on AliExpress.com",
+      "ConsumerContact": "AliExpress online service at https://helpcenter.aliexpress.com/s/BuyerHelp/home?language=en_US&m_station=BuyerHelp, email at us_product_recall@aliexpress.com, or at https://helpcenter.aliexpress.com/s/BuyerHelp/knowledge?categoryId=1000110454&language=en_US&m_station=BuyerHelp&questionId=1061297473&regulation=US-product-recall or at www.aliexpress.com and click on \"Recalls\" at the bottom of the page for more information.",
+      "LastPublishDate": "2025-01-30T00:00:00",
+      "Products": [
+        {
+          "Name": "6-in-1 Multi Styler and 5-in-1 Multi Styler Hair Dryers",
+          "Description": "",
+          "Model": "",
+          "Type": "",
+          "CategoryID": "",
+          "NumberOfUnits": "About 980"
+        }
+      ],
+      "Inconjunctions": [],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/multi-styler-1.png",
+          "Caption": "Recalled 6-in-1 Multi Styler Hair Dryer"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/multi-styler-2.png",
+          "Caption": "Recalled 5-in-1 Multi Styler Hair Dryer"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/multi-styler-3.png",
+          "Caption": "Recalled 5-in-1 Multi Hair Styler Hair Dryer"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Manufacturers": [],
+      "Retailers": [
+        {
+          "Name": "Online at AliExpress.com from May 2023 through November 2024 for between $41 and $135.",
+          "CompanyID": ""
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "AliExpress, of San Mateo, California",
+          "CompanyID": ""
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Super Appliance Store, of China",
+          "CompanyID": ""
+        },
+        {
+          "Name": "Shenzhen Tianliang Technology Co. Ltd, of China",
+          "CompanyID": ""
+        }
+      ],
+      "SoldAtLabel": null,
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "ProductUPCs": [],
+      "Hazards": [
+        {
+          "Name": "The handheld hair dryers lack an immersion protection device, posing an electrocution or shock hazard to consumers, if the hair dryers fall into water when plugged in. The CPSC has determined that hair dryers not equipped with the integral immersion protection present a substantial product hazard.",
+          "HazardType": "",
+          "HazardTypeID": ""
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately unplug and stop using the recalled hair dryers and contact AliExpress to receive a full refund. Consumers should destroy the recalled hair dryers by unplugging the hair dryer, cutting the cord and then send an image of the destroyed hair dryer to AliExpress. AliExpress is directly contacting all purchasers. Consumers should email the photo of their destroyed hair dryer to AliExpress by replying to the email from AliExpress about the recall. Upon receipt of the photo, AliExpress will issue the customer a full refund."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "context_terms": [
+        "dryer"
+      ]
+    },
+    {
+      "RecallID": 10137,
+      "RecallNumber": "25106",
+      "RecallDate": "2025-01-23T00:00:00",
+      "Description": "This recall involves Teckwe multifunctional hair dryer brushes. The hair dryer brushes are gray and purple and the brand name \"Teckwe\" is printed on the handle. The hair dryer brushes have five interchangeable heads to be used for straightening and styling, and measure about 11 inches in length.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/SHEIN-Distribution-Corporation-Recalls-Teckwe-Hair-Dryer-Brushes-Due-to-Electrocution-or-Shock-Hazard",
+      "Title": "SHEIN Distribution Corporation Recalls Teckwe Hair Dryer Brushes Due to Electrocution or Shock Hazard",
+      "ConsumerContact": "SHEIN collect at 203-990-1005 from 9 a.m. to 5 p.m. PT Monday through Friday, uscsteam@shein.com, or online at www.us.SHEIN.com and click on \"Product Recalls\" at the bottom of the page or https://us.shein.com/campaigns/productrecalls for more information.",
+      "LastPublishDate": "2025-01-23T00:00:00",
+      "Products": [
+        {
+          "Name": "Teckwe Hair Dryer Brushes",
+          "Description": "",
+          "Model": "",
+          "Type": "",
+          "CategoryID": "",
+          "NumberOfUnits": "About 310"
+        }
+      ],
+      "Inconjunctions": [],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/teckwe.jpg",
+          "Caption": "Recalled Teckwe Hair Dryer Brush"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Manufacturers": [],
+      "Retailers": [
+        {
+          "Name": "Online at SHEIN.com from July 2024 through October 2024 for between $9 and $21.",
+          "CompanyID": ""
+        }
+      ],
+      "Importers": [],
+      "Distributors": [
+        {
+          "Name": "SHEIN Distribution Corporation, of Los Angeles, California",
+          "CompanyID": ""
+        }
+      ],
+      "SoldAtLabel": null,
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "ProductUPCs": [],
+      "Hazards": [
+        {
+          "Name": "The handheld hair dryer brushes lack an immersion protection device, posing an electrocution or shock hazard to consumers if the hair dryer brushes fall into water when plugged in. The CPSC has determined that hair dryers not equipped with the integral immersion protection present a substantial product hazard.",
+          "HazardType": "",
+          "HazardTypeID": ""
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately unplug and stop using the recalled hair dryers and contact SHEIN to receive a full refund. Consumers should destroy the recalled hair dryers by unplugging the hair dryer, cutting the cord and disposing of them in accordance with local and state recycling laws, and send an image of the destroyed hair dryer to Shein at uscsteam@shein.com. Upon receipt of the photo, SHEIN will issue the customer a full refund. Shein is directly contacting all purchasers."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "context_terms": [
+        "dryer"
+      ]
+    },
+    {
+      "RecallID": 10102,
+      "RecallNumber": "25059",
+      "RecallDate": "2024-12-05T00:00:00",
+      "Description": "This recall involves Temp-tations Oven Gloves imported and sold by QVC in single pairs, sets of two and in sets with drying mats or trivets. The recalled oven gloves were sold in a variety of colors, including blue, yellow, red, floral and summer shell prints under the following model numbers: K51459, K76398, K47973, K48879, K85322, K96004, K92603, K308719, K309220, K309388 and K309516. They are made of cotton and elastane and come in small and large sizes. \"Temp-tations by Tara\" is printed on a label stitched to the inside of the gloves.",
+      "URL": "https://www.cpsc.gov/Recalls/2025/QVC-Recalls-More-than-One-Million-Temp-tations-Oven-Gloves-Due-to-Burn-Hazard",
+      "Title": "QVC Recalls More than One Million Temp-tations Oven Gloves Due to Burn Hazard",
+      "ConsumerContact": "QVC toll-free at 888-770-7119 from 8:30 a.m. to 6 p.m. ET Monday through Friday, email at ovengloves@realtimeresults.net, or online at www.recallrtr.com/ovengloves or www.qvc.com and click \"Product Recall Info\" at the bottom of the page for more information.",
+      "LastPublishDate": "2024-12-05T00:00:00",
+      "Products": [
+        {
+          "Name": "Temp-tations Oven Gloves",
+          "Description": "",
+          "Model": "",
+          "Type": "",
+          "CategoryID": "",
+          "NumberOfUnits": "About 1.1 million pairs of gloves"
+        }
+      ],
+      "Inconjunctions": [],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Temp-tations-1.jpg",
+          "Caption": "Recalled Temp-tations Oven Gloves"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Temp-tations-2.jpg",
+          "Caption": "Recalled Temp-tations Oven Gloves (various colors)"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "QVC has received 162 reports of insufficient heat protection including 92 reports of minor burns."
+        }
+      ],
+      "Manufacturers": [],
+      "Retailers": [
+        {
+          "Name": "QVC.com, QVC televised shows and QVC digital shopping platforms from August 2018 through August 2024 for between about $4 and $13 per pair and in bundled sets with other kitchen items for between about $14 and $26 per set.",
+          "CompanyID": ""
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "QVC Inc., of West Chester, Pennsylvania",
+          "CompanyID": ""
+        }
+      ],
+      "Distributors": [],
+      "SoldAtLabel": null,
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "ProductUPCs": [],
+      "Hazards": [
+        {
+          "Name": "The oven gloves can fail to provide sufficient protection from heat, posing a burn hazard to consumers.",
+          "HazardType": "",
+          "HazardTypeID": ""
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately stop using the oven gloves and contact QVC to receive a refund."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "context_terms": [
+        "oven"
+      ]
+    },
+    {
+      "RecallID": 10032,
+      "RecallNumber": "24341",
+      "RecallDate": "2024-08-15T00:00:00",
+      "Description": "This recall involves the Ambiano Single Serve Coffee Maker. The coffee maker was sold in gray, blue, pink, and purple colors, and measures approximately L 11\", W 4.7\" and H 12.\" Ambiano is printed on the side of the coffee maker. Model numbers and UPC Codes on the rating label on the bottom of the unit: Product Name UPC Codes Model Numbers Ambiano Single Serve Coffee Maker 4061464174788, 4061464174801, 4061464174849, 4061464174825, 4061464174863 708924 708925",
+      "URL": "https://www.cpsc.gov/Recalls/2024/ALDI-Recalls-Ambiano-Single-Serve-Coffee-Makers-Due-to-Burn-Hazard",
+      "Title": "ALDI Recalls Ambiano Single Serve Coffee Makers Due to Burn Hazard",
+      "ConsumerContact": "ALDI toll-free at 888-770-7124 from 8:30 a.m. to 6 p.m. ET Monday through Friday, or online at www.recallrtr.com/aldicoffeemaker or corporate.aldi.us and click on \"Newsroom\" and then \"Product Recalls\" for more information.",
+      "LastPublishDate": "2024-08-15T00:00:00",
+      "Products": [
+        {
+          "Name": "Ambiano Single Serve Coffee Makers",
+          "Description": "",
+          "Model": "",
+          "Type": "",
+          "CategoryID": "",
+          "NumberOfUnits": "About 28,000"
+        }
+      ],
+      "Inconjunctions": [],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Ambiano-blue.png",
+          "Caption": "Recalled Ambiano Single Serve Coffee Maker (Blue)"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Ambiano-gray.png",
+          "Caption": "Recalled Ambiano Single Serve Coffee Maker (Gray)"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Ambiano-pik.png",
+          "Caption": "Recalled Ambiano Single Serve Coffee Maker (Pink)"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Ambiano-purple.png",
+          "Caption": "Recalled Ambiano Single Serve Coffee Maker (Purple)"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "ALDI has received 25 reports of the recalled coffeemakers expelling hot water from the top of the machine, including three reports of burns."
+        }
+      ],
+      "Manufacturers": [],
+      "Retailers": [
+        {
+          "Name": "Aldi grocery stores in 38 states and the District of Columbia from July 2023 through September 2023 for about $50.",
+          "CompanyID": ""
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "ALDI Inc., of Batavia, Illinois",
+          "CompanyID": ""
+        }
+      ],
+      "Distributors": [],
+      "SoldAtLabel": null,
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "ProductUPCs": [],
+      "Hazards": [
+        {
+          "Name": "The recalled coffee makers can expel hot water from the top of the machine, posing a burn hazard.",
+          "HazardType": "",
+          "HazardTypeID": ""
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately stop using the recalled coffee makers. Consumers may return the unit to an ALDI store for a full cash refund of $49.99, plus applicable sales tax. Alternatively, consumers may receive a $75 ALDI electronic gift card when they visit www.recallrtr.com/aldicoffeemaker, register the recalled coffee maker, and receive instructions on how to cut the unplugged cord, dispose of the product, and upload photos of the coffee maker showing the model number, registration number, and cut cord."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "context_terms": [
+        "coffee maker"
+      ]
+    },
+    {
+      "RecallID": 10028,
+      "RecallNumber": "24334",
+      "RecallDate": "2024-08-08T00:00:00",
+      "Description": "This recall involves SMEG-branded, retro style refrigerators with freezer, with model numbers starting with FAB38U. The special-order refrigerators measure about 28 inches wide, 30 inches deep and 80 inches high, and were sold in black, cream, pastel blue, pastel green, red and white, with either left-opening or right-opening doors with handles. The refrigerators have three adjustable glass shelves and two drawers. The bottom freezer has a separate door and three drawers. \"SMEG\" is on the front of the refrigerator, and \"Made in Italy\", the model, and serial numbers that begin with 2781 are printed on a white label inside of the refrigerator's top door.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/SMEG-USA-Recalls-Refrigerators-Due-to-Injury-Hazard",
+      "Title": "SMEG USA Recalls Refrigerators Due to Injury Hazard",
+      "ConsumerContact": "SMEG USA toll-free at 888-763-4782 from 9 a.m. to 5 p.m. ET Monday through Friday, email at recall@smegusa.com, or online at https://www.smeg.com/us/recall or www.smeg.com and click on \"Recalls\" for more information.",
+      "LastPublishDate": "2024-08-08T00:00:00",
+      "Products": [
+        {
+          "Name": "SMEG Refrigerators",
+          "Description": "",
+          "Model": "",
+          "Type": "",
+          "CategoryID": "",
+          "NumberOfUnits": "About 900"
+        }
+      ],
+      "Inconjunctions": [],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/SMEG-fridge.png",
+          "Caption": "Recalled SMEG refrigerator"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/SMEG-fridge-label.png",
+          "Caption": "\"Made in Italy\", the model, and serial numbers are printed on a white label inside of the refrigerator's top door"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received nine reports of the refrigerator door falling off. No injuries have been reported."
+        }
+      ],
+      "Manufacturers": [],
+      "Retailers": [
+        {
+          "Name": "Independent kitchen and appliance stores nationwide and online at www.williams-sonoma.com, https://www.ajmadison.com and www.wayfair.com from September 2020 through January 2024 for about $4,300.",
+          "CompanyID": ""
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "SMEG USA Inc., of New York",
+          "CompanyID": ""
+        }
+      ],
+      "Distributors": [],
+      "SoldAtLabel": null,
+      "ManufacturerCountries": [
+        {
+          "Country": "Italy"
+        }
+      ],
+      "ProductUPCs": [],
+      "Hazards": [
+        {
+          "Name": "The refrigerator door can detach and fall off, posing an injury hazard.",
+          "HazardType": "",
+          "HazardTypeID": ""
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately stop using the recalled refrigerators and contact SMEG USA to schedule a free repair by a certified service provider. Consumers will be asked to email a photo of both the refrigerator's model number and the serial number to recall@smegusa.com."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "context_terms": [
+        "refrigerator"
+      ]
+    },
+    {
+      "RecallID": 9995,
+      "RecallNumber": "24290",
+      "RecallDate": "2024-07-03T00:00:00",
+      "Description": "This recall involves Tideway High-Speed Hair Dryers PRO M01 with two speed adjustments. The hair dryers come with a nozzle, and were sold in white with gold on the bottom of the handle. \"Tideway\" is printed on the front of the handle. The hair dryers have an LED ring on them that corresponds to the different temperature settings of the hair dryer. Red represents hot air, orange represents warm air, blue represents cold air, and green represents hot and cold cycles.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Focusee-Recalls-Tideway-Hair-Dryers-Due-to-Electrocution-or-Shock-Hazard",
+      "Title": "Focusee Recalls Tideway Hair Dryers Due to Electrocution or Shock Hazard",
+      "ConsumerContact": "Tideway Shop at collect 209-267-4999 from 8 a.m. to 7 p.m. CT Monday through Friday or 8 a.m. to 6 p.m. CT Saturday and Sunday, email at info@tideway.shop or tidewayshopify@gmail.com, or online at https://tideway.shop/ and click on \"Recall\" for more information, or click on https://tideway.shop/recall.",
+      "LastPublishDate": "2024-07-03T00:00:00",
+      "Products": [
+        {
+          "Name": "Tideway High-Speed Hair Dryers",
+          "Description": "",
+          "Model": "",
+          "Type": "",
+          "CategoryID": "",
+          "NumberOfUnits": "About 27,400"
+        }
+      ],
+      "Inconjunctions": [],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/M01.png",
+          "Caption": "Recalled Tideway Hairdryer, Model Number M01"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/M01-2.png",
+          "Caption": "Recalled Tideway Hairdryer, Model Number M01"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/M01-3.png",
+          "Caption": "Label with Model Number M01 on recalled Tideway Hairdryer"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/M01-4.png",
+          "Caption": "Packaging of Recalled Tideway Hairdryer, Model Number M01"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported."
+        }
+      ],
+      "Manufacturers": [],
+      "Retailers": [
+        {
+          "Name": "Online at TikTokShop.com, Shopify.com and other websites from November 2023 through March 2024 for about $170.",
+          "CompanyID": ""
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Focusee LTD, of Los Angeles, California",
+          "CompanyID": ""
+        }
+      ],
+      "Distributors": [],
+      "SoldAtLabel": null,
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "ProductUPCs": [],
+      "Hazards": [
+        {
+          "Name": "The handheld hair dryers lack an immersion protection device, posing an electrocution or shock hazard to consumers, if they fall into water when plugged in. The CPSC has determined that hair dryers not equipped with the integral immersion protection present a substantial product hazard.",
+          "HazardType": "",
+          "HazardTypeID": ""
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately unplug and stop using the recalled hair dryers, and contact Tideway Shop to receive a free replacement. Consumers should destroy the recalled hair dryers by unplugging the hair dryer, cutting the cord and disposing of them in accordance with local and state recycling laws, and send an image of the destroyed hair dryer to info@tideway.shop or tidewayshopify@gmail.com. Upon receipt of the photo, Focusee will send the customer a replacement hair dryer with an immersion protection device."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "context_terms": [
+        "dryer"
+      ]
+    },
+    {
+      "RecallID": 9946,
+      "RecallNumber": "24226",
+      "RecallDate": "2024-05-09T00:00:00",
+      "Description": "This recall involves single-door and double-door ZLINE built-in electric wall ovens with model numbers AWS-30, AWD-30, AWS-30-BS, AWD-30-BS, AWSS-30, and AWDS-30. The recalled ovens were sold in stainless steel and black stainless with a digital control at the top of the unit. The recalled product is approximately 30 inches wide by 24.5 inches deep by 51 inches high for the double wall oven, and 29 inches high for the single wall oven. The ZLINE logo is printed on the bottom face of the door. The serial number and the manufacturing date in YYYYMMDD format are printed on a white label located inside the right side of the oven. The serial numbers range between 207986920110001 and WOAR2112048400, and the manufacturing dates between November 2020 and December 2021 are shown as 20201101 through 20211231.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/ZLINE-Recalls-Built-In-Electric-Wall-Ovens-Due-to-Impact-Injury-Hazard",
+      "Title": "ZLINE Recalls Built-In Electric Wall Ovens Due to Impact Injury Hazard",
+      "ConsumerContact": "ZLINE toll-free at 833-256-3603 from 9 a.m. to 8:30 p.m. ET Monday through Friday, email at awrecall@zlinekitchen.com, or online at https://zlinekitchen.com/recalls-walloven or at https://zlinekitchen.com and click on \"Recalls\" on the bottom of the page and then \"Product Recalls\" for more information.",
+      "LastPublishDate": "2024-05-09T00:00:00",
+      "Products": [
+        {
+          "Name": "ZLINE Wall Ovens",
+          "Description": "",
+          "Model": "",
+          "Type": "",
+          "CategoryID": "",
+          "NumberOfUnits": "About 5,000"
+        }
+      ],
+      "Inconjunctions": [],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/zline-double-oven.png",
+          "Caption": "Recalled ZLINE double-door wall oven"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/zline-single-oven.png",
+          "Caption": "Recalled ZLINE single-door wall oven"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/zline-label.png",
+          "Caption": "Label information of recalled ZLINE oven"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received 95 reports of incidents of the door spring releasing or breaking through the top of the oven door. One minor injury has been reported."
+        }
+      ],
+      "Manufacturers": [],
+      "Retailers": [
+        {
+          "Name": "Best Buy, Lowe's, The Home Depot and The Range Hood Store nationwide and online at www.bestbuy.com, www.build.com, www.costco.com, www.homedepot.com, www.therangehoodstore.com, www.overstock.com and www.wayfair.com from December 2020 through September 2022 for between $1,900 and $3,950.",
+          "CompanyID": ""
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "ZLINE Kitchen and Bath, of Reno, Nev.",
+          "CompanyID": ""
+        }
+      ],
+      "Distributors": [],
+      "SoldAtLabel": null,
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "ProductUPCs": [],
+      "Hazards": [
+        {
+          "Name": "The oven door hinge can dislodge, releasing the spring, which can damage or break through the door trim, posing an impact injury hazard to consumers.",
+          "HazardType": "",
+          "HazardTypeID": ""
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately stop using the recalled ovens until the oven door is repaired. Contact ZLINE to obtain a free replacement door and instructions on replacing it. Consumers can register online at https://zlinekitchen.com/recalls-walloven to begin the repair process. Consumers who require physical assistance may request a service visit. ZLINE is contacting all purchasers directly."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "context_terms": [
+        "oven"
+      ]
+    },
+    {
+      "RecallID": 9940,
+      "RecallNumber": "24219",
+      "RecallDate": "2024-05-02T00:00:00",
+      "Description": "This recall involves commercial refrigerators with Secop compressors with model number NLE11MN. The recalled Secop Compressors installed in True Commercial Refrigerators were sold through corporate channels to commercial customers and to the commercial food service companies. The recalled commercial refrigerators are both black and stainless steel in color, and have configurations with double, triple, and sliding doors. The model and serial numbers are printed on a label located inside the commercial refrigerator cabinet by the left door. The following refrigerator models and serial numbers are included in this recall: Refrigerator Model First serial number Last serial number GDIM-49NT 9466976 10040916 GDM-45 9344197 10010080 GDM-47 9300299 10010063 GDM-47FC 9344301 10010081 GDM-47RL 9342885 10049968 GDM-49 9301457 10009796 GDM-49FC 9343416 9994430 GDM-49RL 9347552 10049976 GDM-69 9302194 10049977 GDM-69FC 9368706 10042783 GDM-72 9303855 10048931 GDM-72FC 9346330 10048907 T-49G 9789525 9872836 TSD-47 9364752 10042789 TSD-47G 9342889 10049972",
+      "URL": "https://www.cpsc.gov/Recalls/2024/True-Manufacturing-Recalls-Commercial-Refrigerators-with-Secop-Compressors-Due-to-Fire-Hazard",
+      "Title": "True Manufacturing Recalls Commercial Refrigerators with Secop Compressors Due to Fire Hazard",
+      "ConsumerContact": "True Manufacturing toll-free at 855-203-0185 from 8 a.m. to 4:30 p.m. CT Monday through Friday, email at info@true-secopcompressor-retrofit.com, or online at www.true-secopcompressor-retrofit.com or www.true-secopcompressor-recall.com for more information, or at www.truemfg.com and click on the \"Recall\" quick link.",
+      "LastPublishDate": "2024-05-02T00:00:00",
+      "Products": [
+        {
+          "Name": "Commercial Refrigerators with Secop Compressors",
+          "Description": "",
+          "Model": "",
+          "Type": "",
+          "CategoryID": "",
+          "NumberOfUnits": "About 29,200 (In addition, about 50 were sold in Mexico)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://alertas.gob.mx/detallealerta.php?site=RAR&alerta=984"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/T-49G.png",
+          "Caption": "Recalled True Commercial Refrigerator with Secop Compressors, model number T-49G"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/GDIM-49NT.png",
+          "Caption": "Recalled True Commercial Refrigerator with Secop Compressors, model number GDIM-49NT"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/GDM-72.png",
+          "Caption": "Recalled True Commercial Refrigerator with Secop Compressors, model number GDM-72"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/GDM-GDM-49.png",
+          "Caption": "Recalled True Commercial Refrigerator with Secop Compressors, model number GDM GDM-49"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/TSD-47.png",
+          "Caption": "Recalled True Commercial Refrigerator with Secop Compressors, model number TSD-47"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/model-NLE11MN.png",
+          "Caption": "SECOP Compressor with model number NLE11MN"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received 14 reports of fires resulting in property damage. No injuries have been reported."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Secop GmbH, of Germany (compressors",
+          "CompanyID": ""
+        },
+        {
+          "Name": "True Manufacturing Co. Inc., of O'Fallon, Missouri (refrigerators)",
+          "CompanyID": ""
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Directly to commercial food service businesses by dealers and distributors from January 2018 through June 2020 for between $3,000 and $8,000.",
+          "CompanyID": ""
+        }
+      ],
+      "Importers": [],
+      "Distributors": [],
+      "SoldAtLabel": null,
+      "ManufacturerCountries": [
+        {
+          "Country": "Slovakia"
+        },
+        {
+          "Country": "China"
+        },
+        {
+          "Country": "United States"
+        }
+      ],
+      "ProductUPCs": [],
+      "Hazards": [
+        {
+          "Name": "The recalled commercial refrigerators with Secop Compressors can fail in a manner causing the compressor to overheat, posing a fire hazard.",
+          "HazardType": "",
+          "HazardTypeID": ""
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately stop using commercial refrigerators with Secop compressors with model number NLE11MN, and contact True Manufacturing for a free repair. The original Secop ePTC starter in the compressor with the RSCR motor configuration will be replaced with the CSIR motor configuration. Consumers can register their unit for retrofit at www.true-secopcompressor-retrofit.com or www.true-secopcompressor-recall.com, and an on-site service visit by a technician will be scheduled. True Manufacturing is contacting all known purchasers directly."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "context_terms": [
+        "refrigerator"
+      ]
+    },
+    {
+      "RecallID": 9892,
+      "RecallNumber": "24159",
+      "RecallDate": "2024-03-14T00:00:00",
+      "Description": "This recall involves Insignia Air Fryers and Insignia Air Fryer Ovens, model numbers NS-AF34D2, NS-AF5DSS2, NS-AF5MSS2, NS-AF8DBD2, NS-AF10DBK2, and NS-AF10DSS2. The brand name INSIGNIA is on the top or front of each unit. A product rating label on the underside of each unit identifies the brand INSIGNIA and the model number. The air fryers and air fryer ovens have cooking chamber capacities ranging from about 3.4 to 10 quarts, and plastic or plastic and stainless-steel bodies in black and stainless-steel finishes.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Best-Buy-Recalls-Insignia-Air Fryers-and-Air-Fryer-Ovens-Due-to-Fire-Burn-and-Laceration-Hazards",
+      "Title": "Best Buy Recalls Insignia® Air Fryers and Air Fryer Ovens Due to Fire, Burn and Laceration Hazards",
+      "ConsumerContact": "Best Buy at 800-566-7498 from 7 a.m. to 6 p.m. CT Monday through Friday or register online at https://www.recallrtr.com/airfryer to receive a refund. Consumers can also go online at http://www.bestbuy.com/product/recalls or www.bestbuy.com and click on \"Product Recalls\" located under the \"Order and Purchase\" column located at the bottom of the page for more information.",
+      "LastPublishDate": "2024-03-14T00:00:00",
+      "Products": [
+        {
+          "Name": "Air Fryers and Air Fryer Ovens",
+          "Description": "",
+          "Model": "",
+          "Type": "",
+          "CategoryID": "",
+          "NumberOfUnits": "About 187,400 (In addition, about 99,900 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/insigniatm-digital-air-fryers-insigniatm-analog-air-fryers-and-insigniatm-digital-air"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Insignia-3-4-qt.png",
+          "Caption": "Recalled Insignia 3.4-qt. Digital Air Fryer model NS-AF34D2"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Insignia-5-qt.jpg",
+          "Caption": "Recalled Insignia 5-qt. Digital Air Fryer model NS-AF5DSS2"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Insignia-5qt.jpg",
+          "Caption": "Recalled Insignia 5-qt. Digital Air Fryer model NS-AF5MSS2"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Insignia-8-qt.png",
+          "Caption": "Recalled Insignia 8-qt. Air Fryer Dual Basket model NS-AF8DBD2"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Insignia-10-qt.jpg",
+          "Caption": "Recalled Insignia 10-qt. Digital Air Fryer Oven model NS-AF10DBK2 (black)"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Insignia-10qt.jpg",
+          "Caption": "Recalled Insignia 10-qt. Digital Air Fryer Oven model NS-AF10DSS2 (stainless steel)"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Insignia-label_0.png",
+          "Caption": "Product rating label on the underside of the unit showing INSIGNIA brand and the model number"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received 24 reports of overheating/melting or glass shattering, including six reports of air fryers catching on fire. No injuries or property damage have been reported."
+        }
+      ],
+      "Manufacturers": [],
+      "Retailers": [
+        {
+          "Name": "Best Buy stores nationwide and online at www.bestbuy.com, www.eBay.com, and third-party sellers from November 2021 through November 2023 for between $32 and $180.",
+          "CompanyID": ""
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Best Buy Purchasing LLC, of Richfield, Minnesota",
+          "CompanyID": ""
+        }
+      ],
+      "Distributors": [],
+      "SoldAtLabel": null,
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "ProductUPCs": [],
+      "Hazards": [
+        {
+          "Name": "The air fryers can overheat, causing the handles to melt or break, posing fire and burn hazards. Additionally, the air fryer ovens can overheat and the glass on the door can shatter, posing fire, burn and laceration hazards.",
+          "HazardType": "",
+          "HazardTypeID": ""
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately stop using the recalled Insignia air fryers and air fryer ovens and visit https://www.recallrtr.com/airfryer for instructions on how to submit photos of the recalled unit(s), the model number, purchase receipt, and on the destruction of the unit. Consumers can receive a refund in the form of a refund check or a Best Buy store credit. A consumer will receive the amount on the purchase receipt, or they will receive the average sales price for the model if no receipt is provided. Consumers should not return the recalled air fryers or air fryer ovens to Best Buy stores. Best Buy has contacted all known purchasers directly."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "context_terms": [
+        "air fryer",
+        "oven"
+      ]
+    },
+    {
+      "RecallID": 9846,
+      "RecallNumber": "24110",
+      "RecallDate": "2024-02-08T00:00:00",
+      "Description": "This recall involves certain Frigidaire branded side by side refrigerators with Slim Ice buckets manufactured between 2015 and 2019, with model numbers DGHK2355TF, DGHX2655TF, FFSC2323TS, FGSC2335TD, FGSC2335TF, FGSS2635TD, FGSS2635TE, FGSS2635TF, FGSS2635TP, FPSC2277RF, FPSC2278UF, FPSS2677RF, LFSC2324VF, LGHK2336TD, LGHK2336TF, LGHX2636TD, and LGHX2636TF. Consumers can also visit https://www.frigidaire.com/en/frigidaire-recall-information to see if their specific serial number is included in this recall. The model and serial numbers are printed on a serial plate located inside the refrigerator compartment. Model numbers include: Model Numbers DGHK2355TF DGHX2655TF FFSC2323TS FGSC2335TD FGSC2335TF FGSS2635TD FGSS2635TE FGSS2635TF FGSS2635TP FPSC2277RF FPSC2278UF FPSS2677RF LFSC2324VF LGHK2336TD LGHK2336TF LGHX2636TD LGHX2636TF Color Guide The last letter of each model number denotes the various colors: F and S: Stainless Steel D: Dark Stainless Steel E: Black Painted P: White Painted",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Electrolux-Group-Recalls-Frigidaire-Side-by-Side-Refrigerators-with-Slim-Ice-Buckets-Due-to-Choking-and-Laceration-Hazards",
+      "Title": "Electrolux Group Recalls Frigidaire Side by Side Refrigerators with Slim Ice Buckets Due to Choking and Laceration Hazards",
+      "ConsumerContact": "Electrolux Group toll-free at 888-377-7563 from 8:30 a.m. to 8 p.m. ET Monday through Friday, by email at IceBucketRecall@electrolux.com or online at www.icebucketrecall.com or at www.frigidaire.com and click on \"Recall Information\" at the top of the page for more information.",
+      "LastPublishDate": "2024-02-08T00:00:00",
+      "Products": [
+        {
+          "Name": "Frigidaire Branded Side by Side Refrigerators with Slim Ice Buckets",
+          "Description": "",
+          "Model": "",
+          "Type": "",
+          "CategoryID": "",
+          "NumberOfUnits": "About 383,240"
+        }
+      ],
+      "Inconjunctions": [],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Frigidaire-1.png",
+          "Caption": "Recalled Production Year 2015-2019 Frigidaire Branded Side by Side Refrigerators with Slim Ice Buckets"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Frigidaire-2.png",
+          "Caption": "Recalled Production Year 2015-2019 Frigidaire Branded Side by Side Refrigerators with Slim Ice Buckets"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "Electrolux Group has received 343 reports of plastic pieces breaking off, including two incidents resulting in laceration and ingestion injuries when the pieces were dispensed out of the recalled ice bucket."
+        }
+      ],
+      "Manufacturers": [],
+      "Retailers": [
+        {
+          "Name": "Lowe's, Home Depot and other stores nationwide and online at Frigidaire.com from November 2015 through September 2019 for between $1,400 and $2,400.",
+          "CompanyID": ""
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Electrolux Home Products Inc., of Charlotte, North Carolina",
+          "CompanyID": ""
+        }
+      ],
+      "Distributors": [],
+      "SoldAtLabel": null,
+      "ManufacturerCountries": [
+        {
+          "Country": "Mexico"
+        }
+      ],
+      "ProductUPCs": [],
+      "Hazards": [
+        {
+          "Name": "The recalled refrigerators contain an ice bucket assembly component that can break, resulting in plastic pieces entering the ice bucket, posing choking and laceration hazards to consumers if the pieces are dispensed out of the ice bucket.",
+          "HazardType": "",
+          "HazardTypeID": ""
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately stop using the ice makers and contact Electrolux Group to request a replacement ice bucket assembly component, free of charge."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "context_terms": [
+        "refrigerator"
+      ]
+    },
+    {
+      "RecallID": 9812,
+      "RecallNumber": "24069",
+      "RecallDate": "2023-12-28T00:00:00",
+      "Description": "This recall involves BlendJet 2 Portable Blenders sold in a variety of colors and designs. Serial numbers are printed on the bottom of the base along with \"blendjet2\" and \"The Original Portable Blender.\" The blenders measure approximately 9.5 inches in height and 3 inches in width and weigh approximately 1.5 pounds. Units where the first 4 digits of the serial number are between 5201-5542 and are subject to the recall must be identified through the use of the \"Is my BlendJet 2 Recalled?\" tool located at www.blendjet.com/safetyandrecall.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/BlendJet-Recalls-4-8-Million-BlendJet-2-Portable-Blenders-Due-to-Fire-and-Laceration-Hazards",
+      "Title": "BlendJet Recalls 4.8 Million BlendJet 2 Portable Blenders Due to Fire and Laceration Hazards",
+      "ConsumerContact": "BlendJet toll-free at 844-334-0562 from 8 a.m. to 10 p.m. ET Monday through Friday, or online at www.blendjet.com/safetyandrecall or www.blendjet.com and click on \"Recall Information\" at the top of the page for more information.",
+      "LastPublishDate": "2023-12-28T00:00:00",
+      "Products": [
+        {
+          "Name": "BlendJet 2 Portable Blenders",
+          "Description": "",
+          "Model": "",
+          "Type": "",
+          "CategoryID": "",
+          "NumberOfUnits": "About 4.8 million (in addition, about 117,000 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/blendjet-2-portable-blenders-recalled-due-fire-and-laceration-hazards"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/blendjet2.png",
+          "Caption": "Recalled BlendJet 2 Portable Blender"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/blendjet2-packaging.png",
+          "Caption": "Recalled BlendJet 2 complete packaging set"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/blendjet2-serial.png",
+          "Caption": "Recalled BlendJet 2 base of the blender, showing serial number"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/blendjet2-rubber-seal.jpg",
+          "Caption": "Remove and cut the rubber seal from the base of the recalled BlendJet 2 into three or more pieces and send a photo showing the serial number on the bottom of the unit and its rubber seal in pieces to BlendJet to receive the free replacement of the base"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/blendjet2-serial-search.png",
+          "Caption": "BlendJet 2 units with serial numbers where the first 4 digits are between 5201 and 5542 may be subject to the recall. Consumers should enter their unit's full serial number into this online tool found at www.blendjet.com/safetyandrecall"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received approximately 329 reports of the blades breaking while in use, and an additional 17 reports of overheating or fires resulting in property damage claims of approximately $150,000. The firm has received about 49 reports of minor burns and one report of a laceration injury."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "BlendJet Inc., of Benicia, California",
+          "CompanyID": ""
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Costco, Walmart, Target and other stores nationwide and online at BlendJet.com from October 2020 through November 2023 for between $50 and $75.",
+          "CompanyID": ""
+        }
+      ],
+      "Importers": [],
+      "Distributors": [],
+      "SoldAtLabel": null,
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "ProductUPCs": [],
+      "Hazards": [
+        {
+          "Name": "The recalled blenders can overheat or catch fire and the blender blades can break off, posing fire and laceration hazards to consumers.",
+          "HazardType": "",
+          "HazardTypeID": ""
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately stop using the recalled blenders and contact BlendJet for a free replacement of the BlendJet 2 base unit. Consumers will need to remove and cut the rubber seal from the base of their recalled blender into three or more pieces and upload or email a photo showing the serial number on the bottom of the unit and its rubber seal in pieces to BlendJet at www.blendjet.com/safetyandrecall or safety@blendjet.com to receive a free replacement base. Consumers can identify whether they have a recalled unit by entering the serial number of their unit into the \"Is my BlendJet 2 Recalled?\" tool located at www.blendjet.com/safetyandrecall, or by calling BlendJet toll-free number at 844-334-0562."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Replace"
+        }
+      ],
+      "context_terms": [
+        "blender"
+      ]
+    },
+    {
+      "RecallID": 9796,
+      "RecallNumber": "24051",
+      "RecallDate": "2023-12-14T00:00:00",
+      "Description": "This recall involves two models of the PowerXL dual-basket air fryer. The egg-shaped air fryers have two baskets that can be used separately or optionally combined into one large single basket. The recalled air fryers were sold in black or cinnamon colors. The 10-quart DUAF-10 model is about 17 inches long by 16 inches wide by 12 1/2 inches tall, and weighs about 14 1/2 pounds. The 9-quart DUAF-005 model is about 14 inches long by 13 inches wide by 15 inches tall, and weighs about 14 pounds. The product has a silver label on the front that says \"PowerXL\". There is a white label on the bottom of each unit or on the unit's power cord that lists the model number.",
+      "URL": "https://www.cpsc.gov/Recalls/2024/Empower-Brands-Recalls-Power-XL-Dual-Basket-Air-Fryers-Due-to-Burn-Hazard",
+      "Title": "Empower Brands Recalls Power XL Dual Basket Air Fryers Due to Burn Hazard",
+      "ConsumerContact": "Empower Brands toll-free at 866-704-9370 from 8 a.m. and 4:30 p.m. CT Monday through Friday CT, Monday through Friday, or online at www.prodprotect.com/recall/duaf or https://powerxlproducts.com and click on \"Important Safety Recall Notice\" for more information.",
+      "LastPublishDate": "2023-12-14T00:00:00",
+      "Products": [
+        {
+          "Name": "PowerXL™ DUAF-10 and DUAF-005 Vortex Dual-Basket Air Fryers",
+          "Description": "",
+          "Model": "",
+          "Type": "",
+          "CategoryID": "",
+          "NumberOfUnits": "About 319,000"
+        }
+      ],
+      "Inconjunctions": [],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/pwr-xl.png",
+          "Caption": "Recalled PowerXL Air Fryer"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/dualxl.png",
+          "Caption": "Recalled PowerXL Model DUAF-10 Air Fryer"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received 41 reports of the product breaking during use, including three reports of burns."
+        }
+      ],
+      "Manufacturers": [],
+      "Retailers": [
+        {
+          "Name": "Target, Walmart, Kohls and other stores nationwide and online at www.target.com, www.walmart.com, www.kohls.com and other websites from August 2021 through October 2023 for between $60 and $190, depending on the model.",
+          "CompanyID": ""
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Empower Brands, LLC of Middleton, Wisconsin",
+          "CompanyID": ""
+        }
+      ],
+      "Distributors": [],
+      "SoldAtLabel": null,
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "ProductUPCs": [],
+      "Hazards": [
+        {
+          "Name": "The plastic U-Channel connector used to optionally combine the two food baskets inside of the air fryers can break during use, posing a burn hazard.",
+          "HazardType": "",
+          "HazardTypeID": ""
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately stop using the recalled dual basket air fryers and contact Empower Brands to receive a full refund."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "context_terms": [
+        "air fryer"
+      ]
+    },
+    {
+      "RecallID": 9725,
+      "RecallNumber": "23794",
+      "RecallDate": "2023-09-28T00:00:00",
+      "Description": "This recall involves Secura air fryers with model number SAF-53D (TXG-DT16E) with date code 1901, and model number SAF-53 (TXG-DS16) with date codes 1903 and 1904. They are a black color with silver accent. The brand name Secura is on the top of each unit. The model number and four-digit date code are printed on the silver labels located at the bottom of each unit. The air fryers measure about 12 inches high, 11 inches deep and 12 inches wide.",
+      "URL": "https://www.cpsc.gov/Recalls/2023/Secura-Recalls-Air-Fryers-Due-to-Fire-and-Burn-Hazards-Recall-Alert",
+      "Title": "Secura Recalls Air Fryers Due to Fire and Burn Hazards (Recall Alert)",
+      "ConsumerContact": "Secura toll-free at 888-792-2360 from 9 a.m. to 5 p.m. PT Monday through Friday, email at customercare@thesecura.com, or online at https://www.thesecura.com/recall/ or at www.thesecura.com and click on \"Recalls\" at the bottom of the page for more information.",
+      "LastPublishDate": "2023-09-28T00:00:00",
+      "Products": [
+        {
+          "Name": "Secura Air Fryers",
+          "Description": "",
+          "Model": "",
+          "Type": "",
+          "CategoryID": "",
+          "NumberOfUnits": "About 6,400 (In addition, about 680 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Secura-air-fryer-SAF-53D.png",
+          "Caption": "Recalled Secura air fryer SAF-53D (TXG-DT16E)"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Secura-air-fryer-SAF-53.png",
+          "Caption": "Recalled Secura air fryer SAF-53 (TXG-DS16)"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received nine reports of the air fryers catching fire, burning and smoking. No injuries or property damage have been reported."
+        }
+      ],
+      "Manufacturers": [],
+      "Retailers": [
+        {
+          "Name": "Online at thesecura.com and Amazon.com from May 2019 through October 2020 for between $48 and $90.",
+          "CompanyID": ""
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Secura Inc., of Lake Forest, California",
+          "CompanyID": ""
+        }
+      ],
+      "Distributors": [],
+      "SoldAtLabel": null,
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "ProductUPCs": [],
+      "Hazards": [
+        {
+          "Name": "A wire connection in the air fryer can overheat, posing fire and burn hazards.",
+          "HazardType": "",
+          "HazardTypeID": ""
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately stop using the recalled air fryers and contact Secura for an Amazon gift card in the amount of $45 or a free replacement at consumer's choice with Secura products as listed on Secura's webpage at https://www.thesecura.com/recall/. To receive the gift card or replacement product consumers must provide their contact information and submit photos of the recalled unit with the power cord cut off and include information of the product's date code located at the bottom of the product. No receipt is needed to receive a replacement. Secura is contacting all known purchasers."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        },
+        {
+          "Option": "Replace"
+        }
+      ],
+      "context_terms": [
+        "air fryer"
+      ]
+    },
+    {
+      "RecallID": 9708,
+      "RecallNumber": "23791",
+      "RecallDate": "2023-09-07T00:00:00",
+      "Description": "This recall involves all ADC brand stacked commercial clothes dryers with a 30 lb. capacity and model number ADG-30X2R or ADG-30X2Ri. Both models were sold in on-premise and coin-operated configurations for multi-unit housing, laundromats, and other facilities that use commercial laundry equipment. Logos and branding may appear differently depending on when the unit was manufactured. The model number for each unit is printed inside near the hinges of the upper door. The ADG-30X2R units were also sold in custom colors other than white to fit location branding.",
+      "URL": "https://www.cpsc.gov/Recalls/2023/Whirlpool-Recalls-Stacked-Commercial-Clothes-Dryers-Sold-Under-the-ADC-Brand-Due-to-Fire-Hazard-Recall-Alert",
+      "Title": "Whirlpool Recalls Stacked Commercial Clothes Dryers Sold Under the ADC Brand Due to Fire Hazard (Recall Alert)",
+      "ConsumerContact": "Whirlpool Corporation toll-free at 844-943-0884 from 9 a.m. to 6 p.m. ET Monday through Friday or email at mdl-sales@whirlpool.com to schedule an on-site repair. This information can also be found at www.repair.whirlpoolcorp.com or at www.adclaundry.com and look for the \"Recall Information\" banner in the middle of the page.",
+      "LastPublishDate": "2023-09-07T00:00:00",
+      "Products": [
+        {
+          "Name": "ADC brand 30 lb. capacity stacked commercial clothes dryers",
+          "Description": "",
+          "Model": "",
+          "Type": "",
+          "CategoryID": "",
+          "NumberOfUnits": "About 2,500"
+        }
+      ],
+      "Inconjunctions": [],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/ADG-30X2-coin-operated.png",
+          "Caption": "Recalled ADC Brand Commercial Dryer Model ADG-30X2 (coin-operated configuration)"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/ADG-30X2Ri-on-premise.png",
+          "Caption": "Recalled ADC Brand Commercial Dryer Model ADG-30X2Ri (on-premise configuration)"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/ADG-30X2Ri-coin-operated.png",
+          "Caption": "Recalled ADC Brand Commercial Dryer Model ADG-30X2Ri (coin-operated configuration)"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/ADG-model-serial-no.jpg",
+          "Caption": "Location of model and serial number on recalled clothes dryer"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received two reports of fuel overflow incidents, including one fire. No injuries have been reported."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Whirlpool Corporation, of Benton Harbor, Michigan",
+          "CompanyID": ""
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Direct from Whirlpool or through Authorized ADC distributors nationwide from April 2012 through February 2023 for about $11,800.",
+          "CompanyID": ""
+        }
+      ],
+      "Importers": [],
+      "Distributors": [],
+      "SoldAtLabel": null,
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "ProductUPCs": [],
+      "Hazards": [
+        {
+          "Name": "The recalled clothes dryers can overheat and ignite the clothes load, posing a fire hazard.",
+          "HazardType": "",
+          "HazardTypeID": ""
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Distributors, owners or laundry operators should immediately stop using the recalled models and contact Whirlpool for a free repair. Whirlpool is contacting known purchasers directly."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "context_terms": [
+        "dryer"
+      ]
+    },
+    {
+      "RecallID": 9662,
+      "RecallNumber": "23771",
+      "RecallDate": "2023-06-29T00:00:00",
+      "Description": "This recall involves H-E-B's Haven & Key Leather Woven Chairs, also referred as \"Lovina Chairs.\" The recalled chairs were sold in black or brown. UPC codes are 4122089244 (black) and 4122091920 (brown). The UPC codes are displayed on the hangtag.",
+      "URL": "https://www.cpsc.gov/Recalls/2023/H-E-B-Recalls-Leather-Woven-Chairs-Due-to-Fall-Hazard-Recall-Alert",
+      "Title": "H-E-B Recalls Leather Woven Chairs Due to Fall Hazard (Recall Alert)",
+      "ConsumerContact": "H-E-B toll-free at 855-432-4438 from 8 a.m. to 5 p.m. CT Monday through Friday. For information on this recall, please go online at https://newsroom.heb.com/heb-news/recalls/ or www.heb.com and click on \"Product Recalls\" on the bottom of the page.",
+      "LastPublishDate": "2023-06-29T00:00:00",
+      "Products": [
+        {
+          "Name": "Haven & Key Leather Woven Chairs",
+          "Description": "",
+          "Model": "",
+          "Type": "",
+          "CategoryID": "",
+          "NumberOfUnits": "About 1,400"
+        }
+      ],
+      "Inconjunctions": [],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/image2_10.png",
+          "Caption": "Recalled Haven & Key Leather Woven Chair or \"Lovina Chair\" (Black)"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/image1_5.png",
+          "Caption": "Recalled Haven & Key Leather Woven Chair or \"Lovina Chair\" (Brown)"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received 11 reports of the chairs cracking or breaking. No injuries have been reported."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "UD Surya Abadi Furniture, of Indonesia",
+          "CompanyID": ""
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "H-E-B stores in Texas and online at www.heb.com from April 2022 through April 2023 for about $300.",
+          "CompanyID": ""
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "HEB Grocery Company LP, of San Antonio, Texas",
+          "CompanyID": ""
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "HEB Grocery Company LP, of San Antonio, Texas",
+          "CompanyID": ""
+        }
+      ],
+      "SoldAtLabel": null,
+      "ManufacturerCountries": [
+        {
+          "Country": "Indonesia"
+        }
+      ],
+      "ProductUPCs": [
+        {
+          "UPC": "4122089244"
+        },
+        {
+          "UPC": "4122091920"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "The backrest and legs can crack and break off when a consumer is seated in the chair, posing a fall hazard.",
+          "HazardType": "",
+          "HazardTypeID": ""
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately stop using the recalled chairs and contact H-E-B to return the chairs for a full refund. H-E-B is contacting all known purchasers directly."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "context_terms": [
+        "oven"
+      ]
+    },
+    {
+      "RecallID": 9627,
+      "RecallNumber": "23206",
+      "RecallDate": "2023-05-18T00:00:00",
+      "Description": "This recall involves Personal Chiller Mini Fridge Gamer Beverage Refrigerators with LED Lights. They have a matte black finish exterior, lighted LED door and a remote control that has mood lighting effects. The LED lights were sold in red and blue colors. Model number K1000BK is on the back of the refrigerator. The refrigerators are 15.7 inches tall, 11.7 inches deep and 8.5 inches wide.",
+      "URL": "https://www.cpsc.gov/Recalls/2023/Kell-Electronic-Recalls-Personal-Chiller-Mini-Gamer-Refrigerators-Due-to-Burn-Hazard",
+      "Title": "Kell Electronic Recalls Personal Chiller Mini Gamer Refrigerators Due to Burn Hazard",
+      "ConsumerContact": "Kell Electronic USA Inc. toll-free at 888-860-9989 from 9 a.m. to 5 p.m. CT Monday through Friday, email at recall@kellelectronic.com or online at https://www.personalchiller.com/recall or https://www.personalchiller.com/ and click on \"Recall\" located at the top of the page.",
+      "LastPublishDate": "2023-05-18T00:00:00",
+      "Products": [
+        {
+          "Name": "Personal Chiller Mini Fridge Gamer Beverage Refrigerators with LED Lights",
+          "Description": "",
+          "Model": "",
+          "Type": "",
+          "CategoryID": "",
+          "NumberOfUnits": "About 25,000"
+        }
+      ],
+      "Inconjunctions": [],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/image3_4.png",
+          "Caption": "Recalled Personal Chiller Mini Fridge Gamer Beverage Refrigerator with LED Lights"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/blue.jpg",
+          "Caption": "Recalled Personal Chiller Mini Fridge Gamer Beverage Refrigerator with LED Lights (Blue)"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/red.jpg",
+          "Caption": "Recalled Personal Chiller Mini Fridge Gamer Beverage Refrigerator with LED Lights (Red)"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/image4_0.jpg",
+          "Caption": "Model Number location on back of the refrigerator"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received six reports of the power cord overheating. No injuries have been reported."
+        }
+      ],
+      "Manufacturers": [],
+      "Retailers": [
+        {
+          "Name": "Walmart stores nationwide and online at Walmart.com as well as secondhand stores and websites from September 2022 through January 2023 for about $60.",
+          "CompanyID": ""
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Kell Electronic USA inc., Houston, Texas",
+          "CompanyID": ""
+        }
+      ],
+      "Distributors": [],
+      "SoldAtLabel": null,
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "ProductUPCs": [],
+      "Hazards": [
+        {
+          "Name": "The refrigerator's power cord can overheat, posing a burn hazard.",
+          "HazardType": "",
+          "HazardTypeID": ""
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately stop using the recalled refrigerator and contact Kell Electronic to receive a full refund or a replacement cord. Once unplugged, the firm is asking consumers to use scissors to cut the cord, take a photo of the cut cord then throw the cord away. Consumers will need to submit the photo to the firm to receive the full refund or replacement cord."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        },
+        {
+          "Option": "Repair"
+        }
+      ],
+      "context_terms": [
+        "refrigerator"
+      ]
+    },
+    {
+      "RecallID": 9537,
+      "RecallNumber": "23130",
+      "RecallDate": "2023-02-23T00:00:00",
+      "Description": "This recall involves Cosori air fryers with model numbers CP158-AF, CP158-AF-R19, CP158-AF-RXW, CP158-AF-RXR, CAF-P581-BUSR, CAF-P581-AUSR, CAF-P581-RUSR, CP137-AF, CP137-AF-RXB, CP137-AF-RXR, CP137-AF-RXW, CS158-AF, CS158-AF-RXB, CS158-AF-R19, CAF-P581S-BUSR, CAF-P581S-RUSR, CAF-P581S-AUSR, CO137-AF, CO158-AF, CO158-AF-RXB, CP258-AF. The brand name Cosori is on the front of each unit. The model number is printed on the bottom label of each unit and on the accompanying user manual. The units are size 3.7 and 5.8 qt. and were sold in black, gray, white, blue or red colors.",
+      "URL": "https://www.cpsc.gov/Recalls/2023/Two-Million-COSORI-Air-Fryers-Recalled-by-Atekcity-Due-to-Fire-and-Burn-Hazards",
+      "Title": "Two Million COSORI® Air Fryers Recalled by Atekcity Due to Fire and Burn Hazards",
+      "ConsumerContact": "Cosori toll-free at 888-216-5974 from 8 a.m. to 5 p.m. ET Monday through Friday, email at CosoriRecall@Sedgwick.com or online at www.recall.cosori.com or www.cosori.com and click on the \"Important Voluntary Safety Recall. Learn More\" banner at the bottom of the page for more information.",
+      "LastPublishDate": "2023-02-23T00:00:00",
+      "Products": [
+        {
+          "Name": "Cosori Air Fryers",
+          "Description": "",
+          "Model": "",
+          "Type": "",
+          "CategoryID": "",
+          "NumberOfUnits": "About 2 million (In addition, about 250,000 were sold in Canada and about 21,000 were sold in Mexico)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/certain-models-cosori-branded-air-fryers-recalled-due-potential-fire-hazard"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/RecalledCosoriairfryerModelsCP158AFCS158AFCAFP581AUSRandCAFP581SAUSRLightGray_0.JPG",
+          "Caption": "Recalled Cosori air fryer Models CP158-AF, CS158-AF, CAF-P581-AUSR and CAF-P581S-AUSR (Light Gray)"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/RecalledCosoriairfryerModelsCP158AFCS158AFCAFP581AUSRandCAFP581SAUSRBLUE_0.jpg",
+          "Caption": "Recalled Cosori air fryer Models CP158-AF, CS158-AF, CAF-P581-BUSR and CAF-P581S-BUSR (Blue)"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/RecalledCosoriairfryerModelsCP158AFCS158AFCAFP581AUSRandCAFP581SAUSRWINERED_0.JPG",
+          "Caption": "Recalled Cosori air fryer Models CP158-AF, CS158-AF, CAF-P581-RUSR, and CAF-P581S-RUSR (Wine Red)"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/RecalledCosoriairfryerModelCO137AFCO158AFandCO158AFRXBBlack_0.JPG",
+          "Caption": "Recalled Cosori air fryer Model CO137-AF, CO158-AF and CO158-AF-RXB (Black)"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/RecalledCosoriairfryerModelCP137AFCP137AFRXBCP158AFCP158AFR19CS158AFCS158AFR19andCS158AFRXBBlack_0.JPG",
+          "Caption": "Recalled Cosori air fryer Model CP137-AF, CP137-AF-RXB, CP158-AF, CP158-AF-R19, CS158-AF, CS158-AF-R19 and CS158-AF-RXB (Black)"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/RecalledCosoriairfryerModelCP137AFCP137AFRXRCP158AFandCP158AFRXRRed_0.JPG",
+          "Caption": "Recalled Cosori air fryer Model CP137-AF, CP137-AF-RXR, CP158-AF and CP158-AF-RXR (Red)"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/RecalledCosoriairfryerModelCP137AFCP137AFRXRCP158AFandCP158AFRXWWhite_0.JPG",
+          "Caption": "Recalled Cosori air fryer Models CP137-AF, CP137-AF-RXW, CP158-AF, and CP158-AF-RXW (White)"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/RecalledCosoriairfryerModelCP258AFSilverBlack_0.JPG",
+          "Caption": "Recalled Cosori air fryer Model CP258-AF (Silver Black)"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received 205 reports of the air fryers catching fire, burning, melting, overheating and smoking. These include 10 reports of minor, superficial burn injuries and 23 reports of minor property damage."
+        }
+      ],
+      "Manufacturers": [],
+      "Retailers": [
+        {
+          "Name": "Best Buy, Target and The Home Depot stores nationwide and online at Amazon.com, Adorama.com, Bedbathandbeyond.com, Cosori.com, eBay.com, Homegoods.com, Kohls.com, Lowes.com, Macys.com, QVC.com, Staples.com, Vesync.com, Walmart.com, Wayfair.com, Wellbots.com and Woot.com from June 2018 through December 2022 for between $70 and $130.",
+          "CompanyID": ""
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Atekcity Corporation, of Anaheim, Calif.",
+          "CompanyID": ""
+        }
+      ],
+      "Distributors": [],
+      "SoldAtLabel": null,
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "ProductUPCs": [],
+      "Hazards": [
+        {
+          "Name": "A wire connection in the air fryers can overheat, posing fire and burn hazards.",
+          "HazardType": "",
+          "HazardTypeID": ""
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately stop using the recalled air fryers and contact Cosori to receive their choice of a free replacement air fryer or another Cosori product by registering at recall.cosori.com. During registration consumers must provide their contact information and submit photos of the recalled unit with the cord cut off. No receipt is needed to receive a replacement."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Replace"
+        }
+      ],
+      "context_terms": [
+        "air fryer"
+      ]
+    },
+    {
+      "RecallID": 9486,
+      "RecallNumber": "23080",
+      "RecallDate": "2022-12-22T00:00:00",
+      "Description": "This recall involves several models of Samsung's top-load washers with super speed wash. The washers were sold in white, black, champagne, and ivory colors and include model series WA49B, WA50B, WA51A, WA52A, WA54A, and WA55A. The model and serial numbers are found on the washer's label attached to the inside of the top lid. An additional label is located on the rear of the washer. The following model and serial number ranges are included in the recall: Model Number Serial Number Range WA49B5105AV/US 01J457BT700001W through 01J457BTB00111H WA49B5105AW/US 01J557BT700001J through 01J557BT700010D WA49B5205AW/US 01HH57BT300006X through 01HH57BTB00932W WA50B5100AV/US 01J257BT70001B through 01J257BTB01232B WA50B5100AW/US 01J357BT770001L through 01J357BT700010F WA51A5505AC/US 01HA57BR700003P through 01HA57BTB00346F WA51A5505AV/US 01H257BR600003R through 01H257BTB02018L WA51A5505AW/US 01GY57BR600026P through 01GY57BTB00269W WA52A5500AC/US 01HB57BR700003Y through 01HB57BTB02968X WA52A5500AV/US 01H357BR600006A through 01H357BTB01820Y WA52A5500AW/US 01H457BR600003X through 01H457BTB01503Y WA54A7305AV/US 01H557BR600003P through 01H557BR800650T WA55A7300AE/US 01H057BR600001H through 01H057BTB05872Z WA55A7700AV/US 01H157BR600151Z through 01H157ZT700005K",
+      "URL": "https://www.cpsc.gov/Recalls/2023/Samsung-Recalls-Top-Load-Washing-Machines-Due-to-Fire-Hazard-Software-Repair-Available",
+      "Title": "Samsung Recalls Top-Load Washing Machines Due to Fire Hazard; Software Repair Available",
+      "ConsumerContact": "Samsung at http://www.samsung.com and http://www.samsung.com/us/support/tlw-sw-update or by phone toll-free at 833-916-4555 from 8 a.m. to 12 a.m. ET daily.",
+      "LastPublishDate": "2022-12-22T00:00:00",
+      "Products": [
+        {
+          "Name": "Samsung Top-Load Washing Machines",
+          "Description": "",
+          "Model": "",
+          "Type": "",
+          "CategoryID": "",
+          "NumberOfUnits": "About 663,500"
+        }
+      ],
+      "Inconjunctions": [],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/RecalledSamsungWA49bserieswasher.png",
+          "Caption": "Recalled Samsung WA49B*** series washer"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/RecalledSamsungWA50Bserieswasher.jpg",
+          "Caption": "Recalled Samsung WA50B*** series washer"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/RecalledSamsungWA51Aerieswasher.jpg",
+          "Caption": "Recalled Samsung WA51A*** series washer"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/RecalledSamsungWA52Aserieswasher.jpg",
+          "Caption": "Recalled Samsung WA52A*** series washer"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/RecalledSamsungWA54Aserieswasher.jpg",
+          "Caption": "Recalled Samsung WA54A*** series washer"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/RecalledSamsungWA55Aserieswasher.jpg",
+          "Caption": "Recalled Samsung WA55A*** series washer"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Labelonrecalledwashersinsidelid.png",
+          "Caption": "Label on recalled washer's inside lid"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/LabelonbackofRecalledwasher.png",
+          "Caption": "Label on back of recalled washer"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "Samsung has received 51 reports of smoking, melting, overheating or fire involving the washers; 10 of which resulted in property damage. Three consumers have reported injuries due to smoke inhalation."
+        }
+      ],
+      "Manufacturers": [],
+      "Retailers": [
+        {
+          "Name": "Best Buy, Costco, The Home Depot, Lowe's and other appliance stores nationwide and online at Samsung.com from June 2021 through December 2022 for between $900 and $1,500.",
+          "CompanyID": ""
+        }
+      ],
+      "Importers": [],
+      "Distributors": [
+        {
+          "Name": "Samsung Electronics America Inc., of Ridgefield Park, New Jersey",
+          "CompanyID": ""
+        }
+      ],
+      "SoldAtLabel": null,
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "ProductUPCs": [],
+      "Hazards": [
+        {
+          "Name": "The washing machines can short-circuit and overheat, posing a fire hazard.",
+          "HazardType": "",
+          "HazardTypeID": ""
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately check whether their washer's software has been updated to prevent the hazard; and, if not, consumers should immediately stop using the washer until the software is updated. Instructions on how to check whether a washer's software has been updated can be found here https://www.samsung.com/us/support/tlw-sw-update. All Wi-Fi equipped washers that are plugged into a power source and actively connected to the internet will automatically download the free software repair over-the-air when they are connected to the internet. Consumers who have not connected their Wi-Fi equipped washer to the internet should contact Samsung for instructions on how to download the software repair. Consumers whose washer does not have Wi-Fi capability or who otherwise wish to receive a free software repair without connecting to the internet, should immediately stop using the washer and contact Samsung directly for a free dongle to plug in and download the free software repair."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "context_terms": [
+        "washing machine"
+      ]
+    },
+    {
+      "RecallID": 9459,
+      "RecallNumber": "23056",
+      "RecallDate": "2022-12-01T00:00:00",
+      "Description": "This recall involves certain Cuisinart compact blender and juice extractor combos with model number CBJ-450. The model number is printed on the label located on the bottom of the base and on the original packaging. The blades are silver-colored stainless steel and have a black plastic center hub. Cuisinart is printed on the front and on the bottom of the compact blender and juice extractor combos.",
+      "URL": "https://www.cpsc.gov/Recalls/2023/Conair-Recalls-Cuisinart-Compact-Blender-and-Juice-Extractor-Combos-Due-to-Laceration-Hazard",
+      "Title": "Conair Recalls Cuisinart Compact Blender & Juice Extractor Combos Due to Laceration Hazard",
+      "ConsumerContact": "Cuisinart toll-free at 877-339-2534 from 7 a.m. to 11 p.m. ET Monday through Friday, email at customerservice@cuisinart.com, online at www.cuisinart.com/recall/CBJ-450 or at www.Cuisinart.com and click on Safety Recalls at bottom of page for more information.",
+      "LastPublishDate": "2022-12-01T00:00:00",
+      "Products": [
+        {
+          "Name": "Cuisinart Compact Blender & Juice Extractor Combos Model CBJ-450",
+          "Description": "",
+          "Model": "",
+          "Type": "",
+          "CategoryID": "",
+          "NumberOfUnits": "About 66,000 (In addition, about 1500 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/cuisinart-compact-blender-juice-extractor-combo-recalled-due-injury-hazard"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/RecalledCuisinartCompactBlenderJuiceExtractorCombosModelCBJ450.JPG",
+          "Caption": "Recalled Cuisinart Compact Blender & Juice Extractor Combos Model CBJ-450"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received three reports of incidents in which the blender blade detached during use. In one of the incidents the blade perforated the blender container. No injuries have been reported."
+        }
+      ],
+      "Manufacturers": [],
+      "Retailers": [
+        {
+          "Name": "Crate & Barrel and other department, gourmet and specialty stores nationwide and online at Amazon.com, Macys.com, Kohls.com and other online retailers from November 2021 through August 2022 for about $80.",
+          "CompanyID": ""
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Conair LLC, of Stamford, Conn., owner of Cuisinart brand",
+          "CompanyID": ""
+        }
+      ],
+      "Distributors": [],
+      "SoldAtLabel": null,
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "ProductUPCs": [],
+      "Hazards": [
+        {
+          "Name": "The nut holding the blender blade assembly can loosen and detach from the base when in use, posing a laceration hazard if a consumer comes in contact with a loose blade.",
+          "HazardType": "",
+          "HazardTypeID": ""
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately stop using the recalled blender part of the compact blender and juice extractor combos and contact Conair for a free replacement blade assembly. Consumers will receive instructions on how to install the replacement blade assembly after discarding the existing blade assembly, and after verifying disposal of the existing blade assembly. No tools are needed, and the new assembly can be inserted into the unit in the identical manner that the original assembly was in accordance with the operating instructions that the consumer received when the product was purchased. The juice extractor is unaffected and may continue to be used."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Replace"
+        }
+      ],
+      "context_terms": [
+        "blender"
+      ]
+    },
+    {
+      "RecallID": 9423,
+      "RecallNumber": "23012",
+      "RecallDate": "2022-10-13T00:00:00",
+      "Description": "This recall involves the Magic Chef Air Fryer Digital Air Fryer oven with model numbers MCAF56DB (black) and MCAF56DW (white). Magic Chef is printed on the top of the fryers and the rating label on the bottom has the brand name Magic Chef along with the model number. The air fryers measure about 13 inches by 15 inches by 14 inches.",
+      "URL": "https://www.cpsc.gov/Recalls/2023/Newair-Recalls-Magic-Chef-Air-Fryers-Due-to-Fire-and-Burn-Hazards",
+      "Title": "Newair Recalls Magic Chef Air Fryers Due to Fire and Burn Hazards",
+      "ConsumerContact": "Newair toll-free at 833-715-1021 between 8 a.m. and 4 p.m. PT Monday through Friday https://www.newair.com/pages/newair-magic-chef-digital-air-fryer-recall or https://www.newair.com/pages/recall-registration for online registration.",
+      "LastPublishDate": "2022-10-13T00:00:00",
+      "Products": [
+        {
+          "Name": "Magic Chef Air Fryers",
+          "Description": "",
+          "Model": "",
+          "Type": "",
+          "CategoryID": "",
+          "NumberOfUnits": "About 11,750"
+        }
+      ],
+      "Inconjunctions": [],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/1-83300.png",
+          "Caption": "Recalled Magic Chef Air Fryer Model MCAF56DB (black)"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/2-83326.png",
+          "Caption": "Rating Label on bottom of recalled Magic Chef Air Fryer MCAF56DB (black)"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/3-83338.png",
+          "Caption": "Recalled Magic Chef Air Fryer Model MCAF56DW (white)"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/4-83359.png",
+          "Caption": "Rating Label on bottom of recalled Magic Chef Air Fryer MCAF56DW (white)"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Manufacturers": [],
+      "Retailers": [
+        {
+          "Name": "Online at Newair.com, Walmart.com, Wayfair.com, Amazon.com, and Target.com from July 2018 through September 2020 for between $115 to $138.",
+          "CompanyID": ""
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Newair.com LLC, of Cypress, California",
+          "CompanyID": ""
+        }
+      ],
+      "Distributors": [],
+      "SoldAtLabel": null,
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "ProductUPCs": [],
+      "Hazards": [
+        {
+          "Name": "The air fryer can overheat, posing fire and burn hazards.",
+          "HazardType": "",
+          "HazardTypeID": ""
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately stop using the recalled air fryers and provide a picture of the rating label to the firm to receive instructions to disable the air fryer and receive a refund in the form of a newair.com credit. The credit amount will be $50 or the amount on the purchase receipt if higher. No receipt is needed to get the $50 credit. Consumers can also register to participate in the recall at https://www.newair.com/pages/recall-registration."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "context_terms": [
+        "air fryer"
+      ]
+    },
+    {
+      "RecallID": 9417,
+      "RecallNumber": "23006",
+      "RecallDate": "2022-10-13T00:00:00",
+      "Description": "This recall involves U-Line Outdoor Series 24-inch Built-In Convertible Freezers with model number U-1224FZRSOD-00A and manufactured between 2017-2018. They have serial number ranges between 1745627020001-1745627020009; 1746096040001-1746096040077; 1850469050001-1850469050003; and 1850469059001-1850469059003. The model number, serial number, and \"U-Line\" brand name are printed on a plate located in the top right interior of the unit.",
+      "URL": "https://www.cpsc.gov/Recalls/2023/U-Line-Recalls-Outdoor-Freezers-Due-to-Fire-Hazard",
+      "Title": "U-Line Recalls Outdoor Freezers Due to Fire Hazard",
+      "ConsumerContact": "U-Line toll-free at 833-614-7788 from 8 a.m. to 4:30 p.m. CT Monday through Friday, at www.U-Line.com/safetyrecall or at www.u-line.com and click on \"Product Recall Information\" under \"Support\" at the bottom of the page for more information.",
+      "LastPublishDate": "2022-10-13T00:00:00",
+      "Products": [
+        {
+          "Name": "U-Line Outdoor Series 24-inch Built-In Convertible Freezers",
+          "Description": "",
+          "Model": "",
+          "Type": "",
+          "CategoryID": "",
+          "NumberOfUnits": "About 90"
+        }
+      ],
+      "Inconjunctions": [],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/1-81921.png",
+          "Caption": "Recalled U-Line Outdoor Series 24-inch Built-In Outdoor Convertible Freezers"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/2-81930.png",
+          "Caption": "Inside of Recalled U-Line Outdoor Series 24-inch Built-In Outdoor Convertible Freezers"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "U-Line has received three reports of freezer fires. No injuries have been reported."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "U-Line Corporation, of Milwaukee, Wisconsin",
+          "CompanyID": ""
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Independent distributors including Tri State Distributors, Milestone Distributors, Purcell-Murray Company and Almo Distributing NY, who sold them to retailers nationwide from April 2017 through February 2020 for about $2,600.",
+          "CompanyID": ""
+        }
+      ],
+      "Importers": [],
+      "Distributors": [],
+      "SoldAtLabel": null,
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "ProductUPCs": [],
+      "Hazards": [
+        {
+          "Name": "The outdoor freezers can overheat, posing a fire hazard.",
+          "HazardType": "",
+          "HazardTypeID": ""
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately turn off and unplug the recalled outdoor freezers and contact U-Line to schedule a free pickup of the recalled freezers and installation of a free replacement unit. Replacement options include a freezer, refrigerator drawers or refrigerator."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Replace"
+        }
+      ],
+      "context_terms": [
+        "freezer"
+      ]
+    },
+    {
+      "RecallID": 9318,
+      "RecallNumber": "22151",
+      "RecallDate": "2022-06-09T00:00:00",
+      "Description": "This recall involves Hisense USA's 26.6 cubic foot capacity stainless steel French door refrigerators with ice maker with model number HRF266N6CSE and with serial numbers C2020050100001 through C2020123109000. The brand name, model, and serial number for each unit are printed on a label located on the left side of the interior of the refrigerator, above the water dispenser. With the serial number, consumers can check to determine whether their refrigerator is included in this recall by clicking http://hisenseservice.com/recall. The refrigerators are 36 inches wide and 74 inches high.",
+      "URL": "https://www.cpsc.gov/Recalls/2022/Hisense-USA-Recalls-Bottom-Freezer-French-Door-Refrigerators-Due-to-Impact-Injury-Hazard-Sold-Exclusively-at-Lowes",
+      "Title": "Hisense USA Recalls Bottom Freezer, French Door Refrigerators Due to Impact Injury Hazard; Sold Exclusively at Lowe's",
+      "ConsumerContact": "Hisense online at www.hisense-usa.com/product-safety-recall/french-door-refrigerator-2020, toll-free at 888-497-1189 from 9 a.m. to 9 p.m. ET Monday through Friday, 9 a.m. to 6 p.m. ET Saturday and Sunday, email at recall.usa@hisense.com or online at https://www.hisense-usa.com and click on Recall Information at the bottom.",
+      "LastPublishDate": "2022-06-09T00:00:00",
+      "Products": [
+        {
+          "Name": "Hisense French Door Refrigerators with Ice Maker",
+          "Description": "",
+          "Model": "",
+          "Type": "",
+          "CategoryID": "",
+          "NumberOfUnits": "About 55,200 (In addition, 78 in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/hisense-brand-bottom-freezer-french-door-refrigerators-recalled-due-impact-hazard"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/1_80.png",
+          "Caption": "Recalled Hisense 26.6 Cu. Ft. French Door Refrigerator (Model# HRF266N6CSE)"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/2_66.png",
+          "Caption": "Recalled Hisense 26.6 Cu. Ft. French Door Refrigerator (Model# HRF266N6CSE)"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/3_48.png",
+          "Caption": "Serial Number for Recalled Hisense 26.6 Cu. Ft. French Door Refrigerators"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/4_40.png",
+          "Caption": "Serial Number Location for Recalled Hisense 26.6 Cu. Ft. French Door Refrigerators"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received 139 reports of the refrigerator doors loosening or detaching and five reports of injuries, including foot bruises and lacerations."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Hisense USA, of Suwanee, Georgia",
+          "CompanyID": ""
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Lowe's stores nationwide and online at Lowes.com from August 2020 through February 2022 for about $1,500.",
+          "CompanyID": ""
+        }
+      ],
+      "Importers": [],
+      "Distributors": [],
+      "SoldAtLabel": null,
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "ProductUPCs": [],
+      "Hazards": [
+        {
+          "Name": "The refrigerator's door hinge can break causing the door to detach when the consumer tries to open the French doors, posing an impact injury hazard to the consumer.",
+          "HazardType": "",
+          "HazardTypeID": ""
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately stop using the refrigerator if the recalled refrigerator's doors fail to open or close normally until they are repaired. Consumers should contact Hisense USA to determine if their unit is part of the recall and to schedule a free in-home service appointment to have the refrigerator door hinges replaced."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "context_terms": [
+        "refrigerator"
+      ]
+    },
+    {
+      "RecallID": 9313,
+      "RecallNumber": "22143",
+      "RecallDate": "2022-06-02T00:00:00",
+      "Description": "This recall involves 13 models of Frigidaire refrigerators and one Electrolux model refrigerator. The refrigerators all feature an ice maker and come in stainless steel, white and black. The brand name, model and serial number for each unit is printed on a label located on the right panel in the interior of the refrigerator compartment. The refrigerators range from 23 to 36 inches wide. The following model numbers and their serial number ranges are included in this recall. Brand Model Number/Product Type UPC Code Serial Range Frigidaire Prof. PRMC2285AF French Door 0-12505-64714-7 1K90974428 - 1K21374177 Electrolux French Door ERMC2295AS 0-12505-64715-4 1K91272383 - 1K21374610 Frigidaire Side by Side FRSS2323AB 0-12505-64786-4 4A11005907 - 4A21110079 Frigidaire Side by Side FRSS2323AW 0-12505-64787-1 4A11010081 - 4A21112264 Frigidaire Side by Side FRSS2323AD 0-12505-64788-8 4A11314335 - 4A21112489 Frigidaire Side by Side FRSS2323AS 0-12505-64785-7 4A11005673 - 4A21201870 Frigidaire Side by Side FRSS2333AS 0-12505-64789-5 4A11317863 - 4A21112732 Frigidaire Side by Side FRSS2623AB 0-12505-64772-7 4A12104890 - 4A21204442 Frigidaire Side by Side FRSS2623AW 0-12505-64773-4 4A12012169 - 4A12012280 Frigidaire Side by Side FRSS2623AD 0-12505-64774-1 4A12219737 - 4A20906066 Frigidaire Side by Side FRSS2623AS 0-12505-64771-0 4A04409324 - 4A21200876 Frigidaire Side by Side FRSS2633AS 0-12505-64876-2 4A12012169 - 4A13402496 Frigidaire Side by Side FRSS26L3AF 0-12505-64792-5 4A11203977 - 4A21116296 Frigidaire Top Freezer FFHI1835VS 0-12505-64680-5 BA92424713 - BA21210491",
+      "URL": "https://www.cpsc.gov/Recalls/2022/Electrolux-Recalls-Frigidaire-and-Electrolux-Refrigerators-Due-to-Choking-Hazard-from-Ice-Maker",
+      "Title": "Electrolux Recalls Frigidaire and Electrolux Refrigerators Due to Choking Hazard from Ice Maker",
+      "ConsumerContact": "Electrolux toll-free at 833-840-5926 from 8:30 a.m. to 8 p.m. ET Monday through Friday, by email at IceMakerRecall@electrolux.com or online at www.icemakerrecall.com or at www.electrolux.com or www.frigidaire.com and click on \"Recalls\" at the bottom of the page for more information.",
+      "LastPublishDate": "2022-06-02T00:00:00",
+      "Products": [
+        {
+          "Name": "Frigidaire and Electrolux Side-by-Side, Top Freezer and Multi-door refrigerators",
+          "Description": "",
+          "Model": "",
+          "Type": "",
+          "CategoryID": "",
+          "NumberOfUnits": "About 367,500 (In addition, about 7,180 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://www.cpsc.gov/Recalls/2022/:%20https://recalls-rappels.canada.ca/en/alert-recall/certain-frigidaire-and-electrolux-refrigerators-recalled-due-choking-hazard-ice-maker"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Recalled Electrolux multi-door refrigerator with in-door dispenser.png",
+          "Caption": "Recalled Electrolux multi-door refrigerator with in-door dispenser"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Recalled Frigidaire top-mount refrigerator.png",
+          "Caption": "Recalled Frigidaire top-mount refrigerator"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Recalled Frigidaire side-by-side refrigerator with in-door dispenser.png",
+          "Caption": "Recalled Frigidaire side-by-side refrigerator with in-door dispenser"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Serial number locations for the different refrigerator types.jpg",
+          "Caption": "Serial number locations for the different refrigerator types"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Ice maker ice level detector arm.jpg",
+          "Caption": "Ice maker ice level detector arm"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "Electrolux has received 185 reports of the ice level detectors breaking, including one report of gum lacerations."
+        }
+      ],
+      "Manufacturers": [],
+      "Retailers": [
+        {
+          "Name": "Lowe's, Home Depot and appliance stores nationwide and online at Frigidaire.com from April 2020 through March 2022 for between $1,200 and $4,300.",
+          "CompanyID": ""
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Electrolux Home Products Inc., of Charlotte, N.C.",
+          "CompanyID": ""
+        }
+      ],
+      "Distributors": [],
+      "SoldAtLabel": null,
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        },
+        {
+          "Country": "Mexico"
+        },
+        {
+          "Country": "Thailand"
+        }
+      ],
+      "ProductUPCs": [
+        {
+          "UPC": "012505646805"
+        },
+        {
+          "UPC": "012505647147"
+        },
+        {
+          "UPC": "012505647154"
+        },
+        {
+          "UPC": "012505647710"
+        },
+        {
+          "UPC": "012505647727"
+        },
+        {
+          "UPC": "012505647734"
+        },
+        {
+          "UPC": "012505647741"
+        },
+        {
+          "UPC": "012505647857"
+        },
+        {
+          "UPC": "012505647864"
+        },
+        {
+          "UPC": "012505647871"
+        },
+        {
+          "UPC": "012505647888"
+        },
+        {
+          "UPC": "012505647895"
+        },
+        {
+          "UPC": "012505647925"
+        },
+        {
+          "UPC": "012505648762"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "The ice level detector arm in the ice maker can break into pieces and fall into the ice bucket, posing a choking hazard.",
+          "HazardType": "",
+          "HazardTypeID": ""
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately stop using the recalled Frigidaire and Electrolux refrigerator ice makers, empty the ice bucket and contact Electrolux to schedule a technician to replace the ice maker with one that has a polypropylene ice level detector, free of charge."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Replace"
+        }
+      ],
+      "context_terms": [
+        "freezer",
+        "refrigerator"
+      ]
+    },
+    {
+      "RecallID": 9293,
+      "RecallNumber": "22126",
+      "RecallDate": "2022-04-28T00:00:00",
+      "Description": "The recalled baskets are white woven baskets with bunny faces that have either pink or blue cheeks and black plastic eyes. The recalled baskets were sold with a tag that reads \"HAPPY EASTER\" and a hangtag that reads \"! WARNING: THIS IS NOT A TOY, FOR DECORATIVE PURPOSES ONLY.\"",
+      "URL": "https://www.cpsc.gov/Recalls/2022/Bed-Bath-Beyond-Recalls-Woven-Bunny-Baskets-Due-to-Choking-Hazard",
+      "Title": "Bed Bath & Beyond Recalls Woven Bunny Baskets Due to Choking Hazard",
+      "ConsumerContact": "Bed Bath & Beyond at 800-462-3966 from 7 a.m. to 12 a.m. ET seven days a week, or online athttp://www.bedbathandbeyond.com and click on \"Product Recall Information\" at the bottom of the page or online at https://www.bedbathandbeyond.com/store/knowledgecenter/customerservice/product-recall-information for more information. Consumers can also click on \"Help\" on the website to reach a Customer Service representative via email.",
+      "LastPublishDate": "2022-04-28T00:00:00",
+      "Products": [
+        {
+          "Name": "H for Happy™ Woven Bunny Baskets",
+          "Description": "",
+          "Model": "",
+          "Type": "",
+          "CategoryID": "",
+          "NumberOfUnits": "About 12,800"
+        }
+      ],
+      "Inconjunctions": [],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/RecalledWovenBunnyBasketinPink.PNG",
+          "Caption": "Recalled Woven Bunny Basket in Pink"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/RecalledWovenBunnyBasketinBlue.PNG",
+          "Caption": "Recalled Woven Bunny Basket in Blue"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Manufacturers": [],
+      "Retailers": [
+        {
+          "Name": "Exclusively at Bed Bath & Beyond stores and online at http://www.bedbathandbeyond.com during March 2022 for about $15.",
+          "CompanyID": ""
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Bed Bath & Beyond, of Union, N.J.",
+          "CompanyID": ""
+        }
+      ],
+      "Distributors": [],
+      "SoldAtLabel": null,
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "ProductUPCs": [],
+      "Hazards": [
+        {
+          "Name": "The bunny basket's eyes can detach, posing a choking hazard to young children.",
+          "HazardType": "",
+          "HazardTypeID": ""
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately take the recalled baskets away from children and return them to any Bed Bath & Beyond location for a full refund."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "context_terms": [
+        "oven"
+      ]
+    },
+    {
+      "RecallID": 9289,
+      "RecallNumber": "22125",
+      "RecallDate": "2022-04-21T00:00:00",
+      "Description": "This recall involves the Insignia Digital Air Fryers, Insignia Analog Air Fryers, and Insignia Digital Air Fryer Ovens, model numbers NS-AF32DBK9, NS-AF32MBK9, NS-AF50MBK9, NS-AF53DSS0, NS-AF53MSS0, NS-AF55DBK9, NS-AFO6DBK1 and NS-AFO6DSS1 sold by Best Buy. The brand name INSIGNIA is on the top or front of each unit. A rating label on the underside of each unit identifies the brand INSIGNIA and the model number. The air fryers and air fryer ovens have cooking chamber capacities ranging from approximately 3.4 to 10 quarts, and plastic or plastic and stainless-steel bodies in black and stainless-steel finishes.",
+      "URL": "https://www.cpsc.gov/Recalls/2022/Best-Buy-Recalls-Insignia-Air-Fryers-and-Air-Fryer-Ovens-Due-to-Fire-and-Burn-Hazards",
+      "Title": "Best Buy Recalls Insignia™ Air Fryers and Air Fryer Ovens Due to Fire and Burn Hazards",
+      "ConsumerContact": "Consumers can register online at www.insigniaairfryerrecall.expertinquiry.com or call Best Buy at 800-566-7498 from 8 a.m. to 5 p.m. ET Monday through Friday, or go online at http://www.bestbuy.com/productrecalls or www.bestbuy.com and click on Product Recalls for more information.",
+      "LastPublishDate": "2022-04-21T00:00:00",
+      "Products": [
+        {
+          "Name": "Insignia Air Fryers and Air Fryer Ovens",
+          "Description": "",
+          "Model": "",
+          "Type": "",
+          "CategoryID": "",
+          "NumberOfUnits": "About 635,000 (In addition, 137,000 in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/insignia-air-fryers-recalled-due-potential-fire-hazard"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/1_75.png",
+          "Caption": "Recalled Insignia - 3.4qt Analog Air Fryer - Black NS-AF32MBK9"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/2_61.png",
+          "Caption": "Recalled Insignia - 3.4qt Digital Air Fryer - Black NS-AF32DBK9"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/3_44.png",
+          "Caption": "Recalled Insignia - Analog Air Fryer - Family Size – Black NS-AF50MBK9"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/4_36.png",
+          "Caption": "Recalled Insignia - Digital Air Fryer - Family Size - Black NS-AF55DBK9"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/5_26.png",
+          "Caption": "Recalled Insignia - 5-qt. Analog Air Fryer - Stainless Steel NS-AF53MSS0"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/6_16.png",
+          "Caption": "Recalled Insignia - 5-qt. Digital Air Fryer - Stainless Steel NS-AF53DSS0"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/7_12.png",
+          "Caption": "Recalled Insignia - 10 Qt. Digital Air Fryer Oven - Black NS-AFO6DBK1"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/8_11.png",
+          "Caption": "Recalled Insignia - 10 Qt. Digital Air Fryer Oven - Stainless Steel NS-AFO6DSS1"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "Best Buy has received 68 reports from U.S. consumers and 36 reports from Canadian consumers of the air fryer or air fryer ovens catching fire, burning or melting. These include seven reports of minor property damage and two reports of injuries, including an injury to a child's leg."
+        }
+      ],
+      "Manufacturers": [],
+      "Retailers": [
+        {
+          "Name": "Best Buy stores nationwide and online at www.bestbuy.com, www.eBay.com and www.google.com from November 2018 through February 2022 for between $30 and $150.",
+          "CompanyID": ""
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "Best Buy Purchasing LLC, of Richfield, Minnesota",
+          "CompanyID": ""
+        }
+      ],
+      "Distributors": [],
+      "SoldAtLabel": null,
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "ProductUPCs": [],
+      "Hazards": [
+        {
+          "Name": "The air fryers and air fryer ovens can overheat, posing fire and burn hazards.",
+          "HazardType": "",
+          "HazardTypeID": ""
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately stop using the recalled air fryers and air fryer ovens and return the product to Best Buy for a refund in the form of a credit for use at Best Buy stores or Bestbuy.com. Best Buy is contacting all known purchasers directly to arrange returns and providing pre-paid shipping boxes and labels and return instructions. Consumers will receive a credit of $50 or the amount on the purchase receipt if higher. Consumers do not need a purchase receipt to get the $50 credit."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "context_terms": [
+        "air fryer",
+        "oven"
+      ]
+    },
+    {
+      "RecallID": 9282,
+      "RecallNumber": "22117",
+      "RecallDate": "2022-04-14T00:00:00",
+      "Description": "This recall involves six models of GE-brand French Door Refrigerators with bottom freezers in fingerprint resistant stainless steel, which were manufactured from February 2020 through August 2021. The brand name, model, and serial number for each unit are printed on a label located on the top of the left side of the interior of the refrigerator compartment. The refrigerators are 36 inches wide. The affected model numbers are GFE26JYMKFFS, GFE26JYMNFFS GNE27EYMKFFS, GNE27EYMNFFS, GNE27JYMKFFS, and GNE27JYMNFFS. The serial numbers for the affected models begin with one of the following two letter combinations: DR, FR, GR, HR, LR, MR, RR, SR, TR, VR, ZR, AS, DS, FS, GS, HS, LS, MS.",
+      "URL": "https://www.cpsc.gov/Recalls/2022/GE-Appliances-a-Haier-Company-Recalls-Bottom-Freezer-French-Door-Refrigerators-Due-to-Fall-Hazard",
+      "Title": "GE Appliances, a Haier Company, Recalls Bottom Freezer, French Door Refrigerators Due to Fall Hazard",
+      "ConsumerContact": "GE Appliances toll-free at 888-345-4671 from 8 a.m. to 5 p.m. ET Monday through Friday or online at www.geappliances.com/ge/recall/bottom-freezer-refrigerator-2022/ or www.geappliances.com and click on \"Recall Information\" at the bottom of the page for more information.",
+      "LastPublishDate": "2022-04-14T00:00:00",
+      "Products": [
+        {
+          "Name": "GE-brand Free-Standing French Door Refrigerators in Fingerprint Resistant Stainless Steel",
+          "Description": "",
+          "Model": "",
+          "Type": "",
+          "CategoryID": "",
+          "NumberOfUnits": "About 155,000 (In addition, about 2,300 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://recalls-rappels.canada.ca/en/alert-recall/ge-brand-bottom-freezer-french-door-refrigerators-recalled-due-fall-hazard"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/pic1_66.png",
+          "Caption": "Recalled GE refrigerator"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/pic2_54.png",
+          "Caption": "Recalled GE refrigerator"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received 71 reports of the freezer drawer handle detaching, resulting in 37 reported injuries, including three serious fall injuries."
+        }
+      ],
+      "Manufacturers": [],
+      "Retailers": [
+        {
+          "Name": "The Home Depot, Lowe's, Best Buy and other home improvement and home appliance stores nationwide and online at Lowes.com and BestBuy.com from February 2020 through January 2022 for between $1,900 and $2,500, depending on the model.",
+          "CompanyID": ""
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "GE Appliances, a Haier company, of Louisville, Kentucky",
+          "CompanyID": ""
+        }
+      ],
+      "Distributors": [],
+      "SoldAtLabel": null,
+      "ManufacturerCountries": [
+        {
+          "Country": "Mexico"
+        }
+      ],
+      "ProductUPCs": [],
+      "Hazards": [
+        {
+          "Name": "The freezer handle can detach when a consumer tries to open the freezer drawer, posing a fall hazard to the consumer.",
+          "HazardType": "",
+          "HazardTypeID": ""
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should contact GE Appliances to determine if their unit is part of the recall and to schedule a free in-home service call to have the freezer's handle mounting fasteners replaced and the handle re-installed and for instructions for safe use pending a repair. The firm is contacting all known purchasers directly."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "context_terms": [
+        "refrigerator"
+      ]
+    },
+    {
+      "RecallID": 9085,
+      "RecallNumber": "21151",
+      "RecallDate": "2021-06-16T00:00:00",
+      "Description": "This recall involves Cove Appliance 24-inch built-in residential dishwashers model numbers DW2450 and DW2450WS. The recalled dishwashers have serial numbers 20000100 through 20044445. The model number, serial number and date code are printed on the product rating plate located inside the dishwasher. \"Cove\" is printed on the outside of the door and on the far right side of the control panel, located on the top of the unit's door.",
+      "URL": "https://www.cpsc.gov/Recalls/2021/Cove-Appliance-Recalls-Dishwashers-Due-to-Fire-Hazard",
+      "Title": "Cove Appliance Recalls Dishwashers Due to Fire Hazard",
+      "ConsumerContact": "Cove Appliance toll-free at 888-651-9376 from 8:30 a.m.to 5 p.m. CT Monday through Friday, e-mail at support@coveappliance.com or online at coveappliance.com/recall or at www.coveappliance.com and click \"learn more\" in the safety recall section for more information.",
+      "LastPublishDate": "2021-06-16T00:00:00",
+      "Products": [
+        {
+          "Name": "Cove Appliance 24-inch built-in dishwashers",
+          "Description": "",
+          "Model": "",
+          "Type": "",
+          "CategoryID": "",
+          "NumberOfUnits": "About 42,000"
+        }
+      ],
+      "Inconjunctions": [],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Pic1.png",
+          "Caption": "Recalled Cove Appliance 24-inch built-in dishwasher"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received five reports of burning smells, flames and smoking inside the dishwashers. No injuries have been reported."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Cove Appliance Inc., of Madison, Wis.",
+          "CompanyID": ""
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Home appliance stores nationwide from February 2018 through May 2021 for between $2,400 and $2,500.",
+          "CompanyID": ""
+        }
+      ],
+      "Importers": [],
+      "Distributors": [],
+      "SoldAtLabel": null,
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "ProductUPCs": [],
+      "Hazards": [
+        {
+          "Name": "The heating element in the dishwasher can fail to properly shut off and can overheat, posing a fire hazard.",
+          "HazardType": "",
+          "HazardTypeID": ""
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately stop using the recalled dishwashers, unplug them from their power source, and contact Cove Appliance to schedule a free repair. Cove Appliance will install a second thermal protection device and replace the dishwasher's heating element."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Repair"
+        }
+      ],
+      "context_terms": [
+        "dishwasher"
+      ]
+    },
+    {
+      "RecallID": 8929,
+      "RecallNumber": "21705",
+      "RecallDate": "2020-10-29T00:00:00",
+      "Description": "This recall involves Gorilla Commerce heavy duty oven liners. The black fiberglass liners were sold in a set of three. Extra Thick and Gorilla Grip with a gorilla logo is printed on the packaging.",
+      "URL": "https://www.cpsc.gov/Recalls/2021/Gorilla-Commerce-Recalls-Oven-Liners-Due-to-Risk-of-Carbon-Monoxide-Poisoning-Recall-Alert",
+      "Title": "Gorilla Commerce Recalls Oven Liners Due to Risk of Carbon Monoxide Poisoning (Recall Alert)",
+      "ConsumerContact": "Gorilla Commerce at 800-807-8579 from 9 a.m. to 5 p.m. ET Monday through Friday, email at hello@gorillagrip.com, or online at https://gorillagrip.com/pages/contact-us or https://gorillagrip.com and click on “Contact us” for more information.",
+      "LastPublishDate": "2020-10-29T00:00:00",
+      "Products": [
+        {
+          "Name": "Heavy Duty Oven Liners",
+          "Description": "",
+          "Model": "",
+          "Type": "",
+          "CategoryID": "",
+          "NumberOfUnits": "About 1,600"
+        }
+      ],
+      "Inconjunctions": [],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/1-123900PM.png",
+          "Caption": "Recalled Gorilla Grip Heavy-Duty Oven Liners"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received one report of a consumer's carbon monoxide alarm going off when using their oven with the recalled oven liner. No injuries have been reported."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Keli New Materials Co. Ltd, of Zhejiang, China",
+          "CompanyID": ""
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Online at Amazon.com and GorillaGrip.com from June 2020 through August 2020 for between $8 and $12.",
+          "CompanyID": ""
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "SJL Company Inc., of Philadelphia, Pa.",
+          "CompanyID": ""
+        }
+      ],
+      "Distributors": [
+        {
+          "Name": "Hills Point Industries, LLC, d/b/a Gorilla Commerce, of Westport, Conn.",
+          "CompanyID": ""
+        }
+      ],
+      "SoldAtLabel": null,
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "ProductUPCs": [],
+      "Hazards": [
+        {
+          "Name": "If the oven liner is not cut or configured for the exact specifications of the oven and it is placed over any vents or other openings in the oven, carbon monoxide can build up, posing a risk of carbon monoxide poisoning to consumers.",
+          "HazardType": "",
+          "HazardTypeID": ""
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately stop using the recalled oven liners. The company has notified all known purchasers. Consumers who have not received their refund should contact Gorilla Commerce."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "context_terms": [
+        "oven"
+      ]
+    },
+    {
+      "RecallID": 8861,
+      "RecallNumber": "20151",
+      "RecallDate": "2020-07-22T00:00:00",
+      "Description": "This recall involves the Greenpan Simmerlite Dutch Oven with Lid. The product was sold in six sizes, 3.5Q-7.0Q, and two colors: Black Metallic and Smokey Sky Blue. The top of the lid says \"THE DUTCH OVEN\" and \"GREENPAN.\" The bottom of the lid states \"Dishwasher Safe. The Dutch Oven Designed and Engineered in Belgium.\" The bottom of the oven states \"Original GreenPan with Magneto2 Induction Technology All Heat Sources Including Induction.\" There is a four-digit date code laser etched onto the back of the sidehandles. The UPC code is printed on the bottom of the box under the barcode. Recalled Product Name UPC Code GreenPan Simmerlite 3.5Q covered dutch oven 885837016505 GreenPan Simmerlite 4.5Q covered dutch oven 885837016512 GreenPan Simmerlite 5.5Q covered (round) dutch oven 885837016529 GreenPan Simmerlite 7Q covered dutch oven 885837017922 GreenPan Simmerlite 6.5Q oval dutch oven 885837017939 GreenPan SimmerLite 5.5Q oval dutch oven 885837019681",
+      "URL": "https://www.cpsc.gov/Recalls/2020/Cookware-Company-Recalls-Greenpan-SimmerLite-Dutch-Ovens-Due-to-Burn-and-Injury-Hazards",
+      "Title": "Cookware Company Recalls Greenpan SimmerLite Dutch Ovens Due to Burn and Injury Hazards",
+      "ConsumerContact": "Cookware Company toll-free at 877-926-6526 between 8:30am and 5:00pm ET Monday through Friday, email simmerlite@cookware-co.com or online at www.greenpan.us and click on “SimmerLite Dutch Oven Product Recall” for more information.",
+      "LastPublishDate": "2020-07-22T00:00:00",
+      "Products": [
+        {
+          "Name": "Greenpan SimmerLite Dutch Ovens with Lid",
+          "Description": "",
+          "Model": "",
+          "Type": "",
+          "CategoryID": "",
+          "NumberOfUnits": "About 11,160"
+        }
+      ],
+      "Inconjunctions": [],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/1-75702AM.png",
+          "Caption": "Recalled Double Greenpan SimmerLite Dutch Oven with Lid"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/2-75708AM.png",
+          "Caption": "Recalled Double Greenpan SimmerLite Dutch Oven with Lid"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/3-75718AM.png",
+          "Caption": "Lid of Recalled Double Greenpan SimmerLite Dutch Oven"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "The firm has received four consumer reports of incidents, including three reports of the lid exploding while the product was inside the oven, resulting in one report of property damage. No injuries have been reported."
+        }
+      ],
+      "Manufacturers": [],
+      "Retailers": [
+        {
+          "Name": "Online at Greenpan.us, Amazon.com, Macys.com, Surlatable.com, Food52.com and in various independent gourmet kitchen stores nationwide from September 2018 through May 2020 for between $100 and $170.",
+          "CompanyID": ""
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "The Cookware Company (USA) LLC, of Irvington, New York",
+          "CompanyID": ""
+        }
+      ],
+      "Distributors": [],
+      "SoldAtLabel": null,
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "ProductUPCs": [
+        {
+          "UPC": "885837016505"
+        },
+        {
+          "UPC": "885837016512"
+        },
+        {
+          "UPC": "885837016529"
+        },
+        {
+          "UPC": "885837017922"
+        },
+        {
+          "UPC": "885837017939"
+        },
+        {
+          "UPC": "885837019681"
+        }
+      ],
+      "Hazards": [
+        {
+          "Name": "The lid on the dutch oven can explode while it is inside the oven, posing injury and burn hazards to the consumer.",
+          "HazardType": "",
+          "HazardTypeID": ""
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should stop using the recalled Dutch Ovens immediately and contact Cookware Company for a full refund or a free replacement glass lid."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        },
+        {
+          "Option": "Replace"
+        }
+      ],
+      "context_terms": [
+        "oven"
+      ]
+    },
+    {
+      "RecallID": 8811,
+      "RecallNumber": "20118",
+      "RecallDate": "2020-05-07T00:00:00",
+      "Description": "This recall involves Poppin' Cobs 10 pack of microwave popcorn on the cob. The popcorn is packaged in a brown box with a black top with 10 Poppin' Cobs individually wrapped and 10 brown bags for popping. \"Poppin' Cobs\" is printed on the front of the box. Only boxes with date codes 042121 on the back of the box are included in the recall.",
+      "URL": "https://www.cpsc.gov/Recalls/2020/Fully-Popped-Recalls-Poppin-Cobs-10-Pack-Microwave-Popcorn-Due-to-Fire-and-Burn-Hazards-Sold-Exclusively-at-Uncommon-Good-Stores",
+      "Title": "Fully Popped Recalls Poppin' Cobs 10 Pack Microwave Popcorn Due to Fire and Burn Hazards; Sold Exclusively at Uncommon Good Stores",
+      "ConsumerContact": "Contact Fully Popped toll-free at 866-767-2627 from 9 a.m. to 5 p.m. ET Monday through Friday, email orders@poppincobs.com or online at www.poppincobs.com and click on “Recall” at the bottom of the page or at https://www.poppincobs.com/products/replacement-bags for more information.",
+      "LastPublishDate": "2020-05-07T00:00:00",
+      "Products": [
+        {
+          "Name": "Poppin' Cobs 10 Pack Microwave Popcorn",
+          "Description": "",
+          "Model": "",
+          "Type": "",
+          "CategoryID": "",
+          "NumberOfUnits": "About 4,900"
+        }
+      ],
+      "Inconjunctions": [],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Screen Shot 2020-05-07 at 8.04.22 AM.png",
+          "Caption": "Recalled Poppin’ Cobs Microwave Popcorn front of box"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Screen Shot 2020-05-07 at 8.04.32 AM.png",
+          "Caption": "Recalled Poppin’ Cobs back of box and bags"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Screen Shot 2020-05-07 at 8.04.43 AM.png",
+          "Caption": "Recalled Poppin’ Cobs back of box date code in bottom right corner"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "Poppin' Cobs has received five reports of the popcorn brown paper bags catching on fire in the microwave. No injuries or property damage have been reported."
+        }
+      ],
+      "Manufacturers": [
+        {
+          "Name": "Gilchrist Bag Manufacturing LLC, of Camden, Arizona",
+          "CompanyID": ""
+        }
+      ],
+      "Retailers": [
+        {
+          "Name": "Uncommon Goods stores in Brooklyn, N.Y. from September 2019 through January 2020 for about $18",
+          "CompanyID": ""
+        }
+      ],
+      "Importers": [],
+      "Distributors": [
+        {
+          "Name": "Fully Popped, of Indianapolis, Ind.",
+          "CompanyID": ""
+        }
+      ],
+      "SoldAtLabel": null,
+      "ManufacturerCountries": [
+        {
+          "Country": "United States"
+        }
+      ],
+      "ProductUPCs": [],
+      "Hazards": [
+        {
+          "Name": "The popcorn's paper bag can catch fire in the microwave, posing fire and burn hazards.",
+          "HazardType": "",
+          "HazardTypeID": ""
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately stop using the recalled Poppin' Cobs 10 Pack Microwave Popcorn and contact the firm to receive free replacement bags. Consumers can order the replacement bags online at https://www.poppincobs.com/products/replacement-bags"
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Replace"
+        }
+      ],
+      "context_terms": [
+        "microwave"
+      ]
+    },
+    {
+      "RecallID": 8803,
+      "RecallNumber": "20738",
+      "RecallDate": "2020-04-23T00:00:00",
+      "Description": "This recall involves the LUS Dryer & Diffuser. The handheld hair dryers were sold in white, in a box that also contains a diffuser. The hair dryers have the model number HD-LUS01 printed under the back end of the hair dryer. The logos \"LUS Brands\" and \"Love Ur Curls\" are located on either side of the back end of the dryer.",
+      "URL": "https://www.cpsc.gov/Recalls/2020/LUS-Recalls-Hair-Dryers-Due-to-Electrocution-or-Shock-Hazard-Recall-Alert",
+      "Title": "LUS Recalls Hair Dryers Due to Electrocution or Shock Hazard (Recall Alert)",
+      "ConsumerContact": "LUS at 800-280-1675, by email at support@lusbrands.ca, or online at www.lusbrands.com and click on ‘Safety and Recall Information’ for more information.",
+      "LastPublishDate": "2020-04-23T00:00:00",
+      "Products": [
+        {
+          "Name": "LUS Hair Dryers & Diffusers",
+          "Description": "",
+          "Model": "",
+          "Type": "",
+          "CategoryID": "",
+          "NumberOfUnits": "About 2,700 (In addition, about 410 were sold in Canada)"
+        }
+      ],
+      "Inconjunctions": [
+        {
+          "URL": "https://healthycanadians.gc.ca/recall-alert-rappel-avis/hc-sc/2020/72845r-eng.php"
+        }
+      ],
+      "Images": [
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Screen Shot 2020-04-23 at 9.51.48 AM.png",
+          "Caption": "Recalled LUS Hair Dryer & Diffuser in Box"
+        },
+        {
+          "URL": "https://www.cpsc.gov/s3fs-public/Screen Shot 2020-04-23 at 9.52.09 AM.png",
+          "Caption": "Recalled LUS Hair Dryer with Logos"
+        }
+      ],
+      "Injuries": [
+        {
+          "Name": "None reported"
+        }
+      ],
+      "Manufacturers": [],
+      "Retailers": [
+        {
+          "Name": "Online at www.lusbrands.com from November 2019 through February 2020 for between $125 and $144.",
+          "CompanyID": ""
+        }
+      ],
+      "Importers": [
+        {
+          "Name": "LUS Distribution Inc., of Canada",
+          "CompanyID": ""
+        }
+      ],
+      "Distributors": [],
+      "SoldAtLabel": null,
+      "ManufacturerCountries": [
+        {
+          "Country": "China"
+        }
+      ],
+      "ProductUPCs": [],
+      "Hazards": [
+        {
+          "Name": "The hair dryers do not have an immersion protection device, posing an electrocution or shock hazard if the dryer falls into water when plugged in.",
+          "HazardType": "",
+          "HazardTypeID": ""
+        }
+      ],
+      "Remedies": [
+        {
+          "Name": "Consumers should immediately stop using and unplug the hair dryers. LUS is contacting all known purchasers of the hair dryers and providing a choice of either a full refund of the purchase price or a $175 store credit."
+        }
+      ],
+      "RemedyOptions": [
+        {
+          "Option": "Refund"
+        }
+      ],
+      "context_terms": [
+        "dryer"
+      ]
+    }
+  ]
+}
