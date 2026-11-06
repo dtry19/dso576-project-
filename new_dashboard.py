@@ -27,11 +27,9 @@ RAW_REVIEWS = ROOT / "dataset" / "Appliances_sample.jsonl"
 CLEAN_REVIEWS = ROOT / "output" / "Appliances_cleaned.jsonl"
 QA_REVIEWS = ROOT / "output" / "Appliances_cleaned_50_examples.jsonl"
 DEFAULT_METADATA = ROOT / "output" / "Appliances_metadata_sample.jsonl"
-ESCI_CONTEXT = ROOT / "output" / "esci_appliance_matches.jsonl"
 CPSC_CONTEXT = ROOT / "output" / "cpsc_appliance_context.json"
 
 AMAZON_DATA_URL = "https://huggingface.co/datasets/McAuley-Lab/Amazon-Reviews-2023"
-ESCI_DATA_URL = "https://github.com/amazon-science/esci-data"
 CPSC_DATA_URL = "https://www.cpsc.gov/Recalls"
 
 NAVY = "#131A22"
@@ -115,13 +113,6 @@ st.markdown(
 @st.cache_data(show_spinner="Validating review data…")
 def load_review_data() -> pd.DataFrame:
     return load_reviews(CLEAN_REVIEWS, RAW_REVIEWS, QA_REVIEWS)
-
-
-@st.cache_data(show_spinner=False)
-def load_esci_context() -> pd.DataFrame:
-    if not ESCI_CONTEXT.is_file():
-        return pd.DataFrame()
-    return pd.read_json(ESCI_CONTEXT, lines=True)
 
 
 @st.cache_data(show_spinner=False)
@@ -224,21 +215,6 @@ def cpsc_hazard_group(record: dict) -> str:
     return next((label for label, terms in groups if any(term in text for term in terms)), "Other")
 
 
-QUERY_REQUIREMENTS = (
-    ("Size / capacity", r"\b(size|inch|inches|cu ft|cubic|capacity|quart|gallon|oz)\b"),
-    ("Compatibility / model", r"\b(compatible|replacement|model|filter for|fits?|adapter)\b"),
-    ("Installation", r"\b(install|built.?in|counter.?depth|portable|vent|duct|hook.?up)\b"),
-    ("Performance", r"\b(power|watt|temperature|speed|ice|dry|cool|heat)\b"),
-    ("Noise", r"\b(quiet|noise|silent|decibel|db)\b"),
-    ("Color / design", r"\b(black|white|silver|stainless|color|french door)\b"),
-)
-
-
-def query_requirement(query: str) -> str:
-    text = str(query).lower()
-    return next((label for label, pattern in QUERY_REQUIREMENTS if re.search(pattern, text)), "Other")
-
-
 def listing_text(value) -> str:
     """Convert structured listing content using the analysis contract."""
     if value is None:
@@ -290,7 +266,6 @@ except (ValueError, OSError) as error:
     st.stop()
 
 tags = build_concern_tags(reviews)
-esci_context = load_esci_context()
 cpsc_context = load_cpsc_context()
 
 with st.sidebar:
@@ -299,7 +274,7 @@ with st.sidebar:
     if st.button("Reset filters and selections", width="stretch"):
         for key in (
             "rating", "year", "verified", "product_type", "concern", "parent",
-            "esci_parent", "esci_labels", "cpsc_term", "cpsc_hazard",
+            "cpsc_term", "cpsc_hazard",
         ):
             st.session_state.pop(key, None)
         st.rerun()
@@ -332,20 +307,16 @@ with st.sidebar:
 
             **External context prepared**
 
-            {len(esci_context):,} ESCI query judgments
-
             {len(cpsc_context['records']) if cpsc_context else 0:,} CPSC appliance recalls
 
             [Amazon Reviews 2023]({AMAZON_DATA_URL})
-
-            [Amazon Shopping Queries / ESCI]({ESCI_DATA_URL})
 
             [CPSC recalls]({CPSC_DATA_URL})
             """
         )
         st.caption(
-            "A Parent ASIN groups related item variants. External ESCI rows use exact identifier "
-            "matches; CPSC records are category-level safety context only."
+            "A Parent ASIN groups related item variants. CPSC records are category-level "
+            "safety context only and are not matched to dashboard products."
         )
 
 scope = filtered_reviews(reviews, rating_filter, year_filter, verified_filter, product_type_filter, metadata)
@@ -376,8 +347,8 @@ selected_rule = next(
 )
 parent_options = [row["parent_asin"] for row in ranking]
 
-overview_tab, product_tab, search_tab, safety_tab = st.tabs(
-    ["Overview", "Product Review", "Search & Substitutes", "Safety Context"]
+overview_tab, product_tab, safety_tab = st.tabs(
+    ["Overview", "Product Review", "Safety Context"]
 )
 
 with overview_tab:
@@ -586,38 +557,6 @@ with product_tab:
                 st.caption("The app looks for concern-related terms in features, description, and details. This is a screening check, not a quality judgment.")
                 st.dataframe(pd.DataFrame(status_rows), hide_index=True, width="stretch")
 
-with search_tab:
-    st.subheader("Customer searches and substitute context")
-    st.markdown(f'<div class="source-box"><b>Source:</b> Amazon Shopping Queries / ESCI. Only exact product-ID matches to this dashboard are shown. <a href="{ESCI_DATA_URL}">Open source dataset</a>.</div>', unsafe_allow_html=True)
-    if esci_context.empty:
-        st.warning("Prepared ESCI context is unavailable. Run prepare_external_context.py with the official examples parquet.")
-    else:
-        matched_products = sorted(esci_context.product_id.unique())
-        q1, q2, q3, q4 = st.columns(4)
-        q1.metric("Matched products", f"{len(matched_products):,}", f"of {len(metadata_lookup):,} with listing information")
-        q2.metric("Query judgments", f"{len(esci_context):,}")
-        q3.metric("Unique searches", f"{esci_context.query_id.nunique():,}")
-        q4.metric("Exact-match judgments", f"{int(esci_context.esci_label.eq('E').sum()):,}")
-        st.caption("Unmatched ESCI products are excluded. These judgments describe search relevance, not customer reviews or listing defects.")
-
-        search_left, search_right = st.columns([1, 1.5], gap="large")
-        with search_left:
-            requirement_counts = esci_context["query"].map(query_requirement).value_counts().reset_index()
-            requirement_counts.columns = ["Requirement", "Judgments"]
-            req_fig = go.Figure(go.Bar(x=requirement_counts.Judgments, y=requirement_counts.Requirement, orientation="h", marker_color=BLUE))
-            req_fig.update_layout(height=340, margin=dict(l=0, r=20, t=35, b=20), title="Requirements appearing in matched searches", yaxis=dict(autorange="reversed"), paper_bgcolor="white", plot_bgcolor="white", showlegend=False)
-            st.plotly_chart(req_fig, width="stretch", config={"displayModeBar": False})
-        with search_right:
-            esci_parent = st.selectbox("Matched product", matched_products, format_func=lambda parent: product_label(parent, metadata_lookup), key="esci_parent")
-            label_names = {"E": "Exact", "S": "Substitute", "C": "Complement", "I": "Irrelevant"}
-            selected_labels = st.multiselect("Search relationship", list(label_names), default=list(label_names), format_func=lambda value: label_names[value], key="esci_labels")
-            product_queries = esci_context[esci_context.product_id.eq(esci_parent) & esci_context.esci_label.isin(selected_labels)].copy()
-            product_queries["Customer search"] = product_queries["query"]
-            product_queries["Relationship"] = product_queries["esci_label"].map(label_names)
-            product_queries["Requirement"] = product_queries["query"].map(query_requirement)
-            st.dataframe(product_queries[["Customer search", "Requirement", "Relationship"]], hide_index=True, width="stretch", height=360)
-            st.caption("Exact = directly relevant; Substitute = an alternative; Complement = used with the searched product; Irrelevant = not relevant to that search.")
-
 with safety_tab:
     st.subheader("Appliance safety context")
     st.markdown(f'<div class="source-box"><b>Important:</b> CPSC records are category-level context only. They are not matched to Parent ASINs and do not mean a dashboard product was recalled. <a href="{CPSC_DATA_URL}">Search official CPSC recalls</a>.</div>', unsafe_allow_html=True)
@@ -668,8 +607,8 @@ date_max = reviews.date.max().date()
 metadata_source = metadata["source"] if metadata else "Not supplied"
 st.markdown(
     f'<p class="footer-note"><b>Sources:</b> <a href="{AMAZON_DATA_URL}">Amazon Reviews 2023</a> Appliances sample '
-    f'({len(reviews):,} reviews; {date_min} to {date_max}); <a href="{ESCI_DATA_URL}">Amazon Shopping Queries / ESCI</a> exact-ID context; '
-    f'<a href="{CPSC_DATA_URL}">CPSC recalls</a> category-level safety context. <b>Listing information:</b> {metadata_source}. '
+    f'({len(reviews):,} reviews; {date_min} to {date_max}); <a href="{CPSC_DATA_URL}">CPSC recalls</a> category-level safety context. '
+    f'<b>Listing information:</b> {metadata_source}. '
     'Concern matches and missing-information signals are screening prompts for manual review, not proof of defects, recall status, historical listing omissions, or what a customer saw at purchase time.</p>',
     unsafe_allow_html=True,
 )
