@@ -368,7 +368,7 @@ with overview_tab:
         "have only one review under the active filters. Priority is a screening signal, not proof of listing quality."
     )
 
-    left, middle, right = st.columns([1.0, 1.05, 1.35], gap="large")
+    left, middle, right = st.columns([1.2, 1.05, 1.4], gap="large")
     with left:
         st.markdown('<div class="step"><span>1</span> Find recurring concerns</div>', unsafe_allow_html=True)
         st.subheader("Customer concerns")
@@ -381,18 +381,124 @@ with overview_tab:
             text=[f"{count} · {count / summary['low'] * 100:.1f}%" if summary["low"] else "0 · N/A" for count in counts],
             textposition="outside", hovertemplate="%{y}: %{x} reviews<extra></extra>",
         ))
-        concern_fig.update_layout(height=300, margin=dict(l=0, r=70, t=5, b=10), paper_bgcolor="white", plot_bgcolor="white", xaxis_title="Supporting reviews", yaxis=dict(autorange="reversed"), font=dict(color=INK, size=11), showlegend=False)
+        concern_fig.update_layout(
+            height=420,
+            margin=dict(l=10, r=75, t=12, b=55),
+            paper_bgcolor="white",
+            plot_bgcolor="white",
+            xaxis=dict(title="Supporting reviews", automargin=True),
+            yaxis=dict(autorange="reversed", automargin=True),
+            font=dict(color=INK, size=12),
+            showlegend=False,
+        )
         concern_event = st.plotly_chart(concern_fig, width="stretch", config={"displayModeBar": False}, key="concern_chart", on_select="rerun", selection_mode="points")
         if concern_event.selection.points:
             clicked_concern = concern_event.selection.points[0].get("y")
             if clicked_concern in concern_labels.values() and st.session_state.get("concern") != clicked_concern:
                 st.session_state["concern"] = clicked_concern
                 st.rerun()
+
+        trend_concern = selected_concern or max(
+            summary["concerns"], key=summary["concerns"].get
+        )
+        trend_rule = next(item for item in CONCERNS if item["id"] == trend_concern)
+        trend_low = scope[scope.rating.le(2)].copy()
+        trend_rows = []
+        for year in range(2017, 2023):
+            year_reviews = trend_low[trend_low.date.dt.year.eq(year)]
+            denominator = len(year_reviews)
+            supporting = sum(
+                any(tag["id"] == trend_concern for tag in tags[int(row_number)])
+                for row_number in year_reviews.original_row_number
+            )
+            trend_rows.append({
+                "year": year,
+                "supporting": supporting,
+                "low_rated": denominator,
+                "share": supporting / denominator * 100 if denominator else None,
+                "low_sample": denominator < 5,
+            })
+        trend_points = [row for row in trend_rows if row["low_rated"]]
+        partial_2023 = trend_low[trend_low.date.dt.year.eq(2023)]
+        partial_support = sum(
+            any(tag["id"] == trend_concern for tag in tags[int(row_number)])
+            for row_number in partial_2023.original_row_number
+        )
+        trend_fig = None
+        if trend_points:
+            selection_note = (
+                "Highest-volume concern; click a concern bar above to change"
+                if selected_concern is None
+                else "Selected concern"
+            )
+            trend_subtitle = (
+                f"{selection_note} · 2017–2022 comparable period</sup><br><sup>"
+                f"2023 excluded: partial through Mar 14 · {partial_support:,} of {len(partial_2023):,} supporting"
+            )
+            trend_fig = go.Figure(go.Scatter(
+                x=[row["year"] for row in trend_points],
+                y=[row["share"] for row in trend_points],
+                mode="lines+markers",
+                line=dict(color=BLUE, width=3),
+                marker=dict(
+                    size=10,
+                    color=[ORANGE if row["low_sample"] else BLUE for row in trend_points],
+                    line=dict(color="white", width=1),
+                ),
+                customdata=[
+                    [row["supporting"], row["low_rated"], "Low sample" if row["low_sample"] else ""]
+                    for row in trend_points
+                ],
+                hovertemplate=(
+                    "%{x}: %{customdata[0]} of %{customdata[1]} low-rated reviews "
+                    "(%{y:.1f}%) %{customdata[2]}<extra></extra>"
+                ),
+            ))
+            trend_fig.update_layout(
+                height=440,
+                margin=dict(l=65, r=25, t=106, b=55),
+                paper_bgcolor="white",
+                plot_bgcolor="white",
+                title=dict(
+                    text=f"<b>{trend_rule['label']} concern trend</b><br><sup>{trend_subtitle}</sup>",
+                    x=0.01,
+                    xanchor="left",
+                    font=dict(size=18),
+                ),
+                xaxis=dict(title="Review year", dtick=1, tickangle=0),
+                yaxis=dict(title="Share of low-rated reviews", ticksuffix="%", range=[0, 100]),
+                showlegend=False,
+                font=dict(color=INK, size=12),
+            )
+            if any(row["low_sample"] for row in trend_points):
+                trend_fig.add_annotation(
+                    text="Orange markers = fewer than five low-rated reviews",
+                    x=0,
+                    y=-0.19,
+                    xref="paper",
+                    yref="paper",
+                    xanchor="left",
+                    showarrow=False,
+                    font=dict(size=11, color="#697386"),
+                )
+
         rating_labels = ["1–2 stars", "3 stars", "4–5 stars"]
         share_fig = go.Figure(go.Pie(labels=rating_labels, values=summary["ratings"], hole=.62, marker_colors=[ORANGE, "#7A8DA5", BLUE], sort=False))
         share_fig.update_traces(textinfo="percent", hovertemplate="%{label}: %{value} reviews (%{percent})<extra></extra>")
-        share_fig.update_layout(height=230, margin=dict(l=0, r=0, t=28, b=0), title=dict(text="Rating mix", font=dict(size=14)), paper_bgcolor="white", showlegend=True, legend=dict(orientation="h", y=-.1), font=dict(color=INK, size=10))
-        st.plotly_chart(share_fig, width="stretch", config={"displayModeBar": False})
+        share_fig.update_layout(
+            height=440,
+            margin=dict(l=15, r=15, t=88, b=70),
+            title=dict(
+                text="<b>Rating mix</b><br><sup>Active filtered reviews</sup>",
+                x=0.01,
+                xanchor="left",
+                font=dict(size=18),
+            ),
+            paper_bgcolor="white",
+            showlegend=True,
+            legend=dict(orientation="h", y=-.12, x=0.5, xanchor="center"),
+            font=dict(color=INK, size=12),
+        )
 
     with middle:
         st.markdown('<div class="step"><span>2</span> Understand listing information</div>', unsafe_allow_html=True)
@@ -441,6 +547,26 @@ with overview_tab:
                 "Priority": friendly_priority(row["priority"]),
             })
         st.dataframe(pd.DataFrame(ranking_rows), hide_index=True, width="stretch", height=520)
+
+    trend_column, rating_column = st.columns([2.15, 1], gap="large")
+    with trend_column:
+        if trend_fig is None:
+            st.subheader(f"{trend_rule['label']} concern trend")
+            st.info("No low-rated reviews are available for the comparable 2017–2022 period under these filters.")
+        else:
+            st.plotly_chart(
+                trend_fig,
+                width="stretch",
+                config={"displayModeBar": False},
+                key="concern_trend",
+            )
+    with rating_column:
+        st.plotly_chart(
+            share_fig,
+            width="stretch",
+            config={"displayModeBar": False},
+            key="rating_mix",
+        )
 
 with product_tab:
     st.subheader("Product evidence review")
