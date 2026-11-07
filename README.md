@@ -1,31 +1,112 @@
-# dso576-project-
-dso 576
+# Amazon Appliances Listing Review
 
-# Appliances review cleaning
+An interactive Streamlit dashboard that helps an Amazon Appliances category manager identify product listings that need information review and determine which product attributes should be clarified or standardized.
 
-This folder contains my Module 6 data-cleaning work.
+## Live app
 
-## Data source
+- **Dashboard:** https://dso576-amazon-project.streamlit.app/
+- **Demo video:** To be added after recording
 
-McAuley Lab, Amazon Reviews 2023, Appliances category:
-https://huggingface.co/datasets/McAuley-Lab/Amazon-Reviews-2023
+The live dashboard can be opened without signing in.
 
-Our professor approved using the 1,000-review file
-`dataset/Appliances_sample.jsonl` because the full category file is too large for our repository. The sample was added to the team repository in commit `2a623b2`. I left the original file unchanged.
+## Intended user and decision
 
-## How to run
+The intended user is an **Amazon Appliances category manager**. The manager is trying to decide:
 
-1. Install the dependencies listed in `requirements.txt`.
-2. Open `Jamie Data Cleaning.ipynb` from the repository root.
-3. Restart the kernel and run all cells from top to bottom.
+1. Which product listings should be prioritized for manual information review?
+2. Which listing attributes—such as dimensions, compatibility, installation, instructions, missing parts, noise, or durability—need clearer or more standardized information?
+3. What customer-review evidence supports investigating a particular product or attribute?
 
-## Expected outputs
+The dashboard treats low ratings and concern matches as **screening signals**, not proof that a product is defective or that a listing is incorrect. The manager should inspect the review evidence and exact listing text before making a listing change.
 
-- `output/Appliances_cleaned.jsonl` — all 1,000 cleaned reviews
-- `output/Appliances_cleaned_50_examples.jsonl` — 50 example rows, including the five manually checked reviews
+## Main dashboard features
 
-## Submission details
+- **Overview:** Summarizes review volume, low-rated reviews, reviewed products, metadata coverage, recurring customer concerns, rating mix, concern trends, and products to investigate.
+- **Product Review:** Lets the manager select a product and concern, review product-level rating metrics, and compare customer evidence with the exact available listing text.
+- **Safety Context:** Provides category-level CPSC recall context. These records are not matched directly to dashboard Parent ASINs and do not mean that a dashboard product was recalled.
+- **Global filters:** Rating, review year, verified-purchase status, and product type update the dashboard consistently.
+- **Empty-state handling:** Filter combinations with no matching reviews display an explanation and guidance instead of blank charts or errors.
 
-- Branch name: jamie
-- Branch URL: https://github.com/dtry19/dso576-project-/tree/jamie
-- Commit ID: 63c1b97
+## Run the Streamlit dashboard locally
+
+### Prerequisites
+
+- Python 3.11 or newer
+- [`uv`](https://docs.astral.sh/uv/) for dependency management
+
+### Instructions
+
+Clone the repository and enter the project directory:
+
+```bash
+git clone https://github.com/dtry19/dso576-project-.git
+cd dso576-project-
+```
+
+Install the locked dependencies:
+
+```bash
+uv sync --frozen
+```
+
+Start the current dashboard entry point:
+
+```bash
+uv run streamlit run new_dashboard.py
+```
+
+Open the local URL printed by Streamlit, normally:
+
+```text
+http://localhost:8501
+```
+
+To stop the app, press `Ctrl+C` in the terminal.
+
+## Data scope
+
+The deployed app uses a documented subset of the Amazon Reviews 2023 Appliances category:
+
+- **Reviews:** 1,000 review records
+- **Review period:** September 27, 2009 through March 14, 2023
+- **Reviewed Parent ASINs:** 829
+- **Listing metadata:** Matching records for the 829 Parent ASINs represented in the review sample
+- **Safety data:** Prepared CPSC appliance recall records used only as category-level context
+
+Primary data source: [McAuley Lab Amazon Reviews 2023](https://huggingface.co/datasets/McAuley-Lab/Amazon-Reviews-2023)
+
+Public safety source: [U.S. Consumer Product Safety Commission recalls](https://www.cpsc.gov/Recalls)
+
+Important bundled project files include:
+
+- `dataset/Appliances_sample.jsonl` — original 1,000-review sample
+- `output/Appliances_cleaned.jsonl` — validated cleaned reviews used by the app
+- `output/Appliances_metadata_sample.jsonl` — listing metadata subset
+- `output/cpsc_appliance_context.json` — prepared category-level CPSC context
+
+## Interpretation notes
+
+- A **low-rated review** is a one- or two-star review.
+- A **Parent ASIN** groups related product variants, such as different sizes, colors, or styles.
+- Concern percentages use filtered low-rated reviews as the denominator.
+- The concern trend uses the comparable 2017–2022 period; 2023 is incomplete through March 14 and is shown separately.
+- Metadata coverage means that a matching listing record is available. It does not guarantee that every field is complete, clear, or historically identical to what a customer saw.
+
+## Current limitations
+
+- The app uses a 1,000-review sample rather than the full Amazon Appliances dataset.
+- Many products have only one review in the sample, so product rankings should be treated as investigation leads rather than stable performance estimates.
+- Concern detection and listing-information checks use rules and keyword matching; they can miss context, sarcasm, or alternative wording.
+- CPSC records are category-level context and are not directly matched to Amazon products.
+- The dashboard does not contain sales, traffic, inventory, or stock data. Review activity should not be interpreted as actual product demand.
+- Monthly popularity and stock-planning features are not currently implemented. Those decisions would require additional sales or inventory data.
+
+## Submission links
+
+- **Live app:** https://dso576-amazon-project.streamlit.app/
+- **GitHub repository:** https://github.com/dtry19/dso576-project-
+- **Demo video:** To be added
+
+## Optional public showcase preference
+
+Team decision pending: **Decide later**.
