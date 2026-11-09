@@ -5,7 +5,7 @@ An interactive Streamlit dashboard that helps an Amazon Appliances category mana
 ## Live app
 
 - **Dashboard:** https://dso576-amazon-project.streamlit.app/
-- **Demo video:** To be added after recording
+- **Demo video:** [Watch the demo on Google Drive](https://drive.google.com/drive/folders/1zlhh-oQRBWEt0njn5zLXmtwwPXtiAgoO?usp=sharing)
 
 The live dashboard can be opened without signing in.
 
@@ -84,6 +84,14 @@ Important bundled project files include:
 - `output/Appliances_metadata_sample.jsonl` — listing metadata subset
 - `output/cpsc_appliance_context.json` — prepared category-level CPSC context
 
+## Why we included safety data
+
+We included U.S. Consumer Product Safety Commission (CPSC) recall data to give the category manager more context when reviewing appliance listings. Customer reviews describe individual experiences; the Safety Context view adds official recall information about appliance hazards and remedies, making the dashboard more informative when the user decides which product information deserves closer attention.
+
+The user can explore appliance categories and hazard types, read the recall details, and follow links to official CPSC notices. This context can help the manager identify safety-related questions to investigate and consider whether listing instructions, warnings, or usage information need closer review.
+
+The recall records provide category-level context and are not linked directly to the dashboard's Parent ASINs. They do not establish that a product in the review sample has been recalled or is unsafe. Any product-specific action requires checking the exact product against the official recall notice.
+
 ## Interpretation notes
 
 - A **low-rated review** is a one- or two-star review.
@@ -105,8 +113,8 @@ Important bundled project files include:
 
 - **Live app:** https://dso576-amazon-project.streamlit.app/
 - **GitHub repository:** https://github.com/dtry19/dso576-project-
-- **Demo video:** To be added
+- **Demo video:** [Watch the demo on Google Drive](https://drive.google.com/drive/folders/1zlhh-oQRBWEt0njn5zLXmtwwPXtiAgoO?usp=sharing)
 
 ## Optional public showcase preference
 
-Team decision pending: **Decide later**.
+**All members agree.** The team consents to the demo video being featured on the course website or shared publicly as part of the course showcase.
